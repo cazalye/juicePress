@@ -1,0 +1,103 @@
+@import "../styles/colors";
+
+#landing{
+    #hero{
+        // background: linear-gradient(to bottom, $darkBeige, $lightBeige);
+        background-image: url("/img/juiceBackground60.jpg");
+        background-size: cover;
+        height: 100vh;
+        width: 100%;
+        position: fixed;
+        top: 0px;   
+        .title{
+            width: 30%;
+            h1{
+                color: white;
+                text-align: right;
+                padding-left: 20px;
+                margin-bottom: 0px;
+                font-family: 'Open Sans', sans-serif;
+                font-weight: 100;
+            }
+            h2{
+                padding-left: 50px;
+                text-align: right;
+                margin-top: 0px;
+                font-family: 'Open Sans', sans-serif;
+                font-weight: 100;
+                font-size: 16px;
+                color: white;
+                color: red;
+            }
+        }
+      
+    }
+    .section{
+        display: flex;
+        padding: 50px;
+        position: relative;
+        .leftSection{
+            // background-color: orange;
+            position: relative;
+            width: 50%;
+            margin: 20px;
+            img{
+                width: 100%;
+                height: 50%;
+                padding-top: 20%;
+            }
+            h2{
+                color: white;
+                position: absolute;
+                top: 13%;
+                right: 5px;
+                font-family: 'Playfair Display', serif;
+                font-weight: 100;
+                font-size: 48px;
+                line-height: 50px;
+                letter-spacing: 0.04em;
+            }
+            .title2{
+                // color:red;
+                top: 20%;
+                right: -130px;
+            }
+        }
+        .rightSection{
+            z-index: 10;
+            background-color: $lightBeige;
+            // background-color: white;
+            position: relative;
+            width: 50%;
+            height: 20vh;
+            top: 45vh;
+            margin: 20px;
+            p{
+                padding: 20px;
+                font-size: 18px;
+                line-height: 28px;;
+                color: $fadedBlack;
+                // font-family: 'Open Sans';
+            }
+        }
+    }
+
+
+    #about{
+        height: 100vh;
+        position: relative;
+    }
+    #enviro{
+        height: 100vh;
+        position: relative;
+    }
+    #visit{
+        height: 100vh;
+        position: relative;
+    }
+    #shop{
+        height: 100vh;
+        position: relative;
+    }
+}
+
