@@ -3,12 +3,15 @@
 #landing{
     #hero{
         // background: linear-gradient(to bottom, $darkBeige, $lightBeige);
-        background-image: url("/img/juiceBackground60.jpg");
+        background-image: linear-gradient(-150deg, rgba(255,255,255,0.1), rgba(255,255,255,0.05), rgba(255,255,255,0)), url("/img/juiceBackground60.jpg");
+        // background-image: linear-gradient(-150deg, rgba(255,255,255,0.1), rgba(255,255,255,0.05), rgba(255,255,255,0), rgba(255,255,255,0.1), rgba(255,255,255,.01)), url("/img/juiceBackground60.jpg");
+        // background-image:  url("/img/juiceBackground60.jpg");
         background-size: cover;
         height: 100vh;
         width: 100%;
-        position: fixed;
-        top: 0px;   
+        position: absolute;
+        top: 0px;
+        // overflow-y: scroll;   
         .title{
             width: 30%;
             h1{
@@ -27,77 +30,66 @@
                 font-weight: 100;
                 font-size: 16px;
                 color: white;
-                color: red;
             }
         }
       
     }
-    .section{
-        display: flex;
-        padding: 50px;
+    .sectionDivider{
+        height: 20px;
+        width: 100%;
         position: relative;
-        .leftSection{
-            // background-color: orange;
+        top: 100vh;
+        background-color: $fadedBlack;
+        z-index: 10;
+    }
+        .section{
             position: relative;
-            width: 50%;
-            margin: 20px;
-            img{
-                width: 100%;
-                height: 50%;
-                padding-top: 20%;
+            display: flex;
+            padding: 50px;
+            background-color: $darkBeige;
+            height: 100vh;
+            top: 100vh;
+            .leftSection{
+                position: relative;
+                width: 50%;
+                margin: 20px;
+                img{
+                    padding-top: 20%;
+                }
+                h2{
+                    color: white;
+                    position: absolute;
+                    top: 13%;
+                    right: 5px;
+                    font-family: 'Playfair Display', serif;
+                    font-weight: 100;
+                    font-size: 48px;
+                    line-height: 50px;
+                    letter-spacing: 0.04em;
+                }
+                .title2{
+                    // color:red;
+                    top: 20%;
+                    right: -130px;
+                }
             }
-            h2{
-                color: white;
-                position: absolute;
-                top: 13%;
-                right: 5px;
-                font-family: 'Playfair Display', serif;
-                font-weight: 100;
-                font-size: 48px;
-                line-height: 50px;
-                letter-spacing: 0.04em;
-            }
-            .title2{
-                // color:red;
-                top: 20%;
-                right: -130px;
+            .rightSection{
+                z-index: 10;
+                background-color: $lightBeige;
+                // background-color: white;
+                position: relative;
+                width: 50%;
+                height: 20vh;
+                top: 45vh;
+                margin: 20px;
+                p{
+                    padding: 20px;
+                    font-size: 18px;
+                    line-height: 28px;;
+                    color: $fadedBlack;
+                    // font-family: 'Open Sans';
+                }
             }
         }
-        .rightSection{
-            z-index: 10;
-            background-color: $lightBeige;
-            // background-color: white;
-            position: relative;
-            width: 50%;
-            height: 20vh;
-            top: 45vh;
-            margin: 20px;
-            p{
-                padding: 20px;
-                font-size: 18px;
-                line-height: 28px;;
-                color: $fadedBlack;
-                // font-family: 'Open Sans';
-            }
-        }
-    }
-
-
-    #about{
-        height: 100vh;
-        position: relative;
-    }
-    #enviro{
-        height: 100vh;
-        position: relative;
-    }
-    #visit{
-        height: 100vh;
-        position: relative;
-    }
-    #shop{
-        height: 100vh;
-        position: relative;
-    }
 }
 
