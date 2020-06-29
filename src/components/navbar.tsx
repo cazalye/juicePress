@@ -1,38 +1,21 @@
 import React, { Component } from 'react';
 import "./navbar.scss";
-import {Layout, Header, Navigation, Drawer} from 'react-mdl';
-import {Link} from 'react-router-dom';
 
-class Navbar extends Component<any, any>{
-    hideToggle() {
-        const selectorId = document.querySelector('.mdl-layout') as any;
-        if (selectorId) {
-            selectorId.MaterialLayout.toggleDrawer();
-        }
-    }
+class Navbar extends Component {
     render() {
         return (
-            <Layout>
-                <Header transparent={true} title={<Link to="/" className="header-title">The Tasmanian Juice Press</Link>}>
-                    <Navigation className="header-nav">
-                        {/* <a href="#about">About</a>  */}
-                        {/* <Link to="">Sustainability</Link>
-                        <Link to="">Visit Us</Link>
-                        <Link to="">Shop</Link>
-                        <Link to="">Contact</Link> */}
-                    </Navigation>
-                </Header>
-                    <Drawer title={<Link onClick={() => this.hideToggle()} to="/" className="header-title">The Tasmanian Juice Press</Link> as any}>
-                        <Navigation className="drawer-nav" >
-                            {/* <Link onClick={() => this.hideToggle()} to="#about">About</Link>  */}
-                            {/* <Link onClick={() => this.hideToggle()} to="">Sustainability</Link>
-                            <Link onClick={() => this.hideToggle()} to="">Visit Us</Link>
-                            <Link onClick={() => this.hideToggle()} to="">Shop</Link>
-                            <Link onClick={() => this.hideToggle()}to="">Contact</Link> */}
-                        </Navigation>
-                    </Drawer>
-            </Layout>
+            <nav>
+                <div className="nav-wrapper">
+                    <a href="#" className="brand-logo">Logo</a>
+                    <ul id="nav-mobile" className="right-hide-on-med-and-down">
+                        <li><a href="sass.html">Sass</a></li>
+                        <li><a href="badges.html">Components</a></li>
+                        <li><a href="collapsible.html">JavaScript</a></li>
+                    </ul>
+                </div>
+          </nav>
         );
     }
 }
+
 export default Navbar;
