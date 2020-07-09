@@ -7,20 +7,23 @@ class Landing extends Component {
     render() {
         return (
             <div id="landing">
+                <a id="home"/>
                 <div id="hero">
-                    <div className="title">
-                        <h1>The Tasmanian Juice Press</h1>
-                        <h2>We make cold-pressed junk free juice</h2>
-                    </div>
-                </div>
-                <div className="sectionDivider"/>
+                        <a href="/">
+                            <div className="title">
+                                {/* <h1>The Tasmanian Juice Press</h1> */}
+                                <h2>We make junk-free Cold Pressed Juices from fruit <br/> and vegetables and that's it!</h2>
+                            </div>
+                        </a>
+                </div>               
                 <LandingSections
                     Title1="WE ARE"
                     Title2="LOCAL"
                     Description="We’re a Tasmanian owned and operated small business, making junk-free cold pressed juices from locally sourced fruit and vegetables"
                     Image="/img/about.jpg" 
-                    alt="The Juice Press team sitting on an apple crate"
+                    alt="Juice Press Staff"
                 />
+                  <a id="about"/>
                 <LandingSections
                     Title1="WE CARE ABOUT"
                     Title2="THE ENVIRONMENT"
@@ -29,6 +32,7 @@ class Landing extends Component {
                     Image="/img/bottles.jpg" 
                     alt="Glass bottles full of different juices"
                 />
+                <a id="visitUs"/>
                 <LandingSections
                     Title1="COME"
                     Title2="VISIT US"
@@ -37,7 +41,9 @@ class Landing extends Component {
                     Image="/img/Market.jpg" 
                     alt="Tasmanian Juice Press at the Farm Gate Market"
                 />
-                <div className="sectionDivider"/>
+                
+                <a id="contact"/>
+                <a id="shop"/>
             </div>
         )
     }
