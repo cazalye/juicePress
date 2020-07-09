@@ -6,7 +6,6 @@ class Footer extends Component{
     render() {
         return (
             <div className="footer-links">
-                <p> footer</p>
                 <a href="james@brandsonparade.com" rel="noopener noreferrer" target="_blank">
                     <i className="fa fa-envelope" aria-hidden="true" />
                 </a>
@@ -19,8 +18,8 @@ class Footer extends Component{
                 <a href="https://www.instagram.com/tasmanianjuicepress/" rel="noopener noreferrer" target="_blank">
                     <i className="fa fa-instagram" aria-hidden="true" />
                 </a>
-        </div>
-        )
+            </div>
+         )
     }
 }
 
