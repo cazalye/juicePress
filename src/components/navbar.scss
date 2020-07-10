@@ -8,7 +8,8 @@ body .mdl-layout .mdl-layout__inner-container{
         // background-color: $lightBeige ;
         background-color: $brightBeige ;
         box-shadow: none;
-        position: fixed;
+        position: absolute;
+        top: 0px;
     }
     .mdl-layout__header--transparent.is-casting-shadow{
         position:fixed;
@@ -84,7 +85,7 @@ body .mdl-layout .mdl-layout__inner-container{
         line-height: 38px;
     }
     .logo{
-        position: fixed;
+        position: absolute;
         left: 10px;
     }
 }

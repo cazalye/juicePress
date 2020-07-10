@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import "./landing.scss";
 import LandingSections from "./landingSections";
-
+import FooterDetail from './footer';
 
 class Landing extends Component {
     render() {
@@ -44,7 +44,9 @@ class Landing extends Component {
                 
                 <a id="contact"/>
                 <a id="shop"/>
+                <FooterDetail/>
             </div>
+            
         )
     }
 }

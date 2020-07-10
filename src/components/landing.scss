@@ -1,13 +1,14 @@
 @import "../styles/colors";
 
 #landing{
+    position: absolute;
     #hero{
         background-image: linear-gradient(-150deg, rgba(255,255,255,0.1), rgba(255,255,255,0.05), rgba(255,255,255,0)), url("/img/juiceBackground60.jpg");
         background-size: cover;
         height: 100vh;
         width: 100%;
-        position: absolute;
-        top: 0px;
+        position: relative;
+        // top: 0px;
         a{
             text-decoration: none;
             .title{
@@ -47,6 +48,7 @@
         background-color: $fadedBlack;
         background-color: white;
         z-index: 2;
+        display: none;
     }
 
     .section{
@@ -58,7 +60,7 @@
         display: flex;
         padding: 50px;
         height: 80vh;
-        top: 100vh;
+        // top: 100vh;
         .leftSection{
             width: 60%;
             height: 100vh;
