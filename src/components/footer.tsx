@@ -6,78 +6,48 @@ import {Footer, FooterSection, FooterDropDownSection, FooterLinkList} from 'reac
 class FooterDetail extends Component{
     render() {
         return (
-            // <div id="footer">
-            //     <div className="contact">
-            //         <h3>Contact Us</h3>
-            //         <ul className="contact">
-            //             <li>Phone: xxxx</li>
-            //             <li>Email: xxxx</li>
-            //         </ul>
-            //     </div>
-            //     <div className="shop-now">
-            //         <h3>Shop Now</h3>
-            //         </div>
-            //     <div className="footer-links">
-            //         <a href="james@brandsonparade.com" rel="noopener noreferrer" target="_blank">
-            //             <i className="fa fa-envelope" aria-hidden="true" />
-            //         </a>
-            //         <a href="tel:0438406680" rel="noopener noreferrer" target="_blank">
-            //             <i className="fa fa-phone" aria-hidden="true" />
-            //         </a>
-            //         <a href="https://www.facebook.com/tasmanianjuicepress/" rel="noopener noreferrer" target="_blank">
-            //             <i className="fa fa-facebook" aria-hidden="true" />
-            //         </a>
-            //         <a href="https://www.instagram.com/tasmanianjuicepress/" rel="noopener noreferrer" target="_blank">
-            //             <i className="fa fa-instagram" aria-hidden="true" />
-            //         </a>
-            //     </div>
-            // </div>
-     
-
-            <Footer size="mega">
+            <Footer size="mega" className="footer">
             <FooterSection type="bottom">
-                <FooterDropDownSection title="Features">
+                <FooterDropDownSection title="Shop Juices">
                     <FooterLinkList>
-                        <a href="#">About</a>
-                        <a href="#">Terms</a>
-                        <a href="#">Partners</a>
-                        <a href="#">Updates</a>
+                        <a href="#">750ml Juice Blends</a>
+                        <a href="#">2L Juice Blends</a>
+                        <a href="#">Weekly Special</a>
+                        <a href="#">Immune Boost Packs</a>
                     </FooterLinkList>
                 </FooterDropDownSection>
-                <FooterDropDownSection title="Details">
+                <FooterDropDownSection title="About Us">
                     <FooterLinkList>
-                        <a href="#">Specs</a>
-                        <a href="#">Tools</a>
-                        <a href="#">Resources</a>
+                        <a href="#">Who Are We</a>
+                        <a href="#">Environmental Impact</a>
+                        <a href="#">Visit Us</a>
                     </FooterLinkList>
                 </FooterDropDownSection>
-                <FooterDropDownSection title="Technology">
+                <FooterDropDownSection title="Contact Us">
                     <FooterLinkList>
-                        <a href="#">How it works</a>
-                        <a href="#">Patterns</a>
-                        <a href="#">Usage</a>
-                        <a href="#">Products</a>
-                        <a href="#">Contracts</a>
-                    </FooterLinkList>
-                </FooterDropDownSection>
-                <FooterDropDownSection title="FAQ">
-                    <FooterLinkList>
-                        <a href="#">Questions</a>
-                        <a href="#">Answers</a>
-                        <a href="#">Contact Us</a>
+                        <a href="tel:0438406680" target="_blank">Phone: 0438 406680</a>
+                        <a href="mailto:james@brandsonparade.com" target="_blank">Email: james@brandsonparade.com</a>
+                        <a href="https://www.facebook.com/tasmanianjuicepress/" target="_blank">Facebook: Tasmanian Juice Press</a>
                     </FooterLinkList>
                 </FooterDropDownSection>
             </FooterSection>
-            <FooterSection type="bottom" logo="Title">
-                <FooterLinkList>
-                    <a href="#">Help</a>
-                    <a href="#">Privacy & Terms</a>
+            <FooterSection type="bottom">
+                <FooterLinkList className="footer-links">
+                        <a href="mailto:james@brandsonparade.com" rel="noopener noreferrer" target="_blank">
+                            <i className="fa fa-envelope" aria-hidden="true" />
+                        </a>
+                        <a href="tel:0438406680" rel="noopener noreferrer" target="_blank">
+                            <i className="fa fa-phone" aria-hidden="true" />
+                        </a>
+                        <a href="https://www.facebook.com/tasmanianjuicepress/" rel="noopener noreferrer" target="_blank">
+                            <i className="fa fa-facebook" aria-hidden="true" />
+                        </a>
+                        <a href="https://www.instagram.com/tasmanianjuicepress/" rel="noopener noreferrer" target="_blank">
+                            <i className="fa fa-instagram" aria-hidden="true" />
+                        </a>
                 </FooterLinkList>
             </FooterSection>
         </Footer>
-
-
-
          )
     }
 }

@@ -1,40 +1,37 @@
-.mdl-mega-footer{
+@import "../styles/colors";
+
+.mdl-mega-footer.footer{
     position: relative;
     bottom: 0px;
+    background-color: $fadedBlack;
+    padding-left: 5%;
+    .mdl-mega-footer__drop-down-section{
+        width: 33%;
+    }
+    .mdl-mega-footer__link-list{
+    }
+    ul{
+        padding-right: 100px;
+        li{
+            line-height: 28px;
+            padding-right: 20px;
+            display: block;
+        }
+    }
+    .footer-links{
+        position: fixed;
+        bottom: 10px;
+        z-index: 4;
+        display: flex;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+        a{
+            font-size: large;
+            padding-right: 40px;
+            i{
+                color: black;
+            }
+        }
+    }
 }
 
-
-
-// @import "../styles/colors";
-
-// #footer{
-//     height: 20vh;
-//     width: 100%;
-//     background-color: $fadedBlack;
-//     position: absolute;
-//     top: 400vh;
-//     .contact{
-//         display: block;
-//         color: white;
-//         position: absolute;
-//         left: 40%;
-//     }
-//     .shop-now{
-//         position: absolute;
-//         left: 20%;
-//     }
-//     .footer-links{
-//         z-index: 1;
-//         position: fixed;
-//         bottom: 5px;
-//         left: 15px;
-//         z-index: 10;
-//         a{
-//             font-size: large;
-//             padding-right: 40px;
-//             i{
-//                 color: black;
-//             }
-//         }
-//     }
-// }
