@@ -2,42 +2,46 @@
 
 #landing{
     position: absolute;
+    top: 0px;
     #hero{
         background-image: linear-gradient(-150deg, rgba(255,255,255,0.1), rgba(255,255,255,0.05), rgba(255,255,255,0)), url("/img/juiceBackground60.jpg");
         background-size: cover;
         height: 100vh;
         width: 100%;
         position: relative;
-        // top: 0px;
-        a{
-            text-decoration: none;
+        padding-top: 1px;
+
+        // a{
+            // text-decoration: none;
             .title{
                 // width: 70%;
-                margin-top: 70px;
-                margin-left: 3%;
-    
+                // margin-top: 64px;
+                margin-top: 0px;
+                margin-left: 5%;
+                z-index: 1;
                 h1{
                     color: white;
                     text-align: left;
+                    padding-top: 20px;
                     margin-bottom: 0px;
                     font-family: 'Open Sans', sans-serif;
                     font-weight: 100;
-                    font-size: 44px;
+                    font-size: 42px;
                     line-height: 54px;
                 }
                 h2{
-                    padding-right: 70px;
-                    text-align: right;
-                    margin-top: 100px;
+                    padding-left: 20px;
+                    margin-top: 0px;
+                    text-align: left;
+                    // margin-top: 100px;
                     font-family: 'Open Sans', sans-serif;
-                    font-weight: bold;
-                    font-size: 22px;
+                    // font-weight: bold;
+                    font-size: 18px;
                     line-height: 28px;
-                    color: black;
+                    color: white;
                 }
             }
-        }
-  
+        // }
       
     }
     .sectionDivider{
@@ -94,19 +98,21 @@
         }
         .rightSection{
             z-index: 2;
-            background-color: $darkBeige;
-            // background-color: white;
+            // background-color: $darkBeige;
+            background-color: $lightBlack;
             position: relative;
             width: 40%;
             height: 20vh;
             top: 25vh;
-            margin: 20px;
+            // margin: 20px;
+            box-shadow: 3px 3px 5px 3px #4444;
             p{
-                padding: 20px;
+                padding: 25px;
                 font-size: 18px;
-                line-height: 28px;;
-                color: $fadedBlack;
-                // color: white;
+                line-height: 32px;;
+                color: white;
+                font-family: 'Open Sans', sans-serif;
+                font-weight: 100;
             }
         }
     }

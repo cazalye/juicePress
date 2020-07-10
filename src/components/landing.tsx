@@ -9,13 +9,15 @@ class Landing extends Component {
             <div id="landing">
                 <a id="home"/>
                 <div id="hero">
-                        <a href="/">
+                        {/* <a href="/"> */}
                             <div className="title">
-                                {/* <h1>The Tasmanian Juice Press</h1> */}
-                                <h2>We make junk-free Cold Pressed Juices from fruit <br/> and vegetables and that's it!</h2>
+                                <h1>The Tasmanian Juice Press</h1>
+                                {/* <h2>We make junk-free Cold Pressed Juices from fruit <br/> and vegetables and that's it!</h2> */}
+                                <h2>Cold Pressed Juices from fresh fruit & vegetables</h2>
                             </div>
-                        </a>
-                </div>               
+                        {/* </a> */}
+                </div>   
+                <a id="about"/>            
                 <LandingSections
                     Title1="WE ARE"
                     Title2="LOCAL"
@@ -23,7 +25,6 @@ class Landing extends Component {
                     Image="/img/about.jpg" 
                     alt="Juice Press Staff"
                 />
-                  <a id="about"/>
                 <LandingSections
                     Title1="WE CARE ABOUT"
                     Title2="THE ENVIRONMENT"
@@ -42,9 +43,10 @@ class Landing extends Component {
                     alt="Tasmanian Juice Press at the Farm Gate Market"
                 />
                 
-                <a id="contact"/>
+                
                 <a id="shop"/>
                 <FooterDetail/>
+                <a id="contact"/>
             </div>
             
         )
