@@ -1,14 +1,40 @@
-.footer-links{
-    z-index: 1;
-    position: fixed;
-    bottom: 5px;
-    left: 15px;
-    z-index: 10;
-    a{
-        font-size: large;
-        padding-right: 40px;
-        i{
-            color: black;
-        }
-    }
+.mdl-mega-footer{
+    position: relative;
+    bottom: 0px;
 }
+
+
+
+// @import "../styles/colors";
+
+// #footer{
+//     height: 20vh;
+//     width: 100%;
+//     background-color: $fadedBlack;
+//     position: absolute;
+//     top: 400vh;
+//     .contact{
+//         display: block;
+//         color: white;
+//         position: absolute;
+//         left: 40%;
+//     }
+//     .shop-now{
+//         position: absolute;
+//         left: 20%;
+//     }
+//     .footer-links{
+//         z-index: 1;
+//         position: fixed;
+//         bottom: 5px;
+//         left: 15px;
+//         z-index: 10;
+//         a{
+//             font-size: large;
+//             padding-right: 40px;
+//             i{
+//                 color: black;
+//             }
+//         }
+//     }
+// }
