@@ -26,6 +26,7 @@ class Landing extends Component {
                     Image="/img/about.jpg" 
                     alt="Juice Press Staff"
                 />
+                <a id="enviro"/>
                 <LandingSections
                     Title1="WE CARE ABOUT"
                     Title2="THE ENVIRONMENT"
