@@ -3,6 +3,7 @@
 #landing{
     position: absolute;
     top: 0px;
+    overflow-x: hidden;
     #hero{
         background-image: linear-gradient(-150deg, rgba(255,255,255,0.1), rgba(255,255,255,0.05), rgba(255,255,255,0)), url("/img/juiceBackground60.jpg");
         background-size: cover;
