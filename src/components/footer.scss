@@ -4,27 +4,30 @@
     position: relative;
     bottom: 0px;
     background-color: $fadedBlack;
-    padding-left: 5%;
+    padding-left: 15%;
     .mdl-mega-footer__drop-down-section{
         width: 33%;
         h1{
             color: $lightBeige;
         }
     }
+    .mdl-mega-footer__bottom-section{
+        padding-bottom: 20px;
+    }
     .mdl-mega-footer__link-list{
+        left: 40%;
     }
     ul{
-        padding-right: 50%;
+        padding-right: 80%;
         li{
             line-height: 28px;
-            padding-right: 20px;
             display: block;
             color: $fadedBeige;
         }
     }
     .footer-links{
-        position: fixed;
-        bottom: 10px;
+        position: absolute;
+        bottom: 20px;
         z-index: 4;
         display: flex;
         padding-bottom: 0px;
@@ -35,6 +38,7 @@
             i{
                 color: black;
                 color: $brightBeige;
+                padding-right: 10px;
             }
         }
     }
