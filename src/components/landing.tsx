@@ -23,7 +23,7 @@ class Landing extends Component {
                     Title1="WE ARE"
                     Title2="LOCAL"
                     Description="We’re a Tasmanian owned and operated small business, making junk-free cold pressed juices from locally sourced fruit and vegetables"
-                    Image="/img/about.jpg" 
+                    Image="/img/about1.jpg" 
                     alt="Juice Press Staff"
                 />
                 <a id="enviro"/>
@@ -32,7 +32,7 @@ class Landing extends Component {
                     Title2="THE ENVIRONMENT"
                     Description="We’re all about sustainability and minimising waste
                     Our juices are packaged in glass bottles- return yours for a discount on future purchases"
-                    Image="/img/bottles.jpg" 
+                    Image="/img/enviro.jpg" 
                     alt="Glass bottles full of different juices"
                 />
                 <a id="visitUs"/>
@@ -41,10 +41,9 @@ class Landing extends Component {
                     Title2="VISIT US"
                     Description="We’re at the Farm Gate Market on Bathurst st. in Hobart every Sunday from 8.30 am - 12.30
                     We’d love to see you!"
-                    Image="/img/Market.jpg" 
+                    Image="/img/market1.jpg" 
                     alt="Tasmanian Juice Press at the Farm Gate Market"
                 />
-                
                 <a id="shop"/>
                 <div id="shop-section">
                     <h1>SHOP JUICES</h1>

@@ -2,7 +2,6 @@
 
 #landing{
     position: absolute;
-    top: 0px;
     overflow-x: hidden;
     #hero{
         background-image: linear-gradient(-150deg, rgba(255,255,255,0.1), rgba(255,255,255,0.05), rgba(255,255,255,0)), url("/img/juiceBackground60.jpg");
@@ -39,42 +38,58 @@
 
     .section{
         position: relative;
-        background-color: $fadedBlack;
-        background-color: $darkBeige;
+        // background-color: $fadedBlack;
+        // background-color: $darkBeige;
         background-color: $brightBeige;
         display: flex;
         padding: 50px;
-        height: 80vh;
+        padding-top: 20vh;
+        padding-bottom: 20vh;
+        height: 60vh;
         .leftSection{
             width: 60%;
             height: 100vh;
             img{
+                border: solid;
+                border-width: 7px;
+                border-color: $fadedBlack;
+            }
+            .bar{
+                border-top: 5px solid #000;
+                width: 10%;
+                top: 18%;
+                right: 11%;
+                position: absolute;;
             }
             .title1{
-                width: 45%;
-                color: white;
                 position: absolute;
-                top: 5%;
-                right: 12%;
+                // width: 45%;
+                width: 100%;
+                top: 22%;
+                // right: 12%;
+                left: 70%;
+                color: white;
                 font-family: 'Playfair Display', serif;
                 font-weight: 100;
                 font-size: 48px;
-                line-height: 50px;
+                line-height: 52px;
                 letter-spacing: 0.04em;
             }
             .title2{
-                margin-top: 80px;
-                right: 3%;
-                width: 45%;
-                color: white;
                 position: absolute;
-                top: 5%;
+                // width: 45%;
+                width: 100%;
+                left: 77%;
+                top: 22%;
+                margin-top: 80px;
+                color: white;
                 font-family: 'Playfair Display', serif;
                 font-weight: 100;
                 font-size: 48px;
-                line-height: 50px;
+                line-height: 52px;
                 letter-spacing: 0.04em;
             }
+           
         }
         .rightSection{
             z-index: 2;
@@ -83,9 +98,10 @@
             position: relative;
             width: 40%;
             height: 20vh;
-            top: 25vh;
+            top: 28vh;
             // margin: 20px;
-            box-shadow: 3px 3px 5px 3px #4444;
+            box-shadow: 3px 3px 5px 2px #4444;
+           
             p{
                 padding: 25px;
                 font-size: 18px;
@@ -101,7 +117,8 @@
         position: relative;
         // height: 100vh;
         height: auto;
-        padding-bottom: 5%;
+        padding-top: 4%;
+        padding-bottom: 4%;
         width: 100%;
         background-color: $fadedBlack;
         h1{
@@ -112,8 +129,7 @@
             line-height: 68px;
             letter-spacing: 0.04em;
             text-align: center;
-            padding-top: 5%;
-            padding-bottom: 4%;
+            padding-bottom: 5%;
         }
         .shop-container{
             width: 80%;
@@ -132,11 +148,15 @@
                     .juice-image{
                         width: 80%;
                         align-items: center;
-                        padding: 20px;
+                        margin: 20px;
+                        margin-bottom: 10px;
+                        border: solid;
+                        border-width: 7px;
+                        border-color: $darkBeige;
                     }
                     .juice-title{
-                        font-size: 32px;
-                        line-height: 42px;;
+                        font-size: 28px;
+                        line-height: 38px;;
                         color: white;
                         // color: black;
                         font-family: 'Open Sans', sans-serif;
