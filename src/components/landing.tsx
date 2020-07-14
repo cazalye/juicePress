@@ -3,6 +3,7 @@ import "./landing.scss";
 import LandingSections from "./landingSections";
 import FooterDetail from './footer';
 import Shop from './shop';
+import RegularRange from './regularRange';
 
 class Landing extends Component {
     render() {
@@ -10,14 +11,20 @@ class Landing extends Component {
             <div id="landing">
                 <a id="home"/>
                 <div id="hero">
-                        {/* <a href="/"> */}
                             <div className="title">
                                 <h1>The Tasmanian Juice Press</h1>
                                 {/* <h2>We make junk-free Cold Pressed Juices from fruit <br/> and vegetables and that's it!</h2> */}
                                 <h2>Cold Pressed Juices from fresh fruit & vegetables</h2>
                             </div>
-                        {/* </a> */}
                 </div>   
+                <div className="diagonal-block"/>
+                <RegularRange
+                    Title="Reboot"
+                    Image="/img/reboot.png"
+                    Alt="reboot juce bottle"
+                    Link="https://brandsonparade.com/product/tasmanian-juice-press-cold-pressed-reboot-blend-2l/"
+                />
+                
                 <a id="about"/>            
                 <LandingSections
                     Title1="WE ARE"
