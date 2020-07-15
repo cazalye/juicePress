@@ -13,7 +13,11 @@ body{
                 z-index: 10;
                 // background-color: red;
                 background-color: $brightBeige ;
-                // background-image:  linear-gradient(to right, $darkBeige, $brightBeige);
+                background-image:  linear-gradient(to right, $darkBeige 10%, $brightBeige 70%, $brightBeige 100%);
+                // background-image:  linear-gradient(to right, $darkBeige, $brightBeige, $brightBeige);
+            }
+            .mdl-navigation__link{
+                color: $darkestBeige;
             }
         }
     }
@@ -26,90 +30,89 @@ body{
         box-shadow: none;
         position: fixed;
         top: 0px;
-    }
-    
-    .mdl-layout__header--transparent.is-casting-shadow{
-        position:fixed;
-    } 
-    .mdl-layout__header-row{
-        padding-left: 10px;
-    }  
-    .mdl-navigation__link{
-        position: relative;
-        color: black;
-        // color: $fadedBlack;
-        color: $darkBeige;
-        // color: $lightBeige;
-        font-size: 18px;
-        font-family: 'Open Sans', sans-serif;
-        font-weight: 100;
-    }
-    .mdl-layout__drawer-button{
-        color: black;
-        z-index: 10;
-        left: auto;
-        right:30px;
-        top:15px;
-        display: none;
-        position: absolute;
-        margin: 8px 12px;
-        cursor: pointer;
-        width: 48px;
-        border:none;
-            i{
-            z-index: 10;
-            color:black;
-            font-size: 40px;   
-            }
-    }
-    .mdl-layout__drawer{
-        height: 100vh;
-        .mdl-layout-title{
-            .header-title{
-                color: black;
-                text-align: left;
-                font-family: 'Open Sans', sans-serif;
-                font-weight: 100;
-                display: none;
-            }
         }
-    }
-    .drawer-nav{
-        padding-top:80px;
+    
+        .mdl-layout__header--transparent.is-casting-shadow{
+            position:fixed;
+        } 
+        .mdl-layout__header-row{
+            padding-left: 10px;
+        }  
         .mdl-navigation__link{
             position: relative;
-            color: black;
+            // color: $fadedBlack;
+            color: $darkBeige;
+            // color: $darkerBeige;
             font-size: 18px;
             font-family: 'Open Sans', sans-serif;
             font-weight: 100;
         }
+        .mdl-layout__drawer-button{
+            color: black;
+            z-index: 10;
+            left: auto;
+            right:30px;
+            top:15px;
+            display: none;
+            position: absolute;
+            margin: 8px 12px;
+            cursor: pointer;
+            width: 48px;
+            border:none;
+                i{
+                z-index: 10;
+                color:black;
+                font-size: 40px;   
+                }
+        }
+        .mdl-layout__drawer{
+            height: 100vh;
+            .mdl-layout-title{
+                .header-title{
+                    color: black;
+                    text-align: left;
+                    font-family: 'Open Sans', sans-serif;
+                    font-weight: 100;
+                    display: none;
+                }
+            }
+        }
+        .drawer-nav{
+            padding-top:80px;
+            .mdl-navigation__link{
+                position: relative;
+                color: black;
+                font-size: 18px;
+                font-family: 'Open Sans', sans-serif;
+                font-weight: 100;
+            }
+        }
+        .mdl-layout__drawer .mdl-navigation{
+            position: relative;
+            padding-top:70px;
+            height: 300vh;
+        }
+        .header-title{
+            text-decoration: none;
+            padding-left: 70px;
+            // color: white;
+            // color: black;
+            color: $lightBeige;
+            color: $fadedBlack;
+            text-align: left;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 100;
+            font-size: 28px;
+            line-height: 38px;
+            display: none;
+        }
+        .logo{
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            z-index: 2;
+        }
     }
-    .mdl-layout__drawer .mdl-navigation{
-        position: relative;
-        padding-top:70px;
-        height: 300vh;
-    }
-    .header-title{
-        text-decoration: none;
-        padding-left: 70px;
-        // color: white;
-        // color: black;
-        color: $lightBeige;
-        color: $fadedBlack;
-        text-align: left;
-        font-family: 'Open Sans', sans-serif;
-        font-weight: 100;
-        font-size: 28px;
-        line-height: 38px;
-        display: none;
-    }
-    .logo{
-        position: absolute;
-        top: 10px;
-        left: 10px;
-        z-index: 2;
-    }
-}
 }
 // Responsive Design
 // PHONE: 0-450
