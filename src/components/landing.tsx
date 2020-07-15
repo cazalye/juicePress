@@ -17,50 +17,52 @@ class Landing extends Component {
                                 <h2>Cold Pressed Juices from fresh fruit & vegetables</h2>
                             </div>
                 </div>   
-                <div className="diagonal-block"/>
-                <div id="regular-range-container">
-                    <RegularRange
-                        Title="Reboot"
-                        Image="/img/reboot.png"
-                        Alt="reboot juce bottle"
-                        Link="https://brandsonparade.com/product/tasmanian-juice-press-cold-pressed-reboot-blend-2l/"
-                    />
-                    <RegularRange
-                        Title="Apple"
-                        Image="/img/special2.jpg"
-                        Alt="special juce bottle"
-                        Link="https://brandsonparade.com/product/tasmanian-juice-press-cold-pressed-reboot-blend-2l/"
-                    />
-                    <RegularRange
-                        Title="Citrus"
-                        Image="/img/reboot.png"
-                        Alt="reboot juce bottle"
-                        Link="https://brandsonparade.com/product/tasmanian-juice-press-cold-pressed-reboot-blend-2l/"
-                    />
-                    <RegularRange
-                        Title="Fruits"
-                        Image="/img/special2.jpg"
-                        Alt="special juce bottle"
-                        Link="https://brandsonparade.com/product/tasmanian-juice-press-cold-pressed-reboot-blend-2l/"
-                    />
-                    <RegularRange
-                        Title="Greens"
-                        Image="/img/reboot.png"
-                        Alt="reboot juce bottle"
-                        Link="https://brandsonparade.com/product/tasmanian-juice-press-cold-pressed-reboot-blend-2l/"
-                    />
-                    <RegularRange
-                        Title="Orange"
-                        Image="/img/special2.jpg"
-                        Alt="special juce bottle"
-                        Link="https://brandsonparade.com/product/tasmanian-juice-press-cold-pressed-reboot-blend-2l/"
-                    />
-                    <RegularRange
-                        Title="Veg"
-                        Image="/img/special2.jpg"
-                        Alt="special juce bottle"
-                        Link="https://brandsonparade.com/product/tasmanian-juice-press-cold-pressed-reboot-blend-2l/"
-                    />
+                <div id="regular-range">
+                    <h3 className="regular-range-title">Regular Juice Range</h3>
+                    <div className="regular-range-container">
+                        <RegularRange
+                            Title="Apple"
+                            Image="/img/special2.jpg"
+                            Alt="Apple juce bottle"
+                            Link="https://brandsonparade.com/product/tasmanian-juice-press-cold-pressed-apple-juice-2l/"
+                        />
+                        <RegularRange
+                            Title="Citrus"
+                            Image="/img/reboot.png"
+                            Alt="citrus juce bottle"
+                            Link="https://brandsonparade.com/product/tasmanian-juice-press-cold-pressed-citrus-blend-2l/"
+                        />
+                        <RegularRange
+                            Title="Fruits"
+                            Image="/img/special2.jpg"
+                            Alt="Fruits juce bottle"
+                            Link="https://brandsonparade.com/product/tasmanian-juice-press-cold-pressed-fruits-blend-2l/"
+                        />
+                        <RegularRange
+                            Title="Greens"
+                            Image="/img/reboot.png"
+                            Alt="Greens juce bottle"
+                            Link="https://brandsonparade.com/product/tasmanian-juice-press-cold-pressed-greens-blend-2l/"
+                        />
+                        <RegularRange
+                            Title="Orange"
+                            Image="/img/special2.jpg"
+                            Alt="Orange juce bottle"
+                            Link="https://brandsonparade.com/product/tasmanian-juice-press-cold-pressed-orange-juice-2l/"
+                        />
+                        <RegularRange
+                            Title="Reboot"
+                            Image="/img/reboot.png"
+                            Alt="reboot juce bottle"
+                            Link="https://brandsonparade.com/product/tasmanian-juice-press-cold-pressed-reboot-blend-2l/"
+                        />
+                        <RegularRange
+                            Title="Veg"
+                            Image="/img/special2.jpg"
+                            Alt="Veg juce bottle"
+                            Link="https://brandsonparade.com/product/carrot-beetroot-lemon-apple-orange-ginger-vitamin-c/"
+                        />
+                    </div>
                 </div>
 
                 <a id="about"/>            
