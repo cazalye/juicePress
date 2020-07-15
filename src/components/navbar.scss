@@ -5,13 +5,16 @@ body{
     .App.scrolled{
         .mdl-layout .mdl-layout__inner-container {
             .mdl-layout__header{
+                z-index: 10;
                 background-color: red;
                 // background-color: $brightBeige ;
+                // background-image:  linear-gradient(to right, $darkBeige, $brightBeige);
             }
         }
     }
     .mdl-layout .mdl-layout__inner-container{
         .mdl-layout__header{
+        z-index: 10;
         background-color: transparent;
         height: 8%;
         transition: background-color .5s ease-in;
@@ -38,7 +41,7 @@ body{
     }
     .mdl-layout__drawer-button{
         color: black;
-        z-index: 100;
+        z-index: 10;
         left: auto;
         right:30px;
         top:15px;
@@ -49,7 +52,7 @@ body{
         width: 48px;
         border:none;
             i{
-            z-index: 100;
+            z-index: 10;
             color:black;
             font-size: 40px;   
             }
