@@ -4,6 +4,8 @@ interface Props {
     Title1: string;
     Title2: string;
     Description: string;
+    Description2?: string;
+    Description3?: string;
     Image: string;
     alt: string;
 }
@@ -19,6 +21,8 @@ class LandingSections extends Component<Props, Props> {
                 </div>
                 <div className="rightSection">
                     <p>{this.props.Description}</p>
+                    <p className='desc2'>{this.props.Description2}</p>
+                    <p className='desc3'>{this.props.Description3}</p>
                 </div>
             </div>
             

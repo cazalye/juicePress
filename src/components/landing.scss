@@ -13,13 +13,14 @@
         position: relative;
         padding-top: 1%;
         .title{
-            margin-top: 1%;
+            margin-top: 0px;
             margin-left: 5%;
             z-index: 1;
             h1{
                 color: white;
+                color: $brightBeige;
                 text-align: left;
-                padding-top: 20px;
+                padding-top: 10px;
                 margin-bottom: 0px;
                 font-family: 'Open Sans', sans-serif;
                 font-weight: 100;
@@ -34,6 +35,7 @@
                 font-size: 18px;
                 line-height: 28px;
                 color: white;
+                color: $darkBeige;
             }
         }
     }
@@ -114,6 +116,10 @@
     
     }
    
+    .section-break{
+        height: 30vh;
+        background-image:  linear-gradient(to bottom, $brightBeige, $lightBeige);
+    }
     .section{
         z-index: 2;
         position: relative;
@@ -124,7 +130,7 @@
         padding: 50px;
         padding-top: 20vh;
         padding-bottom: 20vh;
-        height: 60vh;
+        height: 30vh;
         .leftSection{
             width: 60%;
             height: 100vh;
@@ -168,7 +174,6 @@
                 line-height: 52px;
                 letter-spacing: 0.04em;
             }
-           
         }
         .rightSection{
             z-index: 2;
@@ -176,18 +181,40 @@
             background-color: $lightBlack;
             position: relative;
             width: 40%;
-            height: 20vh;
+            height: 30vh;
+            // height: auto;
             top: 28vh;
             // margin: 20px;
             box-shadow: 3px 3px 5px 2px #4444;
            
             p{
                 padding: 25px;
+                padding-bottom: 0px;
+                // padding-top: 0px;
                 font-size: 18px;
                 line-height: 32px;;
                 color: white;
                 font-family: 'Open Sans', sans-serif;
                 font-weight: 100;
+                margin-bottom: 0px;
+                padding-bottom: 0px;
+            }
+            .desc2{
+                font-size: 16px;
+                color: $brightBeige;
+                // font-weight: bold;
+                margin-top: 10px;
+                margin-bottom: 0px;
+                padding-top: 0px;
+                padding-bottom: 0px;
+            }
+            .desc3{
+                font-size: 16px;
+                color: $brightBeige;
+                margin-top: 0px;
+                margin-bottom: 0px;
+                padding-top: 0px;
+                padding-bottom: 0px;
             }
         }
     }

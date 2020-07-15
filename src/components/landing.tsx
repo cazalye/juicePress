@@ -73,6 +73,7 @@ class Landing extends Component {
                     Image="/img/about1.jpg" 
                     alt="Juice Press Staff"
                 />
+                <div className="section-break"/>
                 <a id="enviro"/>
                 <LandingSections
                     Title1="WE CARE ABOUT"
@@ -82,6 +83,7 @@ class Landing extends Component {
                     Image="/img/enviro.jpg" 
                     alt="Glass bottles full of different juices"
                 />
+                <div className="section-break"/>
                 <a id="visitUs"/>
                 <LandingSections
                     Title1="COME"
@@ -91,6 +93,18 @@ class Landing extends Component {
                     Image="/img/market1.jpg" 
                     alt="Tasmanian Juice Press at the Farm Gate Market"
                 />
+                <div className="section-break"/>
+                <a id="contact"/>
+                <LandingSections
+                    Title1="CONTACT"
+                    Title2="US"
+                    Description="If you have any queries about our products or would like to provide some feedback, please get in touch- We’d love to hear from you!"
+                    Description2="Phone: 0438 406680"
+                    Description3="Email: james@brandsonparade.com"
+                    Image="/img/ContactUs.jpg" 
+                    alt="Contact details for The Tasmanian Juice Press"
+                />
+                <div className="section-break"/>
                 <a id="shop"/>
                 <div id="shop-section">
                     <h1>SHOP JUICES</h1>
@@ -133,9 +147,7 @@ class Landing extends Component {
                         />
                     </div>
                 </div>
-                
                 <FooterDetail/>
-                <a id="contact"/>
             </div>
             
         )
