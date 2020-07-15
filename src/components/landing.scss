@@ -1,7 +1,7 @@
 @import "../styles/colors";
 
 #landing{
-    position: absolute;
+    // position: absolute;
     overflow-x: hidden;
     top: 0;
     #hero{
@@ -40,8 +40,9 @@
         }
     }
     #regular-range{
+        display: none;
         background-image:  linear-gradient(to top, $brightBeige, $lightBeige, transparent);
-        opacity: 1;
+        // opacity: 1;
         // transform: skewY(-5deg);
         width: 100%;
         position: absolute;
@@ -115,7 +116,6 @@
         }
     
     }
-   
     .section-break{
         height: 30vh;
         background-image:  linear-gradient(to bottom, $brightBeige, $lightBeige);
@@ -123,8 +123,6 @@
     .section{
         z-index: 2;
         position: relative;
-        // background-color: $fadedBlack;
-        // background-color: $darkBeige;
         background-color: $brightBeige;
         display: flex;
         padding: 50px;
@@ -135,24 +133,23 @@
             width: 60%;
             height: 100vh;
             img{
-                border: solid;
+                // border: solid;
                 border-width: 7px;
                 border-color: $fadedBlack;
+                box-shadow: 3px 3px 5px 5px #4444;
             }
             .bar{
                 border-top: 5px solid #000;
-                width: 10%;
-                top: 18%;
-                right: 11%;
+                width: 15%;
+                top: 25%;
+                right: 15%;
                 position: absolute;;
             }
             .title1{
                 position: absolute;
-                // width: 45%;
                 width: 100%;
-                top: 22%;
-                // right: 12%;
-                left: 70%;
+                top: 33%;
+                left: 61%;
                 color: white;
                 font-family: 'Playfair Display', serif;
                 font-weight: 100;
@@ -164,8 +161,8 @@
                 position: absolute;
                 // width: 45%;
                 width: 100%;
-                left: 77%;
-                top: 22%;
+                left: 66%;
+                top: 33%;
                 margin-top: 80px;
                 color: white;
                 font-family: 'Playfair Display', serif;
@@ -177,23 +174,20 @@
         }
         .rightSection{
             z-index: 2;
-            // background-color: $darkBeige;
-            background-color: $lightBlack;
+            // background-color: $lightBlack;
             position: relative;
-            width: 40%;
-            height: 30vh;
-            // height: auto;
+            width: 35%;
+            // height: 30vh;
             top: 28vh;
-            // margin: 20px;
-            box-shadow: 3px 3px 5px 2px #4444;
+            // box-shadow: 3px 3px 5px 2px #4444;
            
             p{
                 padding: 25px;
-                padding-bottom: 0px;
-                // padding-top: 0px;
-                font-size: 18px;
+                font-size: 22px;
                 line-height: 32px;;
                 color: white;
+                color: $fadedBlack;
+                // color: #555;
                 font-family: 'Open Sans', sans-serif;
                 font-weight: 100;
                 margin-bottom: 0px;
@@ -201,16 +195,17 @@
             }
             .desc2{
                 font-size: 16px;
-                color: $brightBeige;
+                // color: $brightBeige;
+                color: #555;
                 // font-weight: bold;
-                margin-top: 10px;
+                margin-top: 0px;
                 margin-bottom: 0px;
-                padding-top: 0px;
+                padding-top: 15px;
                 padding-bottom: 0px;
             }
             .desc3{
                 font-size: 16px;
-                color: $brightBeige;
+                color: #555;
                 margin-top: 0px;
                 margin-bottom: 0px;
                 padding-top: 0px;
@@ -264,7 +259,7 @@
                         font-size: 28px;
                         line-height: 38px;;
                         color: white;
-                        // color: black;
+                        color: $fadedBlack;
                         font-family: 'Open Sans', sans-serif;
                         font-weight: 100;
                         text-align: center;
