@@ -69,7 +69,7 @@ class Landing extends Component {
                 <LandingSections
                     Title1="WE ARE"
                     Title2="LOCAL"
-                    Description="We’re a Tasmanian owned and operated small business, making junk-free cold pressed juices from locally sourced fruit and vegetables"
+                    Description="We’re a Tasmanian owned and operated small business, making junk-free cold pressed juices from locally sourced fruit and vegetables."
                     Image="/img/about1.jpg" 
                     alt="Juice Press Staff"
                 />
@@ -78,8 +78,8 @@ class Landing extends Component {
                 <LandingSections
                     Title1="WE CARE ABOUT"
                     Title2="THE ENVIRONMENT"
-                    Description="We’re all about sustainability and minimising waste
-                    Our juices are packaged in glass bottles- return yours for a discount on future purchases"
+                    Description="We’re all about sustainability and minimising waste.
+                    Our juices are packaged in glass bottles, return yours for a discount on future purchases."
                     Image="/img/enviro.jpg" 
                     alt="Glass bottles full of different juices"
                 />
@@ -88,8 +88,8 @@ class Landing extends Component {
                 <LandingSections
                     Title1="COME"
                     Title2="VISIT US"
-                    Description="We’re at the Farm Gate Market on Bathurst st. in Hobart every Sunday from 8.30 am - 12.30
-                    We’d love to see you!"
+                    Description="We’re at the Farm Gate Market on Bathurst St. in Hobart every Sunday from 8.30 am - 12.30.
+                    We’d love to see you there!"
                     Image="/img/market1.jpg" 
                     alt="Tasmanian Juice Press at the Farm Gate Market"
                 />
@@ -98,7 +98,7 @@ class Landing extends Component {
                 <LandingSections
                     Title1="CONTACT"
                     Title2="US"
-                    Description="If you have any queries about our products or would like to provide some feedback, please get in touch- We’d love to hear from you!"
+                    Description="If you have any queries about our products or would like to provide some feedback, please get in touch. We look forward to hearing from you!"
                     Description2="Phone: 0438 406680"
                     Description3="Email: james@brandsonparade.com"
                     Image="/img/ContactUs.jpg" 
