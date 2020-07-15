@@ -8,12 +8,14 @@
         background-image: linear-gradient(-150deg, rgba(255,255,255,0.1), rgba(255,255,255,0.05), rgba(255,255,255,0)), url("/img/juiceBackground60.jpg");
         background-size: cover;
         opacity: .95;
-        height: 99vh;
+        // height: 99vh;
+        height: 75vh;
         width: 100%;
         position: relative;
         padding-top: 1%;
+        top: -7vh;
         .title{
-            margin-top: 0px;
+            margin-top: 8vh;
             margin-left: 5%;
             z-index: 1;
             h1{
@@ -33,38 +35,43 @@
                 text-align: left;
                 font-family: 'Open Sans', sans-serif;
                 font-size: 18px;
-                line-height: 28px;
+                line-height: 20px;
                 color: white;
                 color: $darkBeige;
             }
         }
     }
     #regular-range{
-        display: none;
-        background-image:  linear-gradient(to top, $brightBeige, $lightBeige, transparent);
-        // opacity: 1;
-        // transform: skewY(-5deg);
-        width: 100%;
-        position: absolute;
+        position: relative;
+        margin-top: -16vh;
+        height: 40vh;
+        // width: 100%;
+        background-image:  linear-gradient(to top, $brightBeige, $lightBeige);
+        // background-color: $brightBeige;
+        border: solid;
+        border-width: 7px;
+        border-color: $brightBeige;
+        
         z-index: 4;
-        top: 60vh;
         h3.regular-range-title{
             position: relative;
             text-align: center;
-            // color: white;
             color: black;
+            color: $darkestBeige;
             font-family: 'Playfair Display', serif;
             font-weight: 100;
-            font-size: 48px;
-            line-height: 52px;
+            font-size: 38px;
+            line-height: 48px;
             letter-spacing: 0.04em;
-            padding-top: 0px;
+            padding-top: 10px;
             margin-bottom: 20px;
+            margin-top: 0px;
         }
         .regular-range-container{
             position: relative;
             // height: 30vh;
             width: 100%;
+            left: -7px;
             z-index: 3;
             display: flex;
             flex-wrap: wrap;
@@ -81,9 +88,10 @@
                 img{
                     position: relative;
                     border: solid;
-                    border-width: 7px;
+                    border-width: 5px;
                     border-color: $brightBeige;
-                    // border-color: $lightBeige;
+                    border-color: $lightBeige;
+                    border-color: $darkBeige;
                     bottom: 0;
                 }
                 .regular-text-box{
@@ -258,8 +266,9 @@
                     .juice-title{
                         font-size: 28px;
                         line-height: 38px;;
-                        color: white;
-                        color: $fadedBlack;
+                        // color: white;
+                        // color: $fadedBlack;
+                        color: $darkestBeige;
                         font-family: 'Open Sans', sans-serif;
                         font-weight: 100;
                         text-align: center;
