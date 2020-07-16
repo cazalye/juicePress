@@ -9,20 +9,21 @@
         background-size: cover;
         opacity: .95;
         // height: 99vh;
-        height: 75vh;
+        // height: 75vh;
+        height: 82vh;
         width: 100%;
         position: relative;
         padding-top: 1%;
-        top: -7vh;
+        // top: -7vh;
         .title{
-            margin-top: 8vh;
+            // margin-top: 8vh;
             margin-left: 5%;
             z-index: 1;
             h1{
                 color: white;
                 color: $brightBeige;
                 text-align: left;
-                padding-top: 10px;
+                padding-top: 5px;
                 margin-bottom: 0px;
                 font-family: 'Open Sans', sans-serif;
                 font-weight: 100;
@@ -43,28 +44,36 @@
     }
     #regular-range{
         position: relative;
-        margin-top: -16vh;
-        height: 40vh;
-        // width: 100%;
-        background-image:  linear-gradient(to top, $brightBeige, $lightBeige);
+        // margin-top: -16vh;
+        height: 50vh;
+        // width: 80%;
+        // left: 10%;
+        background-image:  linear-gradient(to top, $brightBeige, $brightBeige, $lightBeige);
         // background-color: $brightBeige;
         border: solid;
         border-width: 7px;
         border-color: $brightBeige;
-        
         z-index: 4;
+        .down-arrow{
+            position: relative;
+            left:50%;
+            font-size: 25px;
+            color: $darkestBeige;
+            z-index: 5;
+            margin-bottom: 40px;
+        }
         h3.regular-range-title{
             position: relative;
             text-align: center;
-            color: black;
+            // color: black;
             color: $darkestBeige;
             font-family: 'Playfair Display', serif;
             font-weight: 100;
             font-size: 38px;
             line-height: 48px;
             letter-spacing: 0.04em;
-            padding-top: 10px;
-            margin-bottom: 20px;
+            padding-top: 25px;
+            margin-bottom: 10px;
             margin-top: 0px;
         }
         .regular-range-container{

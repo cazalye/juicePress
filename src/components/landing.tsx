@@ -19,6 +19,9 @@ class Landing extends Component {
                 </div>   
                 <div id="regular-range">
                     <h3 className="regular-range-title">Regular Juice Range</h3>
+                    <div className="down-arrow">
+                        <i className="fas fa-arrow-down"/>
+                    </div>
                     <div className="regular-range-container">
                         <RegularRange
                             Title="Apple"
