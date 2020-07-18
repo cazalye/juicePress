@@ -19,10 +19,10 @@ class Landing extends Component {
                 </div>   
                 <a id="range"/> 
                 <div id="regular-range">
-                    <h3 className="regular-range-title">Regular Juice Range</h3>
                     <div className="down-arrow">
-                        <i className="fas fa-arrow-down"/>
+                    <i className="fas fa-arrow-down"/>
                     </div>
+                    <h3 className="regular-range-title">Regular Juice Range</h3>
                     <div className="regular-range-container">
                         <RegularRange
                             Title="Orange Juice"

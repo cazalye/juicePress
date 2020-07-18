@@ -7,7 +7,7 @@
         background-image: linear-gradient(-150deg, rgba(255,255,255,0.1), rgba(255,255,255,0.05), rgba(255,255,255,0)), url("/img/juiceBackground60.jpg");
         background-size: cover;
         opacity: .95;
-        height: 81vh;
+        height: 70vh;
         width: 100%;
         position: relative;
         padding-top: 1%;
@@ -45,6 +45,7 @@
         background-image:  linear-gradient(to bottom, $lightBeige, $brightBeige,$brightBeige,$brightBeige);
         // background-color: $lightBeige;
         border-top: 5px solid $darkBeige;
+        padding-top: 20px;
         z-index: 4;
         .down-arrow{
             position: relative;
@@ -52,7 +53,8 @@
             font-size: 25px;
             color: $darkBeige;
             z-index: 5;
-            margin-bottom: 40px;
+            margin-bottom: 0px;
+            padding-top: 5px;
         }
         h3.regular-range-title{
             position: relative;
@@ -65,8 +67,8 @@
             font-size: 38px;
             line-height: 48px;
             letter-spacing: 0.04em;
-            padding-top: 25px;
-            margin-bottom: 10px;
+            padding-top: 20px;
+            margin-bottom: 25px;
             margin-top: 0px;
         }
         .regular-range-container{
@@ -249,7 +251,7 @@
             line-height: 68px;
             letter-spacing: 0.04em;
             text-align: center;
-            padding-bottom: 5%;
+            padding-bottom: 1%;
         }
         .shop-container{
             width: 80%;
