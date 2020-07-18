@@ -48,7 +48,7 @@
         height: 50vh;
         // width: 80%;
         // left: 10%;
-        background-image:  linear-gradient(to top, $brightBeige, $brightBeige, $lightBeige);
+        background-image:  linear-gradient(to top, $brightBeige, $brightBeige, $lightBeige, $lightBeige, transparent);
         // background-color: $brightBeige;
         border: solid;
         border-width: 7px;
@@ -271,6 +271,7 @@
                         border: solid;
                         border-width: 7px;
                         border-color: $darkBeige;
+                        opacity: .9;
                     }
                     .juice-title{
                         font-size: 28px;
