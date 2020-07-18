@@ -1,26 +1,26 @@
 @import "../styles/colors";
 
 body{
-    overflow: hidden;
-    //  Navbar is opaque onScroll
-    .App {
-        overflow-y: scroll;
-        height: 100vh;
-    }
-    .App.scrolled{
-        .mdl-layout .mdl-layout__inner-container {
-            .mdl-layout__header{
-                z-index: 10;
-                // background-color: red;
-                background-color: $brightBeige ;
-                background-image:  linear-gradient(to right, $darkBeige 10%, $brightBeige 70%, $brightBeige 100%);
-                // background-image:  linear-gradient(to right, $darkBeige, $brightBeige, $brightBeige);
-            }
-            .mdl-navigation__link{
-                color: $darkestBeige;
-            }
-        }
-    }
+    // overflow: hidden;
+        //  Navbar is opaque onScroll
+    // .App {
+    //     overflow-y: scroll;
+    //     height: 100vh;
+    // }
+    // .App.scrolled{
+    //     .mdl-layout .mdl-layout__inner-container {
+    //         .mdl-layout__header{
+    //             z-index: 10;
+    //             // background-color: red;
+    //             background-color: $brightBeige ;
+    //             background-image:  linear-gradient(to right, $darkBeige 10%, $brightBeige 70%, $brightBeige 100%);
+    //             // background-image:  linear-gradient(to right, $darkBeige, $brightBeige, $brightBeige);
+    //         }
+    //         .mdl-navigation__link{
+    //             color: $darkestBeige;
+    //         }
+    //     }
+    // }
     .mdl-layout .mdl-layout__inner-container{
         .mdl-layout__header{
         z-index: 10;
@@ -40,7 +40,6 @@ body{
         }  
         .mdl-navigation__link{
             position: relative;
-            // color: $fadedBlack;
             color: $darkBeige;
             // color: $darkerBeige;
             font-size: 18px;

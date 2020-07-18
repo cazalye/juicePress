@@ -6,34 +6,35 @@ import View from './components/view';
 import { withRouter } from "react-router";
 
 
-class App extends Component <any,any> {
-  state = {
-    navbarClass: "scroll-top"
-  }
-  navbarScrollStyle() {
-    const appDiv: any = document.getElementsByClassName("App");
-    if (appDiv.length) {
-        const position = appDiv[0].scrollTop;
-        if (position > 100 && this.state.navbarClass === "scroll-top") {
-          this.setState({
-            navbarClass: "scrolled"
-          });
-        }
-        if (position <= 100 && this.state.navbarClass !== "scroll-top") {
-          this.setState({
-            navbarClass: "scroll-top"
-          });
-        }
-    }
-  }
+class App extends Component <any, any> {
+  // state = {
+  //   navbarClass: "scroll-top"
+  // }
+  // navbarScrollStyle() {
+  //   const appDiv: any = document.getElementsByClassName("App");
+  //   if (appDiv.length) {
+  //       const position = appDiv[0].scrollTop;
+  //       if (position > 100 && this.state.navbarClass === "scroll-top") {
+  //         this.setState({
+  //           navbarClass: "scrolled"
+  //         });
+  //       }
+  //       if (position <= 100 && this.state.navbarClass !== "scroll-top") {
+  //         this.setState({
+  //           navbarClass: "scroll-top"
+  //         });
+  //       }
+  //   }
+  // }
 
   render() { 
   return (
-    <div onScroll={e => {this.navbarScrollStyle();}} className={`App ${this.state.navbarClass}`}>
+    // <div onScroll={e => {this.navbarScrollStyle();}} className={`App ${this.state.navbarClass}`}>
+    <div>
       <Navbar/>
       <View/>
-      {/* <Footer/> */}
     </div>
+    // </div>
   );
 }
 }
