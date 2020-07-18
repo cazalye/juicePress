@@ -101,7 +101,7 @@ class Landing extends Component {
                 <LandingSections
                     Title1="CONTACT"
                     Title2="US"
-                    Description="If you have any queries about our products or would like to provide some feedback, please get in touch. We look forward to hearing from you!"
+                    Description="If you have any queries about our products or would like to provide some feedback, please get in touch. We also do wholesale and bulk orders upon request. We look forward to hearing from you!"
                     Description2="Phone: 0438 406680"
                     Description3="Email: james@brandsonparade.com"
                     Image="/img/ContactUs.jpg" 
