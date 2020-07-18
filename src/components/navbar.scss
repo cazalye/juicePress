@@ -24,8 +24,9 @@ body{
     .mdl-layout .mdl-layout__inner-container{
         .mdl-layout__header{
         z-index: 10;
-        background-color: transparent;
-        height: 8%;
+        // background-color: transparent;
+        // background-image:  linear-gradient(to right, $darkBeige, $lightBeige 60%);
+        background-image:  linear-gradient(to top, $brightBeige, $lightBeige);
         transition: background-color .5s ease-in;
         box-shadow: none;
         position: fixed;
@@ -40,8 +41,7 @@ body{
         }  
         .mdl-navigation__link{
             position: relative;
-            color: $darkBeige;
-            // color: $darkerBeige;
+            color: $darkerBeige;
             font-size: 18px;
             font-family: 'Open Sans', sans-serif;
             font-weight: 100;

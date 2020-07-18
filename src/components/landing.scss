@@ -1,29 +1,25 @@
 @import "../styles/colors";
 
 #landing{
-    // position: absolute;
     overflow-x: hidden;
     top: 0;
     #hero{
         background-image: linear-gradient(-150deg, rgba(255,255,255,0.1), rgba(255,255,255,0.05), rgba(255,255,255,0)), url("/img/juiceBackground60.jpg");
         background-size: cover;
         opacity: .95;
-        // height: 99vh;
-        // height: 75vh;
         height: 81vh;
         width: 100%;
         position: relative;
         padding-top: 1%;
-        // top: -7vh;
+        margin-top: 64px;
         .title{
-            // margin-top: 8vh;
-            margin-left: 5%;
+            margin-left: 7%;
             z-index: 1;
             h1{
                 color: white;
                 color: $brightBeige;
                 text-align: left;
-                padding-top: 5px;
+                margin-top: 15px;
                 margin-bottom: 0px;
                 font-family: 'Open Sans', sans-serif;
                 font-weight: 100;
