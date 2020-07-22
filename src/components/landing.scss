@@ -138,11 +138,11 @@
         }
     }
     .section-break{
-        height: 30vh;
+        height: 32vh;
         background-image:  linear-gradient(to bottom, $brightBeige, $lightBeige);
     }
     .section-break2{
-        height: 30vh;
+        height: 32vh;
         background-image: url('/img/cardBackground.png');
     }
     .section-break3{
@@ -169,15 +169,16 @@
                 border-color: $fadedBlack;
                 box-shadow: 3px 3px 5px 5px #4444;
                 opacity: .9;
+                margin-top: 4vh;
             }
             .bar{
                 // border-top: 5px solid #000;
                 // border-top: 5px solid $fadedBlack;
                 border-top: 5px solid $darkestBeige;
                 width: 15%;
-                top: 25%;
+                top: 27%;
                 right: 15%;
-                position: absolute;;
+                position: absolute;
             }
             .title1{
                 position: absolute;
