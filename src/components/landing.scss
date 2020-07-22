@@ -144,7 +144,8 @@
     .section{
         z-index: 2;
         position: relative;
-        background-color: $brightBeige;
+        // background-color: $brightBeige;
+        background-image: url('/img/cardBackground.png');
         display: flex;
         padding: 50px;
         padding-top: 20vh;
