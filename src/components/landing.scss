@@ -4,7 +4,8 @@
     overflow-x: hidden;
     top: 0;
     #hero{
-        background-image: linear-gradient(-150deg, rgba(255,255,255,0.1), rgba(255,255,255,0.05), rgba(255,255,255,0)), url("/img/juiceBackground60.jpg");
+        // background-image: linear-gradient(-150deg, rgba(255,255,255,0.2), rgba(255,255,255, 0.05), rgba(255,255,255,0)), url("/img/juiceBackground60.jpg");
+        background-image: linear-gradient(-150deg, rgba(255,255,255,0.4), rgba(0,0,0, 0.2), rgba(255,255,255,0.2)), url("/img/juiceBackground60.jpg");
         background-size: cover;
         background-attachment: fixed;
         opacity: .95;
