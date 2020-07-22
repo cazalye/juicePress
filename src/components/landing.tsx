@@ -122,7 +122,8 @@ class Landing extends Component {
                     Image="/img/ContactUs.jpg" 
                     alt="Contact details for The Tasmanian Juice Press"
                 />
-                <div className="section-break"/>
+                <div className="section-break2"/>
+                {/* <div className="section-break3"/> */}
                 <a id="shop"/>
                 <div id="shop-section">
                     <h1>SHOP JUICES</h1>

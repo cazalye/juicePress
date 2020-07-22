@@ -141,6 +141,15 @@
         height: 30vh;
         background-image:  linear-gradient(to bottom, $brightBeige, $lightBeige);
     }
+    .section-break2{
+        height: 30vh;
+        background-image: url('/img/cardBackground.png');
+    }
+    .section-break3{
+        height: 10vh;
+        background-image:  linear-gradient(to bottom, $brightBeige, $lightBeige);
+    }
+
     .section{
         z-index: 2;
         position: relative;
@@ -212,6 +221,7 @@
                 line-height: 30px;;
                 color: white;
                 color: $fadedBlack;
+                color: black;
                 // color: #555;
                 font-family: 'Open Sans', sans-serif;
                 font-weight: 100;
@@ -219,18 +229,21 @@
                 padding-bottom: 0px;
             }
             .desc2{
-                font-size: 16px;
+                font-size: 18px;
                 // color: $brightBeige;
-                color: #555;
-                // font-weight: bold;
+                // color: #555;
+                color: black;
+                font-weight: bold;
                 margin-top: 0px;
                 margin-bottom: 0px;
-                padding-top: 15px;
+                padding-top: 20px;
                 padding-bottom: 0px;
             }
             .desc3{
-                font-size: 16px;
-                color: #555;
+                font-size: 18px;
+                // color: #555;
+                color: black;
+                font-weight: bold;
                 margin-top: 0px;
                 margin-bottom: 0px;
                 padding-top: 0px;
