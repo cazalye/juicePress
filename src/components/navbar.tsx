@@ -19,7 +19,8 @@ class Navbar extends Component<any, any> {
                 <Link to="/#home"><img className="logo" src="./img/logoTransparentMedium.png"  width="40px"/></Link>
                     <Navigation className="header-nav">
                         <Link to="/#range">Juice Range</Link> 
-                        <Link to="/#about">About</Link> 
+                        <Link to="/#about">About Us</Link> 
+                        <Link to="/#enviro">Environmental Impact</Link> 
                         <Link to="/#visitUs">Visit Us</Link>
                         <Link to="/#contact">Contact</Link>
                         <Link to="/#shop">Shop</Link>
@@ -27,10 +28,12 @@ class Navbar extends Component<any, any> {
                 </Header>
                 <Drawer title={<Link onClick={() => this.hideToggle()} to="/" className="header-title">The Tasmanian Juice Press </Link> as any}>
                     <Navigation className="drawer-nav" >
-                        <Link onClick={() => this.hideToggle()} to="/">About</Link>
-                        <Link onClick={() => this.hideToggle()} to="/">Visit Us</Link>
-                        <Link onClick={() => this.hideToggle()} to="/">Contact</Link>
-                        <Link onClick={() => this.hideToggle()} to="/">Shop</Link>
+                        <Link onClick={() => this.hideToggle()} to="/#range">Juice Range</Link>
+                        <Link onClick={() => this.hideToggle()} to="/#about">About Us</Link>
+                        <Link onClick={() => this.hideToggle()} to="/#visitUs">Visit Us</Link>
+                        <Link onClick={() => this.hideToggle()} to="/#enviro">Environmental Impact</Link>
+                        <Link onClick={() => this.hideToggle()} to="/#contact">Contact</Link>
+                        <Link onClick={() => this.hideToggle()} to="/#shop">Shop</Link>
                     </Navigation>
                 </Drawer>
             </Layout>
