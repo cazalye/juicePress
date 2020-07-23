@@ -5,7 +5,7 @@
     top: 0;
     #hero{
         // background-image: linear-gradient(-150deg, rgba(255,255,255,0.2), rgba(255,255,255, 0.05), rgba(255,255,255,0)), url("/img/juiceBackground60.jpg");
-        background-image: linear-gradient(-150deg, rgba(255,255,255,0.4), rgba(0,0,0, 0.2), rgba(255,255,255,0.2)), url("/img/juiceBackground60.jpg");
+        background-image: linear-gradient(-150deg, rgba(255,255,255,0.4), rgba(0,0,0, 0.2), rgba(255,255,255,0.2)), url("/img/juiceBackground40.jpg");
         background-size: cover;
         // border-top: 2px solid white;
         border-top: 2px solid $darkBeige;
@@ -143,7 +143,7 @@
     }
     .section-break2{
         height: 32vh;
-        background-image: url('/img/cardBackground.png');
+        background-image: url('/img/cardBackground.jpg');
     }
     .section-break3{
         height: 10vh;
@@ -154,7 +154,7 @@
         z-index: 2;
         position: relative;
         // background-color: $brightBeige;
-        background-image: url('/img/cardBackground.png');
+        background-image: url('/img/cardBackground.jpg');
         display: flex;
         padding: 50px;
         padding-top: 20vh;
@@ -261,7 +261,7 @@
         padding-bottom: 4%;
         width: 100%;
         // background-color: $fadedBlack;
-        background-image: url('/img/cardBackground.png');
+        background-image: url('/img/cardBackground.jpg');
         h1{
             color: white;
             font-family: 'Playfair Display', serif;

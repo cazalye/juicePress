@@ -134,13 +134,13 @@ class Landing extends Component {
                         />
                         <Shop
                         juiceTitle="Immune Boost"
-                        juiceImage="./img/immune.png"
+                        juiceImage="./img/immune.jpg"
                         alt="Bottles of immune boost juice"
                         shopLink="https://brandsonparade.com/product-category/the-tasmanian-juice-press/immune-boost/"
                         />
                         <Shop
                         juiceTitle="Juice Packs"
-                        juiceImage="./img/pack.png"
+                        juiceImage="./img/pack.jpg"
                         alt="Bottles of juice packs"
                         shopLink="https://brandsonparade.com/product-category/juice-pack/"
                         />
@@ -152,7 +152,7 @@ class Landing extends Component {
                         />
                         <Shop
                         juiceTitle="2L Juice Blend"
-                        juiceImage="./img/2l.png"
+                        juiceImage="./img/2l.jpg"
                         alt="2L juice bottles"
                         shopLink="https://brandsonparade.com/product-category/the-tasmanian-juice-press/2l-juice-bottles/"
                         />
