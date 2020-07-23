@@ -4,6 +4,7 @@ import LandingSections from "./landingSections";
 import FooterDetail from './footer';
 import Shop from './shop';
 import RegularRange from './regularRange';
+import MarketMap from './map';
 
 class Landing extends Component {
     render() {
@@ -103,7 +104,9 @@ class Landing extends Component {
                     Image="/img/market1.jpg" 
                     alt="Tasmanian Juice Press at the Farm Gate Market"
                 />
-                <div className="section-break"/>
+                <div className="section-break3"/>
+                <MarketMap/>
+                {/* <div className="section-break3"/> */}
                 <a id="contact"/>
                 <LandingSections
                     Title1="CONTACT"

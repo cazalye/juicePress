@@ -22,7 +22,7 @@
                 color: white;
                 color: $brightBeige;
                 text-align: left;
-                margin-top: 5px;
+                margin-top: 15px;
                 margin-bottom: 0px;
                 font-family: 'Open Sans', sans-serif;
                 font-weight: 100;
@@ -146,10 +146,13 @@
         background-image: url('/img/cardBackground.jpg');
     }
     .section-break3{
-        height: 10vh;
-        background-image:  linear-gradient(to bottom, $brightBeige, $lightBeige);
+        height: 20vh;
+        // background-image:  linear-gradient(to bottom, $brightBeige, $lightBeige);
+        background-image: url('/img/cardBackground.jpg');
     }
-
+    .map-container{
+        height: 70vh;
+    }
     .section{
         z-index: 2;
         position: relative;
