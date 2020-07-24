@@ -26,7 +26,10 @@ body{
         z-index: 10;
         // background-color: transparent;
         // background-image:  linear-gradient(to right, $darkBeige, $lightBeige 60%);
-        background-image:  linear-gradient(to top, $brightBeige, $lightBeige);
+        // background-image:  linear-gradient(to top, $brightBeige, $lightBeige);
+        // background-image:  linear-gradient(to bottom, white, $fadedBeige);
+        background-color: white;
+        // background-color: $lightestBeige;
         // border-bottom: 2px solid white;
         // transition: background-color .5s ease-in;
         box-shadow: none;
@@ -42,13 +45,15 @@ body{
         }  
         .mdl-navigation__link{
             position: relative;
+            // color: $darkestBeige;
             color: $darkerBeige;
             font-size: 18px;
             font-family: 'Open Sans', sans-serif;
             font-weight: 100;
         }
         .mdl-layout__drawer-button{
-            color: black;
+            // color: black;
+            color: $darkestBeige;
             z-index: 10;
             left: auto;
             right:30px;
@@ -69,7 +74,7 @@ body{
             height: 100vh;
             .mdl-layout-title{
                 .header-title{
-                    color: black;
+                    color: $darkestBeige;
                     text-align: left;
                     font-family: 'Open Sans', sans-serif;
                     font-weight: 100;
@@ -81,7 +86,7 @@ body{
             padding-top:80px;
             .mdl-navigation__link{
                 position: relative;
-                color: black;
+                color: $darkestBeige;
                 font-size: 18px;
                 font-family: 'Open Sans', sans-serif;
                 font-weight: 100;
@@ -95,10 +100,7 @@ body{
         .header-title{
             text-decoration: none;
             padding-left: 70px;
-            // color: white;
-            // color: black;
-            color: $lightBeige;
-            color: $fadedBlack;
+            color: $darkestBeige;
             text-align: left;
             font-family: 'Open Sans', sans-serif;
             font-weight: 100;
