@@ -327,10 +327,9 @@
             }
         }
         #regular-range{
-            height: 230vh;
+            height: 220vh;
             h3.regular-range-title{
-                padding-top: 20px;
-                margin-bottom: 30px;
+                padding: 25px;
             }
         }
         .section-break{
@@ -366,5 +365,12 @@
             }
         }
     }
-
+}
+// PHONE: <360
+@media (max-width: 360px) {
+    #landing{
+        #regular-range{
+            height: 280vh;
+        }
+    }
 }
