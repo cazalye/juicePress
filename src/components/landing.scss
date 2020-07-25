@@ -47,7 +47,7 @@
         height: 120vh;
         background-image:  linear-gradient(to bottom, $lightBeige, $brightBeige,$brightBeige,$brightBeige);
         // background-color: $lightBeige;
-        border-top: 5px solid $darkBeige;
+        border-top: 2px solid $darkBeige;
         padding-top: 20px;
         z-index: 4;
         .down-arrow{
@@ -321,3 +321,34 @@
  
 }
 
+// Responsive Design
+// PHONE: 0-450
+@media (max-width: 450px) {
+    #landing{
+        #hero{
+            margin-top: 54px;
+            .title{
+                margin: 5%;
+                margin-top: 10%;
+                h1{
+                    font-size: 26px;
+                    line-height: 36px;
+                }
+                h2{
+                    font-size: 14px;
+                    line-height: 18px;
+                    padding-right: 1%;
+                    padding-left: 5%;
+                }
+            }
+        }
+        #regular-range{
+            height: 200vh;
+            h3.regular-range-title{
+                padding-top: 20px;
+                margin-bottom: 30px;
+            }
+        }
+    }
+
+}
