@@ -44,17 +44,17 @@
     
     #regular-range{
         position: relative;
-        height: 120vh;
-        background-image:  linear-gradient(to bottom, $lightBeige, $brightBeige,$brightBeige,$brightBeige);
-        // background-color: $lightBeige;
-        border-top: 2px solid $darkBeige;
+        height: 150vh;
+        background-image:  linear-gradient(180deg, $lightBeige 1%,$brightBeige,$brightBeige, $brightBeige, $lightBeige);
+        background-color: $lightBeige;
+        border-top: 2px solid white;
         padding-top: 20px;
         z-index: 4;
         .down-arrow{
             position: relative;
             left:50%;
             font-size: 25px;
-            color: $darkBeige;
+            color: white;
             z-index: 5;
             margin-bottom: 0px;
             padding-top: 0px;
@@ -139,7 +139,8 @@
     }
     .section-break{
         height: 32vh;
-        background-image:  linear-gradient(to bottom, $brightBeige, $lightBeige);
+        // background-image:  linear-gradient(to bottom, $brightBeige, $lightBeige);
+        background-image: url('/img/cardBackground.jpg');
     }
     .section-break2{
         height: 32vh;
