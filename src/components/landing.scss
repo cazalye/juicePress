@@ -78,39 +78,23 @@
             position: absolute;
             width: 100%;
             width: 80%;
-            left: 10%;
+            left: 50%;
+            transform: translate(-50%);
             border: solid;
             border-width: 7px;
             // border-color: $brightBeige;
             border-color: $darkBeige;
             z-index: 3;
-            display: inline-block;
             padding-top: 40px;
             padding-bottom: 40px;
             .regular-range-subcontainer{
                 position: relative;
-                margin-left: 20px;
+                margin: 15px;
                 a{
                     text-decoration: none;
                 }
-                // img{
-                //     position: relative;
-                //     border: solid;
-                //     border-width: 5px;
-                //     border-color: $brightBeige;
-                //     border-color: $lightBeige;
-                //     border-color: $darkBeige;
-                //     bottom: 0;
-                // }
+              
                 .regular-text-box{
-                    // width: calc(180px+14px);
-                    // width: 180px;
-                    // margin: 7px;
-                    // height: 50px;
-                    // opacity: 0.9;
-                    // position: relative;
-                    // bottom: 8vh;
-                    // z-index: 2;
                     .regular-subtitle{
                         // color: $darkerBeige;
                         text-transform: uppercase;
@@ -129,7 +113,6 @@
                         color: $darkerBeige;
                         // font-family: 'Simplified Arabic Fixed';
                         font-family: 'Courier New';
-                        // font-weight: bold;
                         text-align: center;
                         margin-bottom: 40px;
                     }
@@ -344,10 +327,42 @@
             }
         }
         #regular-range{
-            height: 200vh;
+            height: 230vh;
             h3.regular-range-title{
                 padding-top: 20px;
                 margin-bottom: 30px;
+            }
+        }
+        .section-break{
+            height: 0px;
+        }
+        .section{
+            .leftSection{
+                img{
+                }
+                .bar{
+                    border-top: 5px solid $darkestBeige;
+                    width: 40%;
+                    top: 20%;
+                    right: 5%;
+                }
+               .title1{
+
+                }
+               .title2{
+
+                }
+            }
+            .rightSection{
+                p{
+
+                }
+                .desc2{
+
+                }
+                .desc3{
+
+                }
             }
         }
     }
