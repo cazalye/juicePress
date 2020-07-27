@@ -24,11 +24,16 @@ body{
     .mdl-layout .mdl-layout__inner-container{
         .mdl-layout__header{
         z-index: 10;
-        // background-color: transparent;
+        background-color: transparent;
+        background-color: rgba(0,0,0,0.3);
+        background-color: rgba(39, 37, 51, 0.3);
+        background-color: rgba(229, 193, 167, 0.1);
         // background-image:  linear-gradient(to right, $darkBeige, $lightBeige 60%);
         // background-image: url('/img/cardBackground.jpg');
-        background-image: linear-gradient(to right, rgba(222, 207, 191, .7),rgba(222, 207, 191, .5), transparent), url("/img/cardBackground.jpg");
-        border-bottom: 2px solid $lightBeige;
+        // background-image: linear-gradient(to right, rgba(222, 207, 191, .7),rgba(222, 207, 191, .5), transparent), url("/img/cardBackground.jpg");
+        // background-image: linear-gradient(to right, $lightBeige, $brightBeige, $brightBeige, $brightBeige);
+        // border-bottom: 2px solid $lightBeige;
+        border-bottom: 1px solid white;
         // transition: background-color .5s ease-in;
         box-shadow: none;
         position: fixed;
@@ -43,8 +48,9 @@ body{
         }  
         .mdl-navigation__link{
             position: relative;
-            color: $darkerBeige;
+            color: $darkBeige;
             color: white;
+            // color: $lightBeige;
             font-size: 18px;
             font-family: 'Open Sans', sans-serif;
             font-weight: 100;
