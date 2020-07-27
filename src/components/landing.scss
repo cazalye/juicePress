@@ -78,7 +78,7 @@
             font-size: 38px;
             line-height: 48px;
             letter-spacing: 0.04em;
-            padding-top: 30px;
+            padding-top: 60px;
             margin-bottom: 25px;
             margin-top: 0px;
         }
@@ -141,80 +141,69 @@
         z-index: 2;
         position: relative;
         // background-color: $brightBeige;
-        background-image: url('/img/cardBackground.jpg');
+        background-image: linear-gradient(-200deg, $lightBeige, $brightBeige, $lightBeige);
+        // background-image: url('/img/cardBackground.jpg');
         display: flex;
         padding: 50px;
         padding-top: 20vh;
         padding-bottom: 20vh;
-        height: 60vh;
+        height: 100vh;
         .leftSection{
             width: 60%;
-            height: 100vh;
             img{
-                // border: solid;
-                border-width: 7px;
-                border-color: $fadedBlack;
-                box-shadow: 3px 3px 5px 5px #4444;
+                // box-shadow: 3px 3px 6px 6px #4444;
                 // opacity: .9;
                 margin-top: 4vh;
-            }
-            .bar{
-                // border-top: 5px solid #000;
-                // border-top: 5px solid $fadedBlack;
-                border-top: 5px solid $darkestBeige;
-                width: 15%;
-                top: 27%;
-                right: 15%;
-                position: absolute;
-            }
-            .title1{
-                position: absolute;
-                width: 100%;
-                top: 34%;
-                left: 61%;
-                color: white;
-                font-family: 'Playfair Display', serif;
-                font-weight: 100;
-                font-size: 48px;
-                line-height: 52px;
-                letter-spacing: 0.04em;
-            }
-            .title2{
-                position: absolute;
-                // width: 45%;
-                width: 100%;
-                left: 66%;
-                top: 35%;
-                margin-top: 80px;
-                color: white;
-                font-family: 'Playfair Display', serif;
-                font-weight: 100;
-                font-size: 48px;
-                line-height: 52px;
-                letter-spacing: 0.04em;
             }
         }
         .rightSection{
             z-index: 2;
-            // background-color: $lightBlack;
             position: relative;
-            width: 35%;
-            // height: 30vh;
-            top: 26vh;
-            // box-shadow: 3px 3px 5px 2px #4444;
-           
-            p{
-                padding: 25px;
-                font-size: 20px;
-                line-height: 30px;;
+            width: 40%;
+            .bar{
+                position: relative;
+                border-top: 5px solid $darkestBeige;
+                width: 40%;
+                top: 0%;
+                left: 45%;
+                margin-bottom: 10%;
+            }
+            .title1{
+                position: relative;
+                top: 0%;
+                left: 0%;
                 color: white;
-                color: $fadedBlack;
+                font-family: 'Playfair Display', serif;
+                font-weight: 100;
+                font-size: 48px;
+                line-height: 58px;
+                letter-spacing: 0.04em;
+                margin-bottom: 10px;
+            }
+            .title2{
+                position: relative;
+                left: 15%;
+                top: 0%;
+                color: white;
+                font-family: 'Playfair Display', serif;
+                font-weight: 100;
+                font-size: 48px;
+                line-height: 58px;
+                letter-spacing: 0.04em;
+                margin-top: 0px;
+            }
+            p{
+                position: relative;
+                top:5%;
+                left: 5%;
+                width: 85%;
+                font-size: 21px;
+                line-height: 31px;;
                 color: black;
                 // color: #555;
                 font-family: 'Open Sans', sans-serif;
                 font-weight: 100;
-                margin-bottom: 0px;
-                padding-bottom: 0px;
+             
             }
             .desc2{
                 font-size: 18px;

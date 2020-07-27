@@ -15,11 +15,11 @@ class LandingSections extends Component<Props, Props> {
             <div className="section">
                 <div className="leftSection">
                     <img src={this.props.Image} height="" width="90%" alt={this.props.alt}/>
+                </div>
+                <div className="rightSection">
                     <h2 className="bar"/>
                     <h2 className="title1">{this.props.Title1}</h2>
                     <h2 className="title2">{this.props.Title2}</h2>
-                </div>
-                <div className="rightSection">
                     <p>{this.props.Description}</p>
                     <p className='desc2'>{this.props.Description2}</p>
                     <p className='desc3'>{this.props.Description3}</p>
