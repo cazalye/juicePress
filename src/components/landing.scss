@@ -2,30 +2,27 @@
 
 #landing{
     overflow-x: hidden;
-    top: 0;
     #hero{
+        position: relative;
         // background-image: linear-gradient(-150deg, rgba(255,255,255,0.2), rgba(255,255,255, 0.05), rgba(255,255,255,0)), url("/img/juiceBackground60.jpg");
         // background-image: linear-gradient(-150deg, rgba(255,255,255,0.4), rgba(0,0,0, 0.2), rgba(255,255,255,0.2)), url("/img/juiceBackground40.jpg");
-        background-image: linear-gradient(-200deg, rgba(255,255,255, .8), rgba(0,0,0, 0.1), rgba(163, 50, 50, 0.1)), url("/img/nathan.jpg");
-        // background-image: linear-gradient(-200deg, rgba(229, 193, 167, .7), rgba(0,0,0, 0.1), rgba(163, 50, 50, 0.1)), url("/img/nathan.jpg");
         // background-image: url("/img/nathan.jpg");
-
+        // background-image: linear-gradient(-200deg, rgba(229, 193, 167, .7), rgba(0,0,0, 0.1), rgba(163, 50, 50, 0.1)), url("/img/nathan.jpg");
+        background-image: linear-gradient(-200deg, rgba(255,255,255, .8), rgba(0,0,0, 0.1), rgba(163, 50, 50, 0.1)), url("/img/nathan.jpg");
         background-size: cover;
-        // border-top: 2px solid white;
         border-top: 2px solid transparent;
         background-attachment: fixed;
-        // opacity: .95;
         height: 100vh;
         width: 100%;
-        position: relative;
+        // opacity: .95;
         // margin-top: 64px;
         .title{
             margin-top: 74px;
             margin-left: 2%;
             z-index: 1;
             h1{
-                color: $darkestBeige;
-                // color: white;
+                // color: $darkestBeige;
+                color: $beetrootRed;
                 text-align: left;
                 margin-bottom: 0px;
                 font-family: 'Open Sans', sans-serif;
@@ -35,15 +32,16 @@
                 // font-weight: bold;
             }
             h2{
+                // color: $darkestBeige;
+                // color: $darkBeige;
+                color: $beetrootRed;
                 padding-left: 20px;
                 margin-top: 0px;
                 text-align: left;
                 font-family: 'Open Sans', sans-serif;
                 font-size: 18px;
                 line-height: 20px;
-                color: $darkestBeige;
-                // color: $darkBeige;
-                font-weight: bold;
+                // font-weight: bold;
             }
         }
     }
