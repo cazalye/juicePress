@@ -5,29 +5,34 @@
     top: 0;
     #hero{
         // background-image: linear-gradient(-150deg, rgba(255,255,255,0.2), rgba(255,255,255, 0.05), rgba(255,255,255,0)), url("/img/juiceBackground60.jpg");
-        background-image: linear-gradient(-150deg, rgba(255,255,255,0.4), rgba(0,0,0, 0.2), rgba(255,255,255,0.2)), url("/img/juiceBackground40.jpg");
+        // background-image: linear-gradient(-150deg, rgba(255,255,255,0.4), rgba(0,0,0, 0.2), rgba(255,255,255,0.2)), url("/img/juiceBackground40.jpg");
+        background-image: linear-gradient(-200deg, rgba(255,255,255, 1), rgba(0,0,0, 0.1), rgba(163, 50, 50, 0.1)), url("/img/nathan.jpg");
+        // background-image: linear-gradient(-200deg, rgba(229, 193, 167, .7), rgba(0,0,0, 0.1), rgba(163, 50, 50, 0.1)), url("/img/nathan.jpg");
+        // background-image: url("/img/nathan.jpg");
+
         background-size: cover;
         // border-top: 2px solid white;
-        border-top: 2px solid $darkBeige;
+        border-top: 2px solid transparent;
         background-attachment: fixed;
-        opacity: .95;
-        height: 83vh;
+        // opacity: .95;
+        height: 100vh;
         width: 100%;
         position: relative;
-        margin-top: 64px;
+        // margin-top: 64px;
         .title{
-            margin-left: 3%;
+            margin-top: 74px;
+            margin-left: 2%;
             z-index: 1;
             h1{
-                color: white;
-                color: $brightBeige;
+                color: $darkestBeige;
+                // color: white;
                 text-align: left;
-                margin-top: 15px;
                 margin-bottom: 0px;
                 font-family: 'Open Sans', sans-serif;
                 font-weight: 100;
                 font-size: 42px;
                 line-height: 54px;
+                // font-weight: bold;
             }
             h2{
                 padding-left: 20px;
@@ -36,12 +41,24 @@
                 font-family: 'Open Sans', sans-serif;
                 font-size: 18px;
                 line-height: 20px;
-                color: white;
-                color: $darkBeige;
+                color: $darkestBeige;
+                // color: $darkBeige;
+                font-weight: bold;
             }
         }
     }
-    
+    .down-arrow{
+        i{
+            position: absolute;
+            left:50%;
+            padding-left: 2px;
+            bottom: 0px;
+            font-size: 42px;
+            // color: $darkerBeige;
+            color: white;
+            z-index: 5;
+        }
+    }
     #regular-range{
         position: relative;
         height: 150vh;
@@ -50,15 +67,6 @@
         border-top: 2px solid white;
         padding-top: 20px;
         z-index: 4;
-        .down-arrow{
-            position: relative;
-            left:50%;
-            font-size: 25px;
-            color: white;
-            z-index: 5;
-            margin-bottom: 0px;
-            padding-top: 0px;
-        }
         h3.regular-range-title{
             position: relative;
             text-align: center;
@@ -120,6 +128,12 @@
             }
         }
     }
+    .feature-image{
+        background-image: linear-gradient(-200deg, rgba(255,255,255, 1), rgba(0,0,0, 0.1), rgba(163, 50, 50, 0.1)), url("/img/nathan.jpg");
+        height: 100vh;
+        width: 100%;
+        position: relative;
+    }
     .section-break{
         height: 32vh;
         // background-image:  linear-gradient(to bottom, $brightBeige, $lightBeige);
@@ -146,7 +160,7 @@
         padding: 50px;
         padding-top: 20vh;
         padding-bottom: 20vh;
-        height: 30vh;
+        height: 55vh;
         .leftSection{
             width: 60%;
             height: 100vh;

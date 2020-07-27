@@ -17,12 +17,12 @@ class Landing extends Component {
                                 {/* <h2>We make junk-free Cold Pressed Juices from fruit <br/> and vegetables and that's it!</h2> */}
                                 <h2>Cold Pressed Juices from fresh fruit & vegetables</h2>
                             </div>
-                </div>   
+                </div> 
+                <div className="down-arrow">
+                        <i className="fas fa-angle-double-down"/>
+                </div>  
                 <a id="range"/> 
                 <div id="regular-range">
-                    <div className="down-arrow">
-                    <i className="fas fa-arrow-down"/>
-                    </div>
                     <h3 className="regular-range-title">Regular Juice Range</h3>
                     <div className="regular-range-container">
                         <RegularRange
@@ -75,7 +75,8 @@ class Landing extends Component {
                         />
                     </div>
                 </div>
-                <div className="section-break"/>
+                <div className="feature-image"></div>
+                {/* <div className="section-break"/> */}
                 <a id="about"/>            
                 <LandingSections
                     Title1="WE ARE"
@@ -84,7 +85,8 @@ class Landing extends Component {
                     Image="/img/about1.jpg" 
                     alt="Juice Press Staff"
                 />
-                <div className="section-break"/>
+                {/* <div className="section-break"/> */}
+                <div className="feature-image"></div>
                 <a id="enviro"/>
                 <LandingSections
                     Title1="WE CARE ABOUT"
@@ -94,7 +96,8 @@ class Landing extends Component {
                     Image="/img/enviro.jpg" 
                     alt="Glass bottles full of different juices"
                 />
-                <div className="section-break"/>
+                {/* <div className="section-break"/> */}
+                <div className="feature-image"></div>
                 <a id="visitUs"/>
                 <LandingSections
                     Title1="COME"
@@ -117,7 +120,8 @@ class Landing extends Component {
                     Image="/img/ContactUs.jpg" 
                     alt="Contact details for The Tasmanian Juice Press"
                 />
-                <div className="section-break2"/>
+                <div className="feature-image"></div>
+                {/* <div className="section-break2"/> */}
                 {/* <div className="section-break3"/> */}
                 <a id="shop"/>
                 <div id="shop-section">
