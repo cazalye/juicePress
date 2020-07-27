@@ -6,7 +6,7 @@
     #hero{
         // background-image: linear-gradient(-150deg, rgba(255,255,255,0.2), rgba(255,255,255, 0.05), rgba(255,255,255,0)), url("/img/juiceBackground60.jpg");
         // background-image: linear-gradient(-150deg, rgba(255,255,255,0.4), rgba(0,0,0, 0.2), rgba(255,255,255,0.2)), url("/img/juiceBackground40.jpg");
-        background-image: linear-gradient(-200deg, rgba(255,255,255, 1), rgba(0,0,0, 0.1), rgba(163, 50, 50, 0.1)), url("/img/nathan.jpg");
+        background-image: linear-gradient(-200deg, rgba(255,255,255, .8), rgba(0,0,0, 0.1), rgba(163, 50, 50, 0.1)), url("/img/nathan.jpg");
         // background-image: linear-gradient(-200deg, rgba(229, 193, 167, .7), rgba(0,0,0, 0.1), rgba(163, 50, 50, 0.1)), url("/img/nathan.jpg");
         // background-image: url("/img/nathan.jpg");
 
@@ -128,25 +128,11 @@
             }
         }
     }
-    .feature-image{
-        background-image: linear-gradient(-200deg, rgba(255,255,255, 1), rgba(0,0,0, 0.1), rgba(163, 50, 50, 0.1)), url("/img/nathan.jpg");
-        height: 100vh;
-        width: 100%;
+    .section-break-background{
         position: relative;
-    }
-    .section-break{
-        height: 32vh;
-        // background-image:  linear-gradient(to bottom, $brightBeige, $lightBeige);
         background-image: url('/img/cardBackground.jpg');
-    }
-    .section-break2{
-        height: 32vh;
-        background-image: url('/img/cardBackground.jpg');
-    }
-    .section-break3{
-        height: 20vh;
-        // background-image:  linear-gradient(to bottom, $brightBeige, $lightBeige);
-        background-image: url('/img/cardBackground.jpg');
+        height: 105vh;
+        text-align: center;
     }
     .map-container{
         height: 70vh;
@@ -160,7 +146,7 @@
         padding: 50px;
         padding-top: 20vh;
         padding-bottom: 20vh;
-        height: 55vh;
+        height: 60vh;
         .leftSection{
             width: 60%;
             height: 100vh;
@@ -169,7 +155,7 @@
                 border-width: 7px;
                 border-color: $fadedBlack;
                 box-shadow: 3px 3px 5px 5px #4444;
-                opacity: .9;
+                // opacity: .9;
                 margin-top: 4vh;
             }
             .bar{

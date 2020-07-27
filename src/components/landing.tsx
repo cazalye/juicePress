@@ -5,6 +5,7 @@ import FooterDetail from './footer';
 import Shop from './shop';
 import RegularRange from './regularRange';
 import MarketMap from './map';
+import SectionBreakImage from './sectionBreakImage';
 
 class Landing extends Component {
     render() {
@@ -75,8 +76,10 @@ class Landing extends Component {
                         />
                     </div>
                 </div>
-                <div className="feature-image"></div>
-                {/* <div className="section-break"/> */}
+                <SectionBreakImage
+                    Image="/img/bottles1.jpg"
+                    alt="Colourful juice bottles lined up"
+                />
                 <a id="about"/>            
                 <LandingSections
                     Title1="WE ARE"
@@ -85,8 +88,10 @@ class Landing extends Component {
                     Image="/img/about1.jpg" 
                     alt="Juice Press Staff"
                 />
-                {/* <div className="section-break"/> */}
-                <div className="feature-image"></div>
+                  <SectionBreakImage
+                    Image="/img/marketShopper.jpg"
+                    alt="A customer shops for juice at the Farm Gate Market"
+                />
                 <a id="enviro"/>
                 <LandingSections
                     Title1="WE CARE ABOUT"
@@ -96,20 +101,10 @@ class Landing extends Component {
                     Image="/img/enviro.jpg" 
                     alt="Glass bottles full of different juices"
                 />
-                {/* <div className="section-break"/> */}
-                <div className="feature-image"></div>
-                <a id="visitUs"/>
-                <LandingSections
-                    Title1="COME"
-                    Title2="VISIT US"
-                    Description="We’re at the Farm Gate Market on Bathurst St. in Hobart every Sunday from 8.30 am - 12.30.
-                    We’d love to see you there!"
-                    Image="/img/market1.jpg" 
-                    alt="Tasmanian Juice Press at the Farm Gate Market"
+                   <SectionBreakImage
+                    Image="/img/bottles2.jpg"
+                    alt="A customer shops for juice at the Farm Gate Market"
                 />
-                <div className="section-break3"/>
-                <MarketMap/>
-                {/* <div className="section-break3"/> */}
                 <a id="contact"/>
                 <LandingSections
                     Title1="CONTACT"
@@ -120,9 +115,20 @@ class Landing extends Component {
                     Image="/img/ContactUs.jpg" 
                     alt="Contact details for The Tasmanian Juice Press"
                 />
-                <div className="feature-image"></div>
-                {/* <div className="section-break2"/> */}
-                {/* <div className="section-break3"/> */}
+                <SectionBreakImage
+                    Image="/img/marketPurchase.jpg"
+                    alt="A customer shops for juice at the Farm Gate Market"
+                />
+                <a id="visitUs"/>
+                <LandingSections
+                    Title1="COME"
+                    Title2="VISIT US"
+                    Description="We’re at the Farm Gate Market on Bathurst St. in Hobart every Sunday from 8.30 am - 12.30.
+                    We’d love to see you there!"
+                    Image="/img/market1.jpg" 
+                    alt="Tasmanian Juice Press at the Farm Gate Market"
+                />
+                <MarketMap/>
                 <a id="shop"/>
                 <div id="shop-section">
                     <h1>SHOP JUICES</h1>
