@@ -179,7 +179,7 @@ class Landing extends Component {
                     <h1>SHOP JUICES</h1>
                     <div className="shop-container">
                         <Shop
-                        juiceTitle="Juice Subscripion"
+                        juiceTitle="Juice Subscription"
                         juiceImage="./img/subscription.png"
                         alt="Bottles of juice, weekly subscription"
                         shopLink="https://brandsonparade.com/product/tasmanian-juice-press-subscription/"
