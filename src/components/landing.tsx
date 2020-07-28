@@ -76,22 +76,32 @@ class Landing extends Component {
                         />
                     </div>
                 </div>
-                <SectionBreakImage
+                <div className="range-section-break"/>
+                {/* <SectionBreakImage
                     Image="/img/bottles1.jpg"
                     alt="Colourful juice bottles lined up"
-                />
-                <a id="about"/>            
-                <LandingSections
+                /> */}
+                 <a id="about"/> 
+                {/* <LandingSections
                     Title1="WE ARE"
                     Title2="LOCAL"
                     Description="We’re a Tasmanian owned and operated small business, making junk-free cold pressed juices from locally sourced fruit and vegetables."
                     Image="/img/about1.jpg" 
                     alt="Juice Press Staff"
+                /> */}
+                <LandingSections
+                    Title1="WE ARE"
+                    Title2="LOCAL"
+                    Description="We’re a Tasmanian owned and operated small business, making junk-free cold pressed juices from locally sourced fruit and vegetables."
+                    Image="/img/TJP.jpg" 
+                    alt="Juice Press Staff"
                 />
-                  <SectionBreakImage
+                 
+                <div className="local-section-break"/> 
+                  {/* <SectionBreakImage
                     Image="/img/marketShopper.jpg"
                     alt="A customer shops for juice at the Farm Gate Market"
-                />
+                /> */}
                 <a id="enviro"/>
                 <LandingSections
                     Title1="WE CARE ABOUT"
@@ -128,7 +138,20 @@ class Landing extends Component {
                     Image="/img/market1.jpg" 
                     alt="Tasmanian Juice Press at the Farm Gate Market"
                 />
-                <MarketMap/>
+                {/* <LandingSections
+                    Title1="COME"
+                    Title2="VISIT US"
+                    Description="We’re at the Farm Gate Market on Bathurst St. in Hobart every Sunday from 8.30 am - 12.30.
+                    We’d love to see you there!"
+                    Image="/img/marketPurchase.jpg" 
+                    alt="Tasmanian Juice Press at the Farm Gate Market"
+                /> */}
+                  <div className="shop-section-break"/>
+                 <div className="down-arrow-2">
+                        <i className="fas fa-angle-double-down"/>
+                </div>  
+                 <MarketMap/>
+              
                 <a id="shop"/>
                 <div id="shop-section">
                     <h1>SHOP JUICES</h1>

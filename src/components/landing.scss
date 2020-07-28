@@ -17,8 +17,8 @@
         // opacity: .95;
         // margin-top: 64px;
         .title{
-            margin-top: 74px;
-            margin-left: 2%;
+            margin-top: 70px;
+            margin-left: 4%;
             z-index: 1;
             h1{
                 // color: $darkestBeige;
@@ -55,6 +55,18 @@
             // color: $darkerBeige;
             color: white;
             z-index: 5;
+        }
+    }
+    .down-arrow-2{
+        background-image: linear-gradient(-200deg, $lightBeige, $brightBeige, $lightBeige);
+        i{
+            z-index: 5;
+            position: relative;
+            left:50%;
+            padding-left: 2px;
+            bottom: 0;
+            font-size: 42px;
+            color: red;
         }
     }
     #regular-range{
@@ -126,11 +138,27 @@
             }
         }
     }
-    .section-break-background{
-        position: relative;
-        background-image: url('/img/cardBackground.jpg');
+    .range-section-break{
+        height: 110vh;
+        width: 100%;
+        // margin-top: 10vh;
+        background-image: url("/img/bottles1.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    .local-section-break{
         height: 105vh;
-        text-align: center;
+        width: 100%;
+        background-image: url("/img/About.jpg");
+        background-size: cover;
+        // background-attachment: fixed;
+    }
+    .shop-section-break{
+        height: 105vh;
+        width: 100%;
+        background-attachment: fixed;
+        background-image: url("/img/marketShopper.jpg");
+        background-size: cover;
     }
     .map-container{
         height: 70vh;
@@ -139,13 +167,13 @@
         z-index: 2;
         position: relative;
         // background-color: $brightBeige;
-        background-image: linear-gradient(-200deg, $lightBeige, $brightBeige, $lightBeige);
         // background-image: url('/img/cardBackground.jpg');
+        background-image: linear-gradient(-200deg, $lightBeige, $brightBeige, $lightBeige);
         display: flex;
         padding: 50px;
         padding-top: 20vh;
         padding-bottom: 20vh;
-        height: 100vh;
+        height: 80vh;
         .leftSection{
             width: 60%;
             img{
