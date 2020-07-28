@@ -14,6 +14,7 @@ class LandingSections extends Component<Props, Props> {
         return (
             <div className="section">
                 <div className="leftSection">
+                    <div className="image-background"/>
                     <img src={this.props.Image} height="" width="90%" alt={this.props.alt}/>
                 </div>
                 <div className="rightSection">

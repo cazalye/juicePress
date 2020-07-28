@@ -50,7 +50,7 @@
             position: absolute;
             left:50%;
             padding-left: 2px;
-            bottom: 0px;
+            bottom: 40px;
             font-size: 42px;
             // color: $darkerBeige;
             color: white;
@@ -74,8 +74,8 @@
         height: 150vh;
         background-image:  linear-gradient(180deg, $lightBeige 1%,$brightBeige,$brightBeige, $brightBeige, $lightBeige);
         background-color: $lightBeige;
-        border-top: 2px solid white;
-        padding-top: 20px;
+        // border-top: 20px solid $lightBeige;
+        // padding-top: 20px;
         z-index: 4;
         h3.regular-range-title{
             position: relative;
@@ -89,7 +89,7 @@
             line-height: 48px;
             letter-spacing: 0.04em;
             padding-top: 60px;
-            margin-bottom: 25px;
+            margin-bottom: 20px;
             margin-top: 0px;
         }
         .regular-range-container{
@@ -138,6 +138,54 @@
             }
         }
     }
+    .transparent-title{
+        height: 50vh;
+        width: 100%;
+        // position: relative;
+        margin: 0%;
+        h1{
+            color: white;
+            font-weight: bold;
+            text-align: center;
+            padding-top: 28%;
+            // padding-top: 35%;
+            margin: 0%;
+            position: relative;
+            font-family: 'Playfair Display', serif;
+            font-weight: 100;
+            font-size: 72px;
+            line-height: 82px;
+            letter-spacing: 0.04em;
+        }
+        .transparent-title2{
+            left: 5%;
+            padding-top: 0%;
+        }
+    }
+    .transparent-title2{
+        height: 50vh;
+        width: 100%;
+        // position: relative;
+        margin: 0%;
+        h1{
+            color: white;
+            // font-weight: bold;
+            text-align: center;
+            padding-top: 36%;
+            left: 15%;
+            margin: 0%;
+            position: relative;
+            font-family: 'Playfair Display', serif;
+            font-weight: 100;
+            font-size: 52px;
+            line-height: 62px;
+            letter-spacing: 0.04em;
+        }
+        .transparent-title2{
+            left: 25%;
+            padding-top: 0%;
+        }
+    }
     .range-section-break{
         height: 110vh;
         width: 100%;
@@ -151,14 +199,28 @@
         width: 100%;
         background-image: url("/img/About.jpg");
         background-size: cover;
-        // background-attachment: fixed;
+        background-attachment: fixed;
+    }
+    .contact-section-break{
+        height: 105vh;
+        width: 100%;
+        background-image: url("/img/BOTTLES2.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    .visit-section-break{
+        height: 105vh;
+        width: 100%;
+        background-image: url("/img/purchase2.jpg");
+        background-size: cover;
+        background-attachment: fixed;
     }
     .shop-section-break{
         height: 105vh;
         width: 100%;
-        background-attachment: fixed;
         background-image: url("/img/marketShopper.jpg");
         background-size: cover;
+        background-attachment: fixed;
     }
     .map-container{
         height: 70vh;
@@ -171,45 +233,59 @@
         background-image: linear-gradient(-200deg, $lightBeige, $brightBeige, $lightBeige);
         display: flex;
         padding: 50px;
-        padding-top: 20vh;
-        padding-bottom: 20vh;
-        height: 80vh;
+        padding-top: 15vh;
+        height: 90vh;
         .leftSection{
-            width: 60%;
+            width: 50%;
+            // text-align: center;
+            .image-background{
+                position: absolute;
+                width: 27%;
+                height: 72vh;
+                // background-color: rgba(0,0,0,0.8);
+                  // background-color: rgba(255,255,255,0.6);
+                background-color: $fadedBlack;
+                top: 10%;
+                left: 12%;
+                z-index: -1;
+            }
             img{
                 // box-shadow: 3px 3px 6px 6px #4444;
                 // opacity: .9;
-                margin-top: 4vh;
+                width: 53%;
+                padding-left: 13%;
+                padding-top: 2%;
             }
         }
         .rightSection{
             z-index: 2;
             position: relative;
-            width: 40%;
+            width: 50%;
+            left: 2%;
             .bar{
                 position: relative;
                 border-top: 5px solid $darkestBeige;
-                width: 40%;
-                top: 0%;
-                left: 45%;
+                width: 35%;
+                top: 4%;
+                left: 35%;
                 margin-bottom: 10%;
             }
             .title1{
                 position: relative;
-                top: 0%;
-                left: 0%;
+                top: 2%;
+                left: 5%;
                 color: white;
                 font-family: 'Playfair Display', serif;
                 font-weight: 100;
-                font-size: 48px;
+                font-size: 52px;
                 line-height: 58px;
                 letter-spacing: 0.04em;
                 margin-bottom: 10px;
             }
             .title2{
                 position: relative;
-                left: 15%;
-                top: 0%;
+                left: 20%;
+                top: 1%;
                 color: white;
                 font-family: 'Playfair Display', serif;
                 font-weight: 100;
@@ -220,11 +296,11 @@
             }
             p{
                 position: relative;
-                top:5%;
+                top: 10%;
                 left: 5%;
-                width: 85%;
-                font-size: 21px;
-                line-height: 31px;;
+                width: 75%;
+                font-size: 20px;
+                line-height: 30px;;
                 color: black;
                 // color: #555;
                 font-family: 'Open Sans', sans-serif;

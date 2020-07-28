@@ -76,7 +76,12 @@ class Landing extends Component {
                         />
                     </div>
                 </div>
-                <div className="range-section-break"/>
+                <div className="range-section-break">
+                    <div className="transparent-title">
+                        <h1 className="transparent-title1">WE ARE</h1>
+                        <h1 className="transparent-title2">LOCAL</h1>
+                    </div>
+                </div>
                 {/* <SectionBreakImage
                     Image="/img/bottles1.jpg"
                     alt="Colourful juice bottles lined up"
@@ -93,11 +98,15 @@ class Landing extends Component {
                     Title1="WE ARE"
                     Title2="LOCAL"
                     Description="We’re a Tasmanian owned and operated small business, making junk-free cold pressed juices from locally sourced fruit and vegetables."
-                    Image="/img/TJP.jpg" 
-                    alt="Juice Press Staff"
+                    Image="/img/local.jpg" 
+                    alt="Tasmanian Juice Press at the local Farm Gate Market"
                 />
-                 
-                <div className="local-section-break"/> 
+                <div className="local-section-break">
+                    <div className="transparent-title2">
+                        <h1 className="transparent-title1">WE CARE ABOUT</h1>
+                        <h1 className="transparent-title2">THE ENVIRONMENT</h1>
+                    </div>
+                </div> 
                   {/* <SectionBreakImage
                     Image="/img/marketShopper.jpg"
                     alt="A customer shops for juice at the Farm Gate Market"
@@ -108,13 +117,20 @@ class Landing extends Component {
                     Title2="THE ENVIRONMENT"
                     Description="We’re all about sustainability and minimising waste.
                     Our juices are packaged in glass bottles, return yours for a discount on future purchases."
-                    Image="/img/enviro.jpg" 
+                    // Image="/img/enviro.jpg" 
+                    Image="/img/nathanBottle.jpg" 
                     alt="Glass bottles full of different juices"
                 />
-                   <SectionBreakImage
+                   {/* <SectionBreakImage
                     Image="/img/bottles2.jpg"
                     alt="A customer shops for juice at the Farm Gate Market"
-                />
+                /> */}
+                <div className="contact-section-break">
+                    <div className="transparent-title">
+                        <h1 className="transparent-title1">CONTACT</h1>
+                        <h1 className="transparent-title2">US</h1>
+                    </div>
+                </div> 
                 <a id="contact"/>
                 <LandingSections
                     Title1="CONTACT"
@@ -122,20 +138,26 @@ class Landing extends Component {
                     Description="If you have any queries about our products or would like to provide some feedback, please get in touch. We also do wholesale and bulk orders upon request. We look forward to hearing from you!"
                     Description2="Phone: 0438 406680"
                     Description3="Email: james@brandsonparade.com"
-                    Image="/img/ContactUs.jpg" 
+                    Image="/img/contact.jpg" 
                     alt="Contact details for The Tasmanian Juice Press"
                 />
-                <SectionBreakImage
+                {/* <SectionBreakImage
                     Image="/img/marketPurchase.jpg"
                     alt="A customer shops for juice at the Farm Gate Market"
-                />
+                /> */}
+                  <div className="visit-section-break">
+                    <div className="transparent-title2">
+                        <h1 className="transparent-title1">COME</h1>
+                        <h1 className="transparent-title2">VISIT US</h1>
+                    </div>
+                </div> 
                 <a id="visitUs"/>
                 <LandingSections
                     Title1="COME"
                     Title2="VISIT US"
                     Description="We’re at the Farm Gate Market on Bathurst St. in Hobart every Sunday from 8.30 am - 12.30.
                     We’d love to see you there!"
-                    Image="/img/market1.jpg" 
+                    Image="/img/visit.jpg" 
                     alt="Tasmanian Juice Press at the Farm Gate Market"
                 />
                 {/* <LandingSections
