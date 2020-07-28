@@ -18,7 +18,7 @@ class Navbar extends Component<any, any> {
                 <Header title={<Link to="/#home" className="header-title">The Tasmanian Juice Press </Link>}>
                 <Link to="/#home"><img className="logo" src="./img/logoTransparentDark.png"  width="40px"/></Link>
                     <Navigation className="header-nav">
-                        <Link to="/#range">Juice Range</Link> 
+                        {/* <Link to="/#range">Juice Range</Link>  */}
                         <Link to="/#about">About Us</Link> 
                         <Link to="/#enviro">Environmental Impact</Link> 
                         <Link to="/#visitUs">Visit Us</Link>
@@ -28,7 +28,7 @@ class Navbar extends Component<any, any> {
                 </Header>
                 <Drawer title={<Link onClick={() => this.hideToggle()} to="/" className="header-title">The Tasmanian Juice Press </Link> as any}>
                     <Navigation className="drawer-nav" >
-                        <Link onClick={() => this.hideToggle()} to="/#range">Juice Range</Link>
+                        {/* <Link onClick={() => this.hideToggle()} to="/#range">Juice Range</Link> */}
                         <Link onClick={() => this.hideToggle()} to="/#about">About Us</Link>
                         <Link onClick={() => this.hideToggle()} to="/#visitUs">Visit Us</Link>
                         <Link onClick={() => this.hideToggle()} to="/#enviro">Environmental Impact</Link>
