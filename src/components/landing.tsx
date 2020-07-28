@@ -147,9 +147,9 @@ class Landing extends Component {
                     alt="Tasmanian Juice Press at the Farm Gate Market"
                 /> */}
                   <div className="shop-section-break"/>
-                 <div className="down-arrow-2">
+                 {/* <div className="down-arrow-2">
                         <i className="fas fa-angle-double-down"/>
-                </div>  
+                </div>   */}
                  <MarketMap/>
               
                 <a id="shop"/>
