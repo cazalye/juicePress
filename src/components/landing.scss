@@ -205,14 +205,16 @@
     .local-section-break{
         height: 105vh;
         width: 100%;
-        background-image: url("/img/About.jpg");
+        // background-image: url("/img/About.jpg");
+        background-image: url("/img/bottles3.jpg");
         background-size: cover;
         background-attachment: fixed;
     }
     .contact-section-break{
         height: 105vh;
         width: 100%;
-        background-image: url("/img/bottles3.jpg");
+        // background-image: url("/img/bottles3.jpg");
+        background-image: url("/img/About.jpg");
         background-size: cover;
         background-attachment: fixed;
     }
@@ -453,12 +455,12 @@
             height: 0px;
         }
         .local-section-break{
-            background-image: url("/img/AboutMobile.jpg");
+            background-image: url("/img/bottlesMobile.jpg");
             height: 110vh;
         }
         .contact-section-break{
             height: 105vh;
-            background-image: url("/img/bottlesMobile.jpg");
+            background-image: url("/img/AboutMobile.jpg");
         }
         .visit-section-break{
             height: 105vh;
