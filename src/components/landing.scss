@@ -411,8 +411,10 @@
 @media (max-width: 450px) {
     #landing{
         #hero{
+            // height: 90vh;
             .hero-image{
                 background-image: linear-gradient(-210deg, rgba(255,255,255, .75), rgba(0,0,0, 0.1), rgba(163, 50, 50, 0.1)), url("/img/nathanMobile.jpg");
+                background-image: linear-gradient(-200deg, rgba(76, 29, 44, .9),rgba(76, 29, 44, .1), rgba(0,0,0, 0.1), rgba(163, 50, 50, 0.1)), url("/img/nathanMobile.jpg");
                 background-size: cover;
             .title{
                 margin: 5%;
@@ -422,15 +424,16 @@
                     font-size: 22px;
                     line-height: 30px;
                     font-weight: bold;
-                    color: black;
+                    // color: black;
                     // color: $darkestBeige;
+                    color: white;
                 }
                 h2{
                     font-size: 12px;
                     line-height: 14px;
                     padding-right: 25%;
                     padding-left: 5%;
-                    color: black;
+                    color: white;
                 }
             }
             }
@@ -447,6 +450,7 @@
         }
         #regular-range{
             height: 210vh;
+            top: 0;
             h3.regular-range-title{
                 padding: 25px;
             }
@@ -544,8 +548,49 @@
                 }
             }
         }
+        .map-container{
+            height: 64vh;
+        }
+        #shop-section{
+            top: 0;
+            margin-top: 0;
+            padding-top: 0;
+            position: relative;
+            height: auto;
+            padding-top: 4%;
+            padding-bottom: 4%;
+            h1{
+                padding-bottom: 5%;
+            }
+            .shop-container{
+                width: 85%;
+                margin-left: 7%;
+                .juice-container{
+                    width: 50%;
+                    padding-top: 10px;
+                    a{
+                        .juice-image{
+                            width: 80%;
+                            margin: 10px;
+                            margin-bottom: 5px;
+                            border-width: 5px;
+                        }
+                        .juice-title{
+                            font-size: 18px;
+                            line-height: 22px;;
+                            width: 90%;
+                            margin-left: 5%;
+                            margin-top: 0px;
+                            margin-bottom: 20px;
+                        }
+                    }
+                }
+            }
+        }
     }
 }
+
+
 // PHONE: <360
 @media (max-width: 360px) {
     #landing{
