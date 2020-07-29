@@ -16,7 +16,7 @@ class Navbar extends Component<any, any> {
         return (
             <Layout>
                 <Header title={<Link to="/#home" className="header-title">The Tasmanian Juice Press </Link>}>
-                <Link to="/#home"><img className="logo" src="./img/logoTransparentDark.png"  width="40px"/></Link>
+                <Link to="/#home"><img className="logo" src="./img/logoTransparent.png"  width="40px"/></Link>
                     <Navigation className="header-nav">
                         {/* <Link to="/#range">Juice Range</Link>  */}
                         <Link to="/#about">About Us</Link> 
