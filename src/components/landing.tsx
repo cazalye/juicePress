@@ -13,11 +13,13 @@ class Landing extends Component {
             <div id="landing">
                 <a id="home"/>
                 <div id="hero">
-                            <div className="title">
-                                <h1>The Tasmanian Juice Press</h1>
-                                {/* <h2>We make junk-free Cold Pressed Juices from fruit <br/> and vegetables and that's it!</h2> */}
-                                <h2>Cold Pressed Juices from fresh fruit & vegetables</h2>
-                            </div>
+                    <div className="hero-image">
+                        <div className="title">
+                            <h1>The Tasmanian Juice Press</h1>
+                            {/* <h2>We make junk-free Cold Pressed Juices from fruit <br/> and vegetables and that's it!</h2> */}
+                            <h2>Cold Pressed Juices from fresh fruit & vegetables</h2>
+                        </div>
+                    </div>
                 </div> 
                 <div className="down-arrow">
                         <i className="fas fa-angle-double-down"/>
@@ -102,7 +104,7 @@ class Landing extends Component {
                     alt="Tasmanian Juice Press at the local Farm Gate Market"
                 />
                 <div className="local-section-break">
-                    <div className="transparent-title2">
+                    <div className="transparent-title-2">
                         <h1 className="transparent-title1">WE CARE ABOUT</h1>
                         <h1 className="transparent-title2">THE ENVIRONMENT</h1>
                     </div>
@@ -146,7 +148,7 @@ class Landing extends Component {
                     alt="A customer shops for juice at the Farm Gate Market"
                 /> */}
                   <div className="visit-section-break">
-                    <div className="transparent-title2">
+                    <div className="transparent-title">
                         <h1 className="transparent-title1">COME</h1>
                         <h1 className="transparent-title2">VISIT US</h1>
                     </div>

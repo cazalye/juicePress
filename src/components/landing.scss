@@ -3,7 +3,8 @@
 #landing{
     overflow-x: hidden;
     #hero{
-        position: relative;
+        .hero-image{
+            position: relative;
         // background-image: linear-gradient(-150deg, rgba(255,255,255,0.2), rgba(255,255,255, 0.05), rgba(255,255,255,0)), url("/img/juiceBackground60.jpg");
         // background-image: linear-gradient(-150deg, rgba(255,255,255,0.4), rgba(0,0,0, 0.2), rgba(255,255,255,0.2)), url("/img/juiceBackground40.jpg");
         // background-image: url("/img/nathan.jpg");
@@ -43,6 +44,7 @@
                 line-height: 20px;
                 // font-weight: bold;
             }
+        }
         }
     }
     .down-arrow{
@@ -162,7 +164,7 @@
             padding-top: 0%;
         }
     }
-    .transparent-title2{
+    .transparent-title-2{
         height: 50vh;
         width: 100%;
         // position: relative;
@@ -401,32 +403,42 @@
 @media (max-width: 450px) {
     #landing{
         #hero{
-            // margin-top: 54px;
+            .hero-image{
+                background-image: linear-gradient(-210deg, rgba(255,255,255, .75), rgba(0,0,0, 0.1), rgba(163, 50, 50, 0.1)), url("/img/nathanMobile.jpg");
+                background-size: cover;
             .title{
                 margin: 5%;
-                margin-top: 18%;
+                margin-top: 13%;
+                margin-left: 10%;
                 h1{
-                    font-size: 26px;
-                    line-height: 36px;
+                    font-size: 22px;
+                    line-height: 30px;
+                    font-weight: bold;
+                    color: black;
+                    // color: $darkestBeige;
                 }
                 h2{
-                    font-size: 14px;
-                    line-height: 18px;
+                    font-size: 12px;
+                    line-height: 14px;
                     padding-right: 25%;
                     padding-left: 5%;
+                    color: black;
                 }
             }
+            }
+            
         }
         .down-arrow{
             i{
                 bottom: 10px;
                 font-size: 36px;
-                color: white;
+                // color: white;
+                color: $brightBeige;
                 z-index: 5;
             }
         }
         #regular-range{
-            height: 220vh;
+            height: 210vh;
             h3.regular-range-title{
                 padding: 25px;
             }
@@ -434,26 +446,86 @@
         .section-break{
             height: 0px;
         }
+        .local-section-break{
+            background-image: url("/img/AboutMobile.jpg");
+            height: 110vh;
+        }
+        .contact-section-break{
+            height: 105vh;
+            background-image: url("/img/bottlesMobile.jpg");
+        }
+        .visit-section-break{
+            height: 105vh;
+            background-image: url("/img/purchaseMobile.jpg");
+        }
+        .shop-section-break{
+            height: 105vh;
+            background-image: url("/img/marketShopperMobile1.jpg");
+        }
+
+        .transparent-title{
+            h1{
+                padding-top: 80%;
+            }
+        }
+        .transparent-title-2{
+            text-align: left;
+            h1{
+                padding-top: 50%;
+                top: 90%;
+                padding-left: 0%;
+                left: 5%;
+                font-size: 34px;
+                line-height: 44px;
+                letter-spacing: 0.06em;
+            }
+            .transparent-title2{
+                left: 0%;
+                padding-left: 0%;
+                padding-top: 0%;
+            }
+        }
         .section{
+            display: block;
+            padding: 0;
+            height: auto;
             .leftSection{
+                width: 100%;
+                text-align: center;
                 img{
+                    width: 83%;
+                    padding: 0;
+                    padding-bottom: 20%;
                 }
-                .bar{
-                    border-top: 5px solid $darkestBeige;
-                    width: 40%;
-                    top: 20%;
-                    right: 5%;
-                }
-               .title1{
-
-                }
-               .title2{
-
+                .image-background{
+                    display: none;
                 }
             }
             .rightSection{
+                width: 100%;
+                align-items: center;
+                padding-top: 18%;
+                padding-bottom: 13%;
+                .bar{
+                    border-top: 3px solid $darkestBeige;
+                    width: 70%;
+                    left: 50%;
+                    margin: 0;
+                }
+               .title1{
+                    display: none;
+                }
+               .title2{
+                    display: none;
+                }
                 p{
-
+                    width: 80%;
+                    left: 10%;
+                    margin: 0;
+                    padding: 0%;
+                    padding-top: 10%;
+                    font-size: 20px;
+                    line-height: 34px;
                 }
                 .desc2{
 

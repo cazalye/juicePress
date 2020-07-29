@@ -127,6 +127,10 @@ body{
 // PHONE: 0-450
 @media (max-width: 450px) {
     body .mdl-layout .mdl-layout__inner-container {
+        .mdl-layout__header{
+        // background-color: rgba(229, 193, 167, .3);
+        background-image:  linear-gradient(to bottom, rgba(229, 193, 167, .5), rgba(229, 193, 167, 0));
+        }
         .mdl-layout__drawer{
             position: fixed;
             background-image:  linear-gradient(to left, $brightBeige, $lightBeige);
