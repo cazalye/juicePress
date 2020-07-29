@@ -239,7 +239,6 @@
         height: 90vh;
         .leftSection{
             width: 50%;
-            // text-align: center;
             .image-background{
                 position: absolute;
                 width: 27%;
@@ -247,6 +246,7 @@
                 // background-color: rgba(0,0,0,0.8);
                   // background-color: rgba(255,255,255,0.6);
                 background-color: $fadedBlack;
+                // background-color: $darkestBeige;
                 top: 10%;
                 left: 12%;
                 z-index: -1;
@@ -261,9 +261,9 @@
         }
         .rightSection{
             z-index: 2;
-            position: relative;
+            position: absolute;
             width: 50%;
-            left: 2%;
+            right: 0%;
             .bar{
                 position: relative;
                 border-top: 5px solid $darkestBeige;
@@ -506,6 +506,7 @@
                 align-items: center;
                 padding-top: 18%;
                 padding-bottom: 13%;
+                position: relative;
                 .bar{
                     border-top: 3px solid $darkestBeige;
                     width: 70%;
