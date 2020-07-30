@@ -79,13 +79,14 @@
     // }
     #regular-range{
         position: relative;
-        height: 160vh;
+        height: 150vh;
         background-image:  linear-gradient(180deg, $lightBeige 1%,$brightBeige,$brightBeige, $brightBeige, $lightBeige);
         background-image: url('/img/cardBackground.jpg');
         // background-color: $lightBeige;
         // border-top: 20px solid $lightBeige;
         // padding-top: 20px;
         z-index: 4;
+        padding-bottom: 10%;
         .range-logo{
             position: relative;
             left: 50%;
@@ -114,7 +115,7 @@
             // background-image:  linear-gradient(180deg, $lightBeige 1%,$brightBeige,$brightBeige, $brightBeige, $lightBeige);
             position: absolute;
             // width: 100%;
-            width: 65%;
+            width: 70%;
             left: 50%;
             transform: translate(-50%);
             border: solid;
@@ -122,8 +123,8 @@
             border-color: $brightBeige;
             // border-color: $darkBeige;
             z-index: 3;
-            padding-top: 30px;
-            padding-bottom: 30px;
+            padding-top: 40px;
+            padding-bottom: 40px;
             .regular-range-subcontainer{
                 position: relative;
                 margin: 15px;
