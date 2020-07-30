@@ -273,22 +273,22 @@
             z-index: 2;
             position: absolute;
             width: 50%;
-            // width: 100%;
+            width: 70%;
             // right: 0%;
-            left: 30%;
+            left: 10%;
             // transform: translate(-50%);
             .bar{
                 position: relative;
                 border-top: 5px solid $darkestBeige;
-                width: 35%;
+                width: 30%;
                 top: 4%;
-                left: 35%;
+                left: 62%;
                 margin-bottom: 10%;
             }
             .title1{
                 position: relative;
                 top: 2%;
-                left: 5%;
+                left: 40%;
                 color: white;
                 font-family: 'Playfair Display', serif;
                 font-weight: 100;
@@ -299,7 +299,7 @@
             }
             .title2{
                 position: relative;
-                left: 20%;
+                left: 50%;
                 top: 1%;
                 color: white;
                 font-family: 'Playfair Display', serif;
@@ -313,8 +313,9 @@
                 position: relative;
                 top: 10%;
                 padding-top: 7%;
-                left: 5%;
-                width: 75%;
+                left: 10%;
+                // width: 75%;
+                width: 90%;
                 font-size: 20px;
                 line-height: 30px;;
                 color: black;
