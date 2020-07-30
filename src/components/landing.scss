@@ -258,6 +258,7 @@
                 top: 10%;
                 left: 12%;
                 z-index: -1;
+                display: none;
             }
             img{
                 // box-shadow: 3px 3px 6px 6px #4444;
@@ -265,13 +266,17 @@
                 width: 53%;
                 padding-left: 13%;
                 padding-top: 2%;
+                display: none;
             }
         }
         .rightSection{
             z-index: 2;
             position: absolute;
             width: 50%;
-            right: 0%;
+            // width: 100%;
+            // right: 0%;
+            left: 30%;
+            // transform: translate(-50%);
             .bar{
                 position: relative;
                 border-top: 5px solid $darkestBeige;
@@ -307,6 +312,7 @@
             p{
                 position: relative;
                 top: 10%;
+                padding-top: 7%;
                 left: 5%;
                 width: 75%;
                 font-size: 20px;
