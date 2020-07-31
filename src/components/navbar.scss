@@ -26,7 +26,10 @@ body{
         z-index: 10;
         background-color: transparent;
         // background-image:  linear-gradient(to bottom, rgba(229, 193, 167, .5), rgba(229, 193, 167, 0.3),rgba(229, 193, 167, 0));
-        background-image:  linear-gradient(to bottom, rgba(53, 44, 36, .6), rgba(53,44,36, 0.5), transparent);
+        background-image:  linear-gradient(to bottom, rgba(53, 44, 36, .6), rgba(53,44,36, 0.4), transparent);
+        // background-image:  linear-gradient(to bottom, rgba(53, 44, 36, 1), rgba(53,44,36, .9));
+        // background-image:  linear-gradient(to bottom, rgba(229, 193, 167, 1), rgba(229, 193, 167, .9));
+        // background-image:  linear-gradient(to bottom, rgba(222, 207, 191, 1), rgba(222, 207, 191, .9));
         // background-image:  linear-gradient(to bottom, rgba(0,0,0, .6), rgba(0,0,0, 0.6),rgba(0,0,0, 0));
         // background-color: rgba(0,0,0,0.3);
         // background-color: rgba(39, 37, 51, 0.3);
@@ -72,7 +75,8 @@ body{
             border:none;
                 i{
                 z-index: 10;
-                color: $darkestBeige;
+                // color: $darkestBeige;
+                color: $brightBeige;
                 font-size: 40px;   
                 }
         }
@@ -152,6 +156,8 @@ body{
             // color: $lightBeige;
             // color: white;
             color: $darkestBeige;
+            color: $brightBeige;
+            color: $lightBeige;
             }
         }
         .mdl-layout__header{
@@ -189,12 +195,13 @@ body{
             right: 25px;
             i{
                 color: $darkestBeige;
+                color: $lightBeige;
                 font-size: 64px;
             }
         }
         .mdl-layout__drawer-button:focus{
             z-index: 10;
-                outline:red;
+                // outline:red;
         }
         .mdl-layout__header{
             z-index: 10;
