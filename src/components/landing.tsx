@@ -26,7 +26,7 @@ class Landing extends Component {
                 </div>  
                 <a id="range"/> 
                 <div id="regular-range">
-                    <img className="range-logo" src="./img/logoTransparent.png"  width="150px"/>
+                    <img className="range-logo" src="./img/logoTransparentMedium.png"  width="150px"/>
                     <h3 className="regular-range-title">Regular Juice Range</h3>
                     <div className="regular-range-container">
                         <RegularRange
