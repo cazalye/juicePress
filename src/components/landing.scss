@@ -8,9 +8,11 @@
         // background-image: linear-gradient(-150deg, rgba(255,255,255,0.2), rgba(255,255,255, 0.05), rgba(255,255,255,0)), url("/img/juiceBackground60.jpg");
         // background-image: linear-gradient(-150deg, rgba(255,255,255,0.4), rgba(0,0,0, 0.2), rgba(255,255,255,0.2)), url("/img/juiceBackground40.jpg");
         // background-image: url("/img/nathan.jpg");
-        // background-image: linear-gradient(-200deg, rgba(255,255,255, .85),rgba(255,255,255, .1), rgba(0,0,0, .1), rgba(163, 50, 50, .1)), url("/img/nathan.jpg");
-        // background-image: linear-gradient(-200deg, rgba(229, 193, 167, 1),rgba(229, 193, 167, .1), rgba(0,0,0, 0.1), rgba(163, 50, 50, 0.1)), url("/img/nathan.jpg");
-        background-image: linear-gradient(-200deg, rgba(76, 29, 44, .9),rgba(76, 29, 44, .1), rgba(0,0,0, 0.1), rgba(163, 50, 50, 0.1)), url("/img/nathan.jpg");
+
+        // background-image: linear-gradient(-200deg, rgba(229, 193, 167, 1), rgba(76, 29, 44, .1), rgba(163, 50, 50, 0.1)), url("/img/nathan.jpg");
+        background-image: linear-gradient(-200deg, rgba(76, 29, 44, .8),rgba(76, 29, 44, .1), rgba(0,0,0, 0.1), rgba(163, 50, 50, 0.1)), url("/img/nathan.jpg");
+        // background-image:  url("/img/Nathan_light.jpg");
+        // background-image: linear-gradient(-200deg, rgba(255,255,255, .7),rgba(255,255,255, .1), rgba(0,0,0, .1), rgba(163, 50, 50, .1)), url("/img/Nathan_light.jpg");
         background-size: cover;
         border-top: 2px solid transparent;
         background-attachment: fixed;
@@ -24,8 +26,8 @@
             z-index: 1;
             h1{
                 // color: $darkestBeige;
-                // color: $beetrootRed;
-                color: $lightBeige;
+                color: $beetrootRed;
+                // color: $lightBeige;
                 color: white;
                 text-align: left;
                 margin-bottom: 0px;
@@ -38,10 +40,10 @@
             h2{
                 // color: $darkestBeige;
                 // color: $darkBeige;
-                // color: $beetrootRed;
+                color: $beetrootRed;
                 // color: black;
-                color: $lightBeige;
-                // color: white;
+                // color: $lightBeige;
+                color: white;
                 padding-left: 25px;
                 margin-top: 0px;
                 text-align: left;
@@ -62,6 +64,8 @@
             font-size: 42px;
             // color: $darkerBeige;
             color: white;
+            // color: $brightBeige;
+            // color: $lightBeige;
             z-index: 5;
         }
     }
@@ -478,8 +482,9 @@
             }
         }
         #regular-range{
-            height: 210vh;
+            height: 240vh;
             top: 0;
+            padding-bottom: 150px;
             h3.regular-range-title{
                 padding: 25px;
             }
@@ -548,6 +553,7 @@
                 padding-top: 18%;
                 padding-bottom: 13%;
                 position: relative;
+                left: 0;
                 .bar{
                     border-top: 3px solid $darkestBeige;
                     width: 70%;
