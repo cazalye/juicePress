@@ -3,14 +3,15 @@
 .mdl-mega-footer.footer{
     position: relative;
     // background-color: $fadedBlack;
+    // background-color: $darkerBeige;
     background-image: url('/img/cardBackground.jpg');
     padding-left: 15%;
     .mdl-mega-footer__drop-down-section{
         width: 33%;
         h1{
             color: $lightBeige;
-            // color: $darkestBeige;
-            // color: $brightBeige;
+            font-size: 16px;
+            // font-weight: 100;
         }
     }
     .mdl-mega-footer__bottom-section{
