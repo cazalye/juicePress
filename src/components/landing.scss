@@ -484,11 +484,14 @@
             }
         }
         #regular-range{
-            height: 240vh;
+            height: 210vh;
             top: 0;
             padding-bottom: 150px;
             h3.regular-range-title{
                 padding: 25px;
+            }
+            .regular-range-container{
+                width: 75%;
             }
         }
         .section-break{
