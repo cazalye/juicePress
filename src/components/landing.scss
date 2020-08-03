@@ -393,7 +393,7 @@
         #hero{
             // height: 90vh;
             .hero-image{
-                background-image: linear-gradient(-210deg, rgba(255,255,255, .75), rgba(0,0,0, 0.1), rgba(163, 50, 50, 0.1)), url("/img/nathanMobile.jpg");
+                // background-image: linear-gradient(-210deg, rgba(255,255,255, .75), rgba(0,0,0, 0.1), rgba(163, 50, 50, 0.1)), url("/img/nathanMobile.jpg");
                 background-image: linear-gradient(-200deg, rgba(76, 29, 44, .9),rgba(76, 29, 44, .1), rgba(0,0,0, 0.1), rgba(163, 50, 50, 0.1)), url("/img/nathanMobile.jpg");
                 background-size: cover;
             .title{
@@ -420,9 +420,9 @@
                     // font-weight: bold;
                 }
             }
-            }
-            
         }
+            
+    }
         .down-arrow{
             i{
                 bottom: 10px;
@@ -607,19 +607,24 @@
 @media (min-width: 451px) and (max-width: 1024px) {
     #landing{
         #hero{
-            .title{
-                margin: 5%;
-                margin-top: 15%;
-                margin-left: 9%;
-                h1{
-                    font-size: 46px;
-                    line-height: 56px;
-                }
-                h2{
-                    font-size: 24px;
-                    line-height: 34px;
-                    padding-right: 10%;
-                    padding-left: 5%;
+            .hero-image{
+                background-image: linear-gradient(-200deg, rgba(76, 29, 44, .9),rgba(76, 29, 44, .1), rgba(0,0,0, 0.1), rgba(163, 50, 50, 0.1)), url("/img/nathanMobile.jpg");
+                .title{
+                    margin-top: 15%;
+                    margin-left: 3%;
+                    margin-right: 40%;
+                    h1{
+                        font-size: 32px;
+                        line-height: 26px;
+                        font-weight: bold;
+                    }
+                    h2{
+                        font-size: 16px;
+                        line-height: 18px;
+                        padding-right: 25%;
+                        padding-left: 0%;
+                        padding-top: 2%;
+                    }
                 }
             }
         }
@@ -629,6 +634,51 @@
                 font-size: 46px;
                 color: white;
                 z-index: 5;
+            }
+        }
+        
+        .local-section-break{
+            background-image: url("/img/bottlesMobile.jpg");
+            height: 110vh;
+        }
+        .contact-section-break{
+            height: 105vh;
+            background-image: url("/img/AboutMobile.jpg");
+        }
+        .visit-section-break{
+            height: 105vh;
+            background-image: url("/img/purchaseMobile.jpg");
+        }
+        .shop-section-break{
+            height: 105vh;
+            background-image: url("/img/marketShopperMobile1.jpg");
+        }
+        .transparent-title{
+            padding-top: 15%;
+        }
+        .transparent-title-2{
+            padding-top: 20%;
+            .transparent-title2{
+                left: 0%;
+            }
+        }
+        .section{
+            padding: 50px;
+            padding-top: 30vh;
+            height: 90vh;
+        }
+        #shop-section{
+            .shop-container{
+                .juice-container{
+                    padding-right: .3%;
+                    // padding-left: .1%;
+                    width: 33%;
+                    a{
+                        .juice-title{
+                            font-size: 20px;
+                        }
+                    }
+                }
             }
         }
     }   
