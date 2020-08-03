@@ -117,7 +117,7 @@ class Landing extends Component {
                 <a id="enviro"/>
                 <LandingSections
                     Title1="NO PLASTIC"
-                    Title2="BOTTLES HERE"
+                    Title2="BOTTLES HERE!"
                     Description="We’re all about sustainability and minimising waste.
                     Our juices are packaged in glass bottles, which are 100% re-usable and recyclable. Return yours for a discount on future purchases!"
                     // Image="/img/enviro.jpg" 
