@@ -146,6 +146,11 @@ body{
                 top: 40px;
             }
         }
+        .mdl-layout__drawer.is-visible{
+            position: fixed;
+            // z-index: 10;
+            width: 270px;
+        }
         .mdl-layout__drawer-button{
             z-index: 100;
             display: block;
@@ -153,15 +158,11 @@ body{
             top: 5px;
             right: 0px;
             i{
-            // color: $lightBeige;
-            // color: white;
-            color: $darkestBeige;
-            color: $brightBeige;
             color: $lightBeige;
             }
         }
         .mdl-layout__header{
-            z-index: 100;
+            z-index: 10;
             display:block;
             .header-title{
                 display:block;
@@ -182,38 +183,30 @@ body{
     body .mdl-layout .mdl-layout__inner-container { 
         .mdl-layout__header-row{
             height: 80px;
+            z-index: 100;
             .logo{ 
                 width: 70px;
                 position: absolute;
             }
         }
         .mdl-layout__drawer-button {
-            z-index: 10;
+            z-index: 100;
             display: block;
             position:fixed;
             top:7px;
             right: 25px;
             i{
-                color: $darkestBeige;
                 color: $lightBeige;
                 font-size: 64px;
             }
         }
         .mdl-layout__drawer-button:focus{
-            z-index: 10;
+            z-index: 100;
                 // outline:red;
         }
         .mdl-layout__header{
-            z-index: 10;
+            z-index: 100;
             display:block;
-            // .header-title{
-            //     display:block;
-            //     left:25px;
-            //     top:7px;
-            //     position: fixed;
-            //     font-size:67px;
-            //     display: none;
-            // }
             .header-nav{
                 display:none;
             }
@@ -228,8 +221,11 @@ body{
             padding-left: 20px;
         }
         .mdl-layout__drawer.is-visible{
+            position: fixed;
             z-index: 10;
             width: 270px;
+            background-image:  linear-gradient(to bottom, $darkerBeige, $brightBeige,$brightBeige, $brightBeige, $lightBeige);
+            padding-top: 10%;
             .mdl-layout-title{
                 padding-top: 18px;
                 display: none;
