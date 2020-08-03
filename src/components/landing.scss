@@ -395,12 +395,13 @@
                 // background-image: linear-gradient(-210deg, rgba(255,255,255, .75), rgba(0,0,0, 0.1), rgba(163, 50, 50, 0.1)), url("/img/nathanMobile.jpg");
                 background-image: linear-gradient(-200deg, rgba(76, 29, 44, .9),rgba(76, 29, 44, .1), rgba(0,0,0, 0.1), rgba(163, 50, 50, 0.1)), url("/img/nathanMobile.jpg");
                 background-size: cover;
+                background-attachment: scroll;
             .title{
                 margin-top: 17%;
-                margin-left: 10px;
-                margin-right: 50%;
+                margin-left: 15px;
+                margin-right: 55%;
                 h1{
-                    font-size: 24px;
+                    font-size: 26px;
                     line-height: 26px;
                     font-weight: bold;
                     // color: black;
@@ -411,7 +412,7 @@
                 h2{
                     font-size: 12px;
                     line-height: 14px;
-                    padding-right: 25%;
+                    padding-right: 20%;
                     padding-left: 0%;
                     padding-top: 2%;
                     // color: white;
@@ -459,21 +460,28 @@
         .section-break{
             height: 0px;
         }
+        .range-section-break{
+            background-attachment: scroll;
+        }
         .local-section-break{
             background-image: url("/img/bottlesMobile.jpg");
             height: 110vh;
+            background-attachment: scroll;
         }
         .contact-section-break{
             height: 105vh;
             background-image: url("/img/AboutMobile.jpg");
+            background-attachment: scroll;
         }
         .visit-section-break{
             height: 105vh;
             background-image: url("/img/purchaseMobile.jpg");
+            background-attachment: scroll;
         }
         .shop-section-break{
             height: 105vh;
             background-image: url("/img/marketShopperMobile1.jpg");
+            background-attachment: scroll;
         }
 
         .transparent-title{
