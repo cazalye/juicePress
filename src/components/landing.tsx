@@ -25,10 +25,10 @@ class Landing extends Component {
                         <i className="fas fa-angle-double-down"/>
                 </div>  
                 <a id="range"/> 
-                <div id="regular-range">
+                <div className="regular-range-container">
+                    <div className="regular-range">
                     <img className="range-logo" src="./img/logoTransparent.png"  width="150px"/>
                     <h3 className="regular-range-title">Regular Juice Range</h3>
-                    <div className="regular-range-container">
                         <RegularRange
                             Title="Orange Juice"
                             // Description="Orange, apple + vitamin C"

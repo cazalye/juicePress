@@ -2,32 +2,22 @@
 
 #landing{
     overflow-x: hidden;
+    background-image: url('/img/cardBackground.jpg');
     #hero{
         .hero-image{
-            position: relative;
-        // background-image: linear-gradient(-150deg, rgba(255,255,255,0.2), rgba(255,255,255, 0.05), rgba(255,255,255,0)), url("/img/juiceBackground60.jpg");
-        // background-image: linear-gradient(-150deg, rgba(255,255,255,0.4), rgba(0,0,0, 0.2), rgba(255,255,255,0.2)), url("/img/juiceBackground40.jpg");
-        // background-image: url("/img/nathan.jpg");
-
-        // background-image: linear-gradient(-200deg, rgba(229, 193, 167, 1), rgba(76, 29, 44, .1), rgba(163, 50, 50, 0.1)), url("/img/nathan.jpg");
+        position: relative;
         background-image: linear-gradient(-200deg, rgba(76, 29, 44, .8),rgba(76, 29, 44, .1), rgba(0,0,0, 0.1), rgba(163, 50, 50, 0.1)), url("/img/nathan.jpg");
-        // background-image:  url("/img/Nathan_light.jpg");
-        // background-image: linear-gradient(-200deg, rgba(255,255,255, .7),rgba(255,255,255, .1), rgba(0,0,0, .1), rgba(163, 50, 50, .1)), url("/img/Nathan_light.jpg");
         background-size: cover;
         border-top: 2px solid transparent;
         background-attachment: fixed;
         height: 100vh;
         width: 100%;
-        // opacity: .95;
-        // margin-top: 64px;
         .title{
             margin-top: 90px;
             margin-left: 3%;
             z-index: 1;
             h1{
-                // color: $darkestBeige;
-                color: $beetrootRed;
-                // color: $lightBeige;
+                // color: $beetrootRed;
                 color: white;
                 text-align: left;
                 margin-bottom: 0px;
@@ -39,11 +29,7 @@
                 // font-weight: bold;
             }
             h2{
-                // color: $darkestBeige;
-                // color: $darkBeige;
-                color: $beetrootRed;
-                // color: black;
-                // color: $lightBeige;
+                // color: $beetrootRed;
                 color: white;
                 padding-left: 25px;
                 margin-top: 0px;
@@ -63,87 +49,57 @@
             transform: translate(-50%);
             bottom: 30px;
             font-size: 42px;
-            // color: $darkerBeige;
             color: white;
-            // color: $brightBeige;
             // color: $lightBeige;
             z-index: 5;
         }
-    }
-    // .down-arrow-2{
-    //     background-image: linear-gradient(-200deg, $lightBeige, $brightBeige, $lightBeige);
-    //     i{
-    //         z-index: 5;
-    //         position: relative;
-    //         left:50%;
-    //         padding-left: 2px;
-    //         bottom: 0;
-    //         font-size: 42px;
-    //         color: white;
-    //     }
-    // }
-    #regular-range{
-        position: relative;
-        height: 150vh;
-        background-image:  linear-gradient(180deg, $lightBeige 1%,$brightBeige,$brightBeige, $brightBeige, $lightBeige);
-        background-image: url('/img/cardBackground.jpg');
-        // background-color: $lightBeige;
-        // border-top: 20px solid $lightBeige;
-        // padding-top: 20px;
-        z-index: 4;
-        padding-bottom: 10%;
-        .range-logo{
-            position: relative;
-            left: 50%;
-            transform: translate(-50%);
-            padding-top: 20px;
-        }
-        h3.regular-range-title{
-            position: relative;
-            text-align: center;
-            color: black;
-            // color: $darkestBeige;
-            // color: $darkerBeige;
-            color: white;
-            // color: $lightBeige;
-            // font-family: 'Open Sans', sans-serif;
-            font-family: 'Playfair Display', serif;
-            text-transform: uppercase;
-            font-weight: 100;
-            font-size: 62px;
-            line-height: 82px;
-            letter-spacing: 0.04em;
-            padding-top: 0px;
-            margin-bottom: 50px;
-            margin-top: 0px;
-        }
+    }    
         .regular-range-container{
-            // background-image: url('/img/cardBackground.jpg');
-            // background-image:  linear-gradient(180deg, $lightBeige 1%,$brightBeige,$brightBeige, $brightBeige, $lightBeige);
-            position: absolute;
-            // width: 100%;
+            background-image: url('/img/cardBackground.jpg');
+            position: relative;
+            height: auto;
             width: 70%;
             left: 50%;
             transform: translate(-50%);
             border: solid;
             border-width: 9px;
             border-color: $brightBeige;
-            // border-color: $darkBeige;
+            margin-top: 90px;
+            margin-bottom: 90px;;
             z-index: 3;
-            padding-top: 40px;
-            padding-bottom: 40px;
+            .regular-range{
+                position: relative;
+                height: auto;
+                z-index: 4;
+                padding-top: 3%;
+                padding-bottom: 3%;
+                .range-logo{
+                    position: relative;
+                    left: 50%;
+                    transform: translate(-50%);
+                }
+                h3.regular-range-title{
+                    position: relative;
+                    text-align: center;
+                    color: white;
+                    font-family: 'Playfair Display', serif;
+                    text-transform: uppercase;
+                    font-weight: 100;
+                    font-size: 62px;
+                    line-height: 82px;
+                    letter-spacing: 0.04em;
+                    padding-bottom: 5%;
+                    margin-top: 0;
+                }
             .regular-range-subcontainer{
                 position: relative;
                 margin: 15px;
                 a{
                     text-decoration: none;
                 }
-              
                 .regular-text-box{
                     .regular-subtitle{
-                        // color: $darkerBeige;
                         text-transform: uppercase;
-                        // font-family: 'Calibri';
                         font-family: 'Open Sans', sans-serif;
                         font-weight: bold;
                         letter-spacing: 4px;
@@ -155,17 +111,11 @@
                         margin-bottom: 0px;
                     }
                     .regular-description{
-                        // width: 50%;
-                        // padding-left: 25%;
                         font-size: 18px;
                         line-height: 22px;
                         letter-spacing: 1.5px;
                         font-weight: bold;
-                        // color: $darkerBeige;
-                        // color: $lightBeige;
                         color: black;
-                        // font-family: 'Simplified Arabic Fixed';
-                        // font-family: 'Courier New';
                         font-family: 'Open Sans', sans-serif;
                         text-align: center;
                         padding-bottom: 20px;
