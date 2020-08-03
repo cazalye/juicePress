@@ -32,6 +32,7 @@
                 text-align: left;
                 margin-bottom: 0px;
                 font-family: 'Open Sans', sans-serif;
+                // font-family: 'Playfair Display', serif;
                 font-weight: 100;
                 font-size: 50px;
                 line-height: 56px;
@@ -103,12 +104,14 @@
             color: black;
             // color: $darkestBeige;
             // color: $darkerBeige;
-            // color: white;
+            color: white;
             // color: $lightBeige;
+            // font-family: 'Open Sans', sans-serif;
             font-family: 'Playfair Display', serif;
+            text-transform: uppercase;
             font-weight: 100;
-            font-size: 48px;
-            line-height: 58px;
+            font-size: 62px;
+            line-height: 82px;
             letter-spacing: 0.04em;
             padding-top: 0px;
             margin-bottom: 50px;
@@ -140,12 +143,13 @@
                     .regular-subtitle{
                         // color: $darkerBeige;
                         text-transform: uppercase;
-                        font-family: 'Calibri';
+                        // font-family: 'Calibri';
+                        font-family: 'Open Sans', sans-serif;
+                        font-weight: bold;
                         letter-spacing: 4px;
                         color: white;
                         font-size: 26px;
                         line-height: 36px;
-                        // font-weight: bold;
                         text-align: center;
                         z-index: 3;
                         margin-bottom: 0px;
@@ -155,14 +159,17 @@
                         // padding-left: 25%;
                         font-size: 18px;
                         line-height: 22px;
+                        letter-spacing: 1.5px;
                         font-weight: bold;
-                        color: $darkerBeige;
-                        color: $lightBeige;
+                        // color: $darkerBeige;
+                        // color: $lightBeige;
                         color: black;
                         // font-family: 'Simplified Arabic Fixed';
-                        font-family: 'Courier New';
+                        // font-family: 'Courier New';
+                        font-family: 'Open Sans', sans-serif;
                         text-align: center;
                         padding-bottom: 20px;
+                        padding-top: 5px;
                     }
                 }
             }
