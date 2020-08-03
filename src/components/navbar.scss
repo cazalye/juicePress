@@ -25,21 +25,7 @@ body{
         .mdl-layout__header{
         z-index: 10;
         background-color: transparent;
-        // background-image:  linear-gradient(to bottom, rgba(229, 193, 167, .5), rgba(229, 193, 167, 0.3),rgba(229, 193, 167, 0));
         background-image:  linear-gradient(to bottom, rgba(53, 44, 36, .6), rgba(53,44,36, 0.4), transparent);
-        // background-image:  linear-gradient(to bottom, rgba(53, 44, 36, 1), rgba(53,44,36, .9));
-        // background-image:  linear-gradient(to bottom, rgba(229, 193, 167, 1), rgba(229, 193, 167, .9));
-        // background-image:  linear-gradient(to bottom, rgba(222, 207, 191, 1), rgba(222, 207, 191, .9));
-        // background-image:  linear-gradient(to bottom, rgba(0,0,0, .6), rgba(0,0,0, 0.6),rgba(0,0,0, 0));
-        // background-color: rgba(0,0,0,0.3);
-        // background-color: rgba(39, 37, 51, 0.3);
-        // background-color: rgba(229, 193, 167, .1);
-        // background-image:  linear-gradient(to right, $darkBeige, $lightBeige 60%);
-        // background-image: url('/img/cardBackground.jpg');
-        // background-image: linear-gradient(to right, rgba(222, 207, 191, .7),rgba(222, 207, 191, .5), transparent), url("/img/cardBackground.jpg");
-        // background-image: linear-gradient(to right, $lightBeige, $brightBeige, $brightBeige, $brightBeige);
-        // border-bottom: 2px solid $lightBeige;
-        // border-bottom: 1px solid white;
         // transition: background-color .5s ease-in;
         box-shadow: none;
         position: fixed;
@@ -54,13 +40,10 @@ body{
         }  
         .mdl-navigation__link{
             position: relative;
-            // color: $darkBeige;
             color: white;
-            // color: $lightBeige;
             font-size: 18px;
             font-family: 'Open Sans', sans-serif;
             font-weight: 100;
-            // font-weight: bold;
         }
         .mdl-layout__drawer-button{
             z-index: 10;
@@ -75,7 +58,6 @@ body{
             border:none;
                 i{
                 z-index: 10;
-                // color: $darkestBeige;
                 color: $brightBeige;
                 font-size: 40px;   
                 }
@@ -135,8 +117,6 @@ body{
 @media (max-width: 450px) {
     body .mdl-layout .mdl-layout__inner-container {
         .mdl-layout__header{
-        // background-color: rgba(229, 193, 167, .3);
-        background-image:  linear-gradient(to bottom, rgba(229, 193, 167, .5), rgba(229, 193, 167, 0));
         }
         .mdl-layout__drawer{
             position: fixed;
