@@ -116,6 +116,8 @@ body{
 // PHONE: 0-450
 @media (max-width: 450px) {
     body .mdl-layout .mdl-layout__inner-container {
+        z-index: 100;
+        position: fixed;
         .mdl-layout__header{
         }
         .mdl-layout__drawer{
@@ -128,13 +130,12 @@ body{
         }
         .mdl-layout__drawer.is-visible{
             position: fixed;
-            // z-index: 10;
             width: 270px;
         }
         .mdl-layout__drawer-button{
             z-index: 100;
             display: block;
-            position:fixed;
+            position: fixed;
             top: 5px;
             right: 0px;
             i{
