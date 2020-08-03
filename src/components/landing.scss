@@ -432,14 +432,31 @@
                 z-index: 5;
             }
         }
-        #regular-range{
-            height: 240vh;
-            top: 0;
-            padding-bottom: 150px;
-            h3.regular-range-title{
-                padding: 25px;
+        .regular-range-container{
+            width: 80%;
+            border-width: 5px;
+            .regular-range{
+                h3.regular-range-title{
+                    font-size: 44px;
+                    line-height: 54px;
+                    padding-bottom: 10%;
+                    padding-left: 5%;
+                    padding-right: 5%;
+                }
+            .regular-range-subcontainer{
+                .regular-text-box{
+                    .regular-subtitle{
+                        font-size: 22px;
+                        line-height: 28px;
+                    }
+                    .regular-description{
+                        font-size: 16px;
+                        line-height: 22px;
+                    }
+                }
             }
         }
+    }
         .section-break{
             height: 0px;
         }
