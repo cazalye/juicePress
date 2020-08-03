@@ -119,6 +119,9 @@ body{
         z-index: 100;
         position: fixed;
         .mdl-layout__header{
+            .logo{
+                z-index: 10000;
+            }  
         }
         .mdl-layout__drawer{
             position: fixed;
