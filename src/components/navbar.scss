@@ -125,7 +125,7 @@ body{
         }
         .mdl-layout__drawer{
             position: fixed;
-            background-image:  linear-gradient(to bottom, $darkestBeige, $brightBeige,$brightBeige, $brightBeige, $lightBeige);
+            background-image:  linear-gradient(to bottom, $darkBeige 8%, $brightBeige 20%, $brightBeige, $brightBeige,$lightBeige);
             z-index: 6;
             .mdl-navigation__link{
                 top: 40px;
