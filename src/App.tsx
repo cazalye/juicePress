@@ -4,6 +4,10 @@ import Navbar from './components/navbar';
 import View from './components/view';
 // import Footer from './components/footer';
 import { withRouter } from "react-router";
+import ReactGA from 'react-ga';
+
+
+ReactGA.initialize('UA-175158140-1', {debug: false});
 
 
 class App extends Component <any, any> {
@@ -26,6 +30,20 @@ class App extends Component <any, any> {
   //       }
   //   }
   // }
+
+  unlisten: any;
+  componentWillMount() {
+    // detect page changes and send info to google analytics
+    ReactGA.pageview(this.props.location.pathname);
+    this.unlisten = this.props.history.listen((location: any, action: any) => {
+      ReactGA.pageview(location.pathname);
+    });
+  }
+  componentWillUnmount() {
+    if (this.unlisten) {
+      this.unlisten();
+    }
+  }
 
   render() { 
   return (
