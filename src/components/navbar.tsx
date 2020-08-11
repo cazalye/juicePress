@@ -12,7 +12,7 @@ class Navbar extends Component<any, any> {
         }
     }
     render() {
-        const title = <Link to="/#home" className="header-title"> The Tasmanian Juice Press </Link> as any;
+        // const title = <Link to="/#home" className="header-title"> The Tasmanian Juice Press </Link> as any;
         return (
             <Layout>
                 <Header title={<Link to="/#home" className="header-title">The Tasmanian Juice Press </Link>}>
