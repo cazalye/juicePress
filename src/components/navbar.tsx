@@ -29,6 +29,8 @@ class Navbar extends Component<any, any> {
                 <Drawer title={<Link onClick={() => this.hideToggle()} to="/" className="header-title">The Tasmanian Juice Press </Link> as any}>
                     <Navigation className="drawer-nav" >
                         {/* <Link onClick={() => this.hideToggle()} to="/#range">Juice Range</Link> */}
+                        <Link className="drawer-logo" to="/#home"><img className="logo" src="./img/logoTransparent.png"  width="40px"/></Link>
+                        <Link className="drawer-title" onClick={() => this.hideToggle()} to="/">The Tasmanian Juice Press</Link>
                         <Link onClick={() => this.hideToggle()} to="/#about">About Us</Link>
                         <Link onClick={() => this.hideToggle()} to="/#visitUs">Visit Us</Link>
                         <Link onClick={() => this.hideToggle()} to="/#enviro">Environmental Impact</Link>
