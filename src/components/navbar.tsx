@@ -19,11 +19,11 @@ class Navbar extends Component<any, any> {
                 <Link to="/#home"><img className="logo" src="./img/logoTransparent.png"  width="40px"/></Link>
                     <Navigation className="header-nav">
                         {/* <Link to="/#range">Juice Range</Link>  */}
-                        <Link to="/#about">About Us</Link> 
-                        <Link to="/#enviro">Environmental Impact</Link> 
-                        <Link to="/#visitUs">Visit Us</Link>
-                        <Link to="/#contact">Contact</Link>
-                        <Link to="/#shop">Shop</Link>
+                        <Link className="nav-link" to="/#about">About Us</Link> 
+                        <Link className="nav-link" to="/#enviro">Environmental Impact</Link> 
+                        <Link className="nav-link" to="/#visitUs">Visit Us</Link>
+                        <Link className="nav-link" to="/#contact">Contact</Link>
+                        <Link className="shop-link" to="/#shop">Shop</Link>
                     </Navigation>
                 </Header>
                 <Drawer title={<Link onClick={() => this.hideToggle()} to="/" className="header-title">The Tasmanian Juice Press </Link> as any}>
