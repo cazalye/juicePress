@@ -118,6 +118,17 @@ body{
     body .mdl-layout .mdl-layout__inner-container {
         z-index: 100;
         position: fixed;
+        height: auto;
+        z-index: 100;
+        .mdl-layout__obfuscator{
+            height: 56px;
+            position: relative;
+            top: 0px;
+            left: 0px;
+        }
+        .mdl-layout__obfuscator.is-visible{
+            height: 100vh;
+        }
         .mdl-layout__header{
             .logo{
                 z-index: 10000;
@@ -126,9 +137,18 @@ body{
         .mdl-layout__drawer{
             position: fixed;
             background-image:  linear-gradient(to bottom, $darkBeige 8%, $brightBeige 20%, $brightBeige, $brightBeige,$lightBeige);
-            z-index: 6;
-            .mdl-navigation__link{
-                top: 40px;
+            z-index: 10;
+            .mdl-navigation{
+                padding-top: 0;
+            }
+            .drawer-logo{
+                top: 0px;
+            }
+            .drawer-title{
+                padding-top: 25px;
+                padding-bottom: 40px;
+                font-weight: bold;
+                color: #DECFBF;
             }
         }
         .mdl-layout__drawer.is-visible{
