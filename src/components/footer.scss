@@ -3,48 +3,77 @@
 .mdl-mega-footer.footer{
     z-index: 101;
     position: relative;
-    // background-color: $fadedBlack;
-    // background-color: $darkerBeige;
     background-image: url('/img/cardBackground.jpg');
-    padding-left: 15%;
+    .upper-section{
+        margin-top: 40px;
+        margin-bottom: 60px;
+        width: 80%;
+        padding-left: 10%;
+        h1{
+            text-align: left;
+            width: 100%;
+            padding-left: 25%;
+        }
+        ul{
+            // padding-right: 80%;
+            width: 50%;
+            padding-left: 25%;
+            li{
+                line-height: 28px;
+                display: block;
+                color: $brightBeige;
+                text-align: center;
+            }
+        }
+    }
+    .mdl-mega-footer__bottom-section{
+        text-align: center;
+    }
     .mdl-mega-footer__drop-down-section{
         width: 33%;
+        
         h1{
             color: $lightBeige;
             font-size: 16px;
             // font-weight: 100;
         }
-    }
-    .mdl-mega-footer__bottom-section{
-        padding-bottom: 20px;
-    }
-    .mdl-mega-footer__link-list{
-        left: 40%;
-    }
-    ul{
-        padding-right: 80%;
-        li{
-            line-height: 28px;
-            display: block;
-            color: $brightBeige;
-        }
-    }
+    }   
     .footer-links{
-        position: absolute;
-        bottom: 20px;
         z-index: 4;
-        display: flex;
+        display: inline-block;
         padding: 0px;
         margin-bottom: 0px;
-        left: 50%;
-        transform: translate(-50%);
         a{
-            font-size: 22px;
+            font-size: 26px;
             padding-right: 20px;
             padding-left: 20px;
             i{
                 color: $lightBeige;
             }
+        }
+    }
+    .copyright{
+        padding-top: 20px;
+       
+        p{
+            color: white;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 100;
+            bottom: 0;
+            font-size: 12px;
+            line-height: 16px;
+            text-align: center;
+            margin-bottom: 0;
+        }
+        a{
+            font-family: "Quentin";
+            color: white;
+            font-size: 14px;
+            padding-left: 2px;
+    
+        }
+        a:hover{
+            color: darkgrey;
         }
     }
 }
@@ -54,24 +83,32 @@
 // PHONE: 0-450
 @media (max-width: 450px) {
     .mdl-mega-footer.footer{
+        .upper-section{
+            margin-top: 0px;
+        }
         .mdl-mega-footer__drop-down-section{
             width: 90%;
         }
-        // ul{
-        //     li{
-        //         a{
-        //             line-height: 28px;
-        //             // font-weight: lighter;
-        //         }
-             
-        //     }
-        // }
         .footer-links{
             a{
                 font-size: 18px;
                 padding-right: 15px;
                 padding-left: 15px;
             }
+        }
+    }
+}
+
+// Responsive Design
+// TABLET: 450-1024
+@media (min-width: 451px) and (max-width: 1024px) {
+    .mdl-mega-footer.footer{
+        .upper-section{
+            padding-left: 20px;
+        }
+        .mdl-mega-footer__drop-down-section{
+            width: 33%;
+            // margin-right: 3%;
         }
     }
 }

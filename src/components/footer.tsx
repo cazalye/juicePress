@@ -7,7 +7,7 @@ class FooterDetail extends Component{
     render() {
         return (
             <Footer size="mega" className="footer">
-            <FooterSection type="bottom">
+            <FooterSection type="bottom" className="upper-section">
                 <FooterDropDownSection title="Shop Juices">
                     <FooterLinkList>
                         <a href="https://brandsonparade.com/product/tasmanian-juice-press-subscription" rel="noopener noreferrer" target="_blank">Juice Subscription</a>
@@ -48,6 +48,9 @@ class FooterDetail extends Component{
                             <i className="fa fa-instagram" aria-hidden="true" />
                         </a>
                 </FooterLinkList>
+                <div className="copyright">
+                        <p> &copy; 2020 Tasmanian Juice Press. <br/>Designed by <a href="https://portfolio.cazalye.com"  rel="noopener noreferrer" target="_blank"> cazalye</a></p>
+                </div>
             </FooterSection>
         </Footer>
          )
