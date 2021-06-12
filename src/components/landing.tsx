@@ -158,32 +158,47 @@ class Landing extends Component {
                 <LandingSections
                     Title1="WE'RE ALWAYS "
                     Title2="UP FOR A CHAT"
-                    Description="We’re at the Farm Gate Market on Bathurst St. in Hobart every Sunday from 8.30 am - 12.30.
-                    We’d love to see you there!"
+                    Description="Come find us at you local weekend producers market:"
+                    Description2="Saturdays 8.30am - 12.30pm: Harvest Market Launceston"
+                    Description3="Sundays 8.30 am - 1pm: Farm Gate Market Hobart"
                     Image="/img/visit.jpg" 
                     alt="Tasmanian Juice Press at the Farm Gate Market"
                 />
-                {/* <LandingSections
-                    Title1="COME"
-                    Title2="VISIT US"
-                    Description="We’re at the Farm Gate Market on Bathurst St. in Hobart every Sunday from 8.30 am - 12.30.
-                    We’d love to see you there!"
-                    Image="/img/marketPurchase.jpg" 
-                    alt="Tasmanian Juice Press at the Farm Gate Market"
+
+                  {/* <div className="cafe-section-break">
+                    <div className="transparent-title">
+                        <h1 className="transparent-title1">OR ONE OF </h1>
+                        <h1 className="transparent-title2">OUR WHOLESALERS</h1>
+                    </div>
+                </div> 
+                <a id="visitUs"/>
+                <LandingSections
+                    Title1="wholesaler"
+                    Title2="cafe"
+                    Description="list of cafes"
+                    Image="/img/reboot.png" 
+                    alt=""
                 /> */}
-                  <div className="shop-section-break"/>
-                 {/* <div className="down-arrow-2">
-                        <i className="fas fa-angle-double-down"/>
-                </div>   */}
-                 <MarketMap/>
-              
+
+
+
+                 {/* <MarketMap/> */}
+
+
+                 <div className="shop-section-break"/>
                 <a id="shop"/>
                 <div id="shop-section">
                     <h1>SHOP JUICES</h1>
                     <div className="shop-container">
                         <Shop
+                        juiceTitle="Shop All"
+                        juiceImage="./img/all.png"
+                        alt="Bottles of fresh juice"
+                        shopLink="https://brandsonparade.com/product-category/the-tasmanian-juice-press/"
+                        />
+                        <Shop
                         juiceTitle="Juice Subscription"
-                        juiceImage="./img/subscription.png"
+                        juiceImage="./img/subscription.jpg"
                         alt="Bottles of juice, weekly subscription"
                         shopLink="https://brandsonparade.com/product/tasmanian-juice-press-subscription/"
                         />
@@ -194,8 +209,33 @@ class Landing extends Component {
                         shopLink="https://brandsonparade.com/product-category/the-tasmanian-juice-press/weekly-special/"
                         />
                         <Shop
+                        juiceTitle="2L Juice Blend"
+                        // juiceImage="./img/2l.jpg"
+                        juiceImage="./img/Reboot_2L.png"
+                        alt="2L juice bottles"
+                        shopLink="https://brandsonparade.com/product-category/the-tasmanian-juice-press/2l-juice-bottles/"
+                        />
+                         <Shop
+                        juiceTitle="750ml Juice Blend"
+                        juiceImage="./img/750ml.png"
+                        alt="750ml juice bottles"
+                        shopLink="https://brandsonparade.com/product-category/the-tasmanian-juice-press/750ml-juice-bottles/"
+                        />
+                         <Shop
+                        juiceTitle="350ml Juice Blend"
+                        juiceImage="./img/apple_350ml.jpg"
+                        alt="350ml juice bottles"
+                        shopLink="https://brandsonparade.com/product-category/the-tasmanian-juice-press/350ml-juice-bottles/"
+                        />
+                         <Shop
+                        juiceTitle="250ml Juice Blend"
+                        juiceImage="./img/greens_250ml.png"
+                        alt="250ml juice bottles"
+                        shopLink="https://brandsonparade.com/product-category/the-tasmanian-juice-press/250ml-juice-bottles/"
+                        />
+                         <Shop
                         juiceTitle="Immune Boost"
-                        juiceImage="./img/immune.jpg"
+                        juiceImage="./img/2l.jpg"
                         alt="Bottles of immune boost juice"
                         shopLink="https://brandsonparade.com/product-category/the-tasmanian-juice-press/immune-boost/"
                         />
@@ -204,18 +244,6 @@ class Landing extends Component {
                         juiceImage="./img/pack.jpg"
                         alt="Bottles of juice packs"
                         shopLink="https://brandsonparade.com/product-category/juice-pack/"
-                        />
-                        <Shop
-                        juiceTitle="750ml Juice Blend"
-                        juiceImage="./img/750ml.png"
-                        alt="750ml juice bottles"
-                        shopLink="https://brandsonparade.com/product-category/the-tasmanian-juice-press/750ml-juice-bottles/"
-                        />
-                        <Shop
-                        juiceTitle="2L Juice Blend"
-                        juiceImage="./img/2l.jpg"
-                        alt="2L juice bottles"
-                        shopLink="https://brandsonparade.com/product-category/the-tasmanian-juice-press/2l-juice-bottles/"
                         />
                     </div>
                 </div>

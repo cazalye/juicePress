@@ -109,17 +109,28 @@
                         text-align: center;
                         z-index: 3;
                         margin-bottom: 0px;
+                        &:hover {
+                            color: rgba(255,255,255, 0.8);
+                            text-decoration: underline;
+                            text-decoration-thickness: 2px;
+                        }
                     }
                     .regular-description{
                         font-size: 18px;
                         line-height: 22px;
                         letter-spacing: 1.5px;
                         font-weight: bold;
-                        color: black;
+                        color: rgba(0,0,0, 0.8);
                         font-family: 'Open Sans', sans-serif;
                         text-align: center;
                         padding-bottom: 20px;
                         padding-top: 5px;
+
+                        &:hover {
+                            color: rgba(0,0,0, 1);
+                            text-decoration: underline;
+                            text-decoration-thickness: 1.5px;
+                        }
                     }
                 }
             }
@@ -201,6 +212,13 @@
         height: 105vh;
         width: 100%;
         background-image: url("/img/purchase2.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    .cafe-section-break{
+        height: 105vh;
+        width: 100%;
+        background-image: url("/img/2l.jpg");
         background-size: cover;
         background-attachment: fixed;
     }
@@ -304,8 +322,8 @@
                 font-weight: bold;
                 margin-top: 0px;
                 margin-bottom: 0px;
-                padding-top: 20px;
-                padding-bottom: 0px;
+                padding-top: 10px;
+                padding-bottom: 10px;
             }
             .desc3{
                 font-size: 18px;
@@ -476,6 +494,11 @@
         .visit-section-break{
             height: 105vh;
             background-image: url("/img/purchaseMobile.jpg");
+            background-attachment: scroll;
+        }
+        .cafe-section-break{
+            height: 105vh;
+            background-image: url("/img/bottlesMobile.jpg");
             background-attachment: scroll;
         }
         .shop-section-break{

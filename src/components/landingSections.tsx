@@ -6,6 +6,7 @@ interface Props {
     Description: string;
     Description2?: string;
     Description3?: string;
+    Description4?: string;
     Image: string;
     alt: string;
 }

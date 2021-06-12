@@ -28,8 +28,8 @@ class FooterDetail extends Component{
                 <FooterDropDownSection title="Contact Us">
                     <FooterLinkList>
                         <a href="tel:0438406680" target="_blank">Phone: 0438406680</a>
-                        <a href="mailto:james@brandsonparade.com" target="_blank">Email: james@brandsonparade.com</a>
-                        <a href="https://www.facebook.com/tasmanianjuicepress/" target="_blank">Facebook: Tasmanian Juice Press</a>
+                        <a href="mailto:james@brandsonparade.com" target="_blank" rel="noopener noreferrer">Email: james@brandsonparade.com</a>
+                        <a href="https://www.facebook.com/tasmanianjuicepress/" target="_blank" rel="noopener noreferrer">Facebook: Tasmanian Juice Press</a>
                     </FooterLinkList>
                 </FooterDropDownSection>
             </FooterSection>
