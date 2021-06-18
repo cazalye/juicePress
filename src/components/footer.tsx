@@ -49,7 +49,7 @@ class FooterDetail extends Component{
                         </a>
                 </FooterLinkList>
                 <div className="copyright">
-                        <p> &copy; 2020 Tasmanian Juice Press. <br/>Designed by <a href="https://portfolio.cazalye.com"  rel="noopener noreferrer" target="_blank"> cazalye</a></p>
+                        <p> &copy; 2021 Tasmanian Juice Press. <br/>Designed by <a href="https://portfolio.cazalye.com"  rel="noopener noreferrer" target="_blank"> cazalye</a></p>
                 </div>
             </FooterSection>
         </Footer>
