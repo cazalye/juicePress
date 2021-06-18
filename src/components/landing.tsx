@@ -4,8 +4,9 @@ import LandingSections from "./landingSections";
 import FooterDetail from './footer';
 import Shop from './shop';
 import RegularRange from './regularRange';
-import MarketMap from './map';
+// import MarketMap from './map';
 import SectionBreakImage from './sectionBreakImage';
+import Cafes from './cafes';
 
 class Landing extends Component {
     render() {
@@ -29,6 +30,7 @@ class Landing extends Component {
                     <div className="regular-range">
                     <img className="range-logo" src="./img/logoTransparent.png"  width="150px"/>
                     <h3 className="regular-range-title">Regular Juice Range</h3>
+                    <h4>Click the menu links below to shop your favourite juices</h4>
                         <RegularRange
                             Title="Orange Juice"
                             // Description="Orange, apple + vitamin C"
@@ -104,7 +106,37 @@ class Landing extends Component {
                     Image="/img/local.jpg" 
                     alt="Tasmanian Juice Press at the local Farm Gate Market"
                 />
-                <div className="local-section-break">
+               
+              
+               
+                
+                  <div className="visit-section-break">
+                    <div className="transparent-title-2">
+                        <h1 className="transparent-title1">COME</h1>
+                        <h1 className="transparent-title2">VISIT US</h1>
+                    </div>
+                </div> 
+                <a id="visitUs"/>
+                <LandingSections
+                    Title1="WE'RE ALWAYS "
+                    Title2="UP FOR A CHAT"
+                    Description="Come find us at you local weekend producers market:"
+                    Description2="Saturdays 8.30am - 12.30pm: Harvest Market Launceston"
+                    Description3="Sundays 8.30am - 1pm: Farm Gate Market Hobart"
+                    Image="/img/visit.jpg" 
+                    alt="Tasmanian Juice Press at the Farm Gate Market"
+                />
+
+                  <div className="cafe-section-break">
+                    <div className="transparent-title-2">
+                        <h1 className="transparent-title1">OR FIND US OUT</h1>
+                        <h1 className="transparent-title2">AND ABOUT</h1>
+                    </div>
+                </div> 
+                <a id="cafes"/>
+                 <Cafes/>
+
+                 <div className="local-section-break">
                     <div className="transparent-title-2">
                         <h1 className="transparent-title1">WE CARE ABOUT</h1>
                         <h1 className="transparent-title2">THE ENVIRONMENT</h1>
@@ -114,7 +146,7 @@ class Landing extends Component {
                     Image="/img/marketShopper.jpg"
                     alt="A customer shops for juice at the Farm Gate Market"
                 /> */}
-                <a id="enviro"/>
+                 <a id="enviro"/>
                 <LandingSections
                     Title1="NO PLASTIC"
                     Title2="BOTTLES HERE!"
@@ -128,8 +160,9 @@ class Landing extends Component {
                     Image="/img/bottles2.jpg"
                     alt="A customer shops for juice at the Farm Gate Market"
                 /> */}
-                <div className="contact-section-break">
-                    <div className="transparent-title">
+
+                 <div className="contact-section-break">
+                    <div className="transparent-title-2">
                         <h1 className="transparent-title1">CONTACT</h1>
                         <h1 className="transparent-title2">US</h1>
                     </div>
@@ -148,41 +181,8 @@ class Landing extends Component {
                     Image="/img/marketPurchase.jpg"
                     alt="A customer shops for juice at the Farm Gate Market"
                 /> */}
-                  <div className="visit-section-break">
-                    <div className="transparent-title">
-                        <h1 className="transparent-title1">COME</h1>
-                        <h1 className="transparent-title2">VISIT US</h1>
-                    </div>
-                </div> 
-                <a id="visitUs"/>
-                <LandingSections
-                    Title1="WE'RE ALWAYS "
-                    Title2="UP FOR A CHAT"
-                    Description="Come find us at you local weekend producers market:"
-                    Description2="Saturdays 8.30am - 12.30pm: Harvest Market Launceston"
-                    Description3="Sundays 8.30 am - 1pm: Farm Gate Market Hobart"
-                    Image="/img/visit.jpg" 
-                    alt="Tasmanian Juice Press at the Farm Gate Market"
-                />
-
-                  {/* <div className="cafe-section-break">
-                    <div className="transparent-title">
-                        <h1 className="transparent-title1">OR ONE OF </h1>
-                        <h1 className="transparent-title2">OUR WHOLESALERS</h1>
-                    </div>
-                </div> 
-                <a id="visitUs"/>
-                <LandingSections
-                    Title1="wholesaler"
-                    Title2="cafe"
-                    Description="list of cafes"
-                    Image="/img/reboot.png" 
-                    alt=""
-                /> */}
 
 
-
-                 {/* <MarketMap/> */}
 
 
                  <div className="shop-section-break"/>
@@ -223,7 +223,7 @@ class Landing extends Component {
                         />
                          <Shop
                         juiceTitle="350ml Juice Blend"
-                        juiceImage="./img/apple_350ml.jpg"
+                        juiceImage="./img/apple_350ml.png"
                         alt="350ml juice bottles"
                         shopLink="https://brandsonparade.com/product-category/the-tasmanian-juice-press/350ml-juice-bottles/"
                         />

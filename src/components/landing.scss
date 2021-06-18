@@ -1,5 +1,6 @@
 @import "../styles/colors";
 
+
 #landing{
     overflow-x: hidden;
     background-image: url('/img/cardBackground.jpg');
@@ -88,9 +89,17 @@
                     font-size: 62px;
                     line-height: 82px;
                     letter-spacing: 0.04em;
-                    padding-bottom: 5%;
+                    // padding-bottom: 5%;
                     margin-top: 0;
+                    margin-bottom: 0;
                 }
+                h4 {
+                    margin-top: 0;
+                    margin-bottom: 10%;
+                    font-size: 1.25rem;
+                    text-align: center;
+                }
+                
             .regular-range-subcontainer{
                 position: relative;
                 margin: 15px;
@@ -215,13 +224,129 @@
         background-size: cover;
         background-attachment: fixed;
     }
+
     .cafe-section-break{
         height: 105vh;
         width: 100%;
-        background-image: url("/img/2l.jpg");
+        // background-image: url("/img/bottles2.jpg");
+        background-image: url("/img/juiceBackground40.jpg");
         background-size: cover;
         background-attachment: fixed;
     }
+
+    .cafe {
+        background-image: linear-gradient(-200deg, #DECFBF, #e5c1a7, #DECFBF);
+        font-size: 1.25rem;
+        line-height: 30px;
+        color: black;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 100;
+
+        @media (max-width: 450px) {
+            font-size: .8rem;
+            line-height: 1.5rem;
+        }
+
+        .bar {
+            position: relative;
+            border-top: 5px solid $darkestBeige;
+            width: 25%;
+            top: 15vh;
+            left: 55vw;
+            margin-top: 0;
+            margin-bottom: 5%;
+            
+            @media (max-width: 450px) {
+                top: 10vh;
+                width: 50%;
+                left: 55%;
+                margin-bottom: 10vh;
+            }    
+
+            @media (min-width: 451px) and (max-width: 1024px) {
+                top: 20vh;
+            }
+        }
+
+        .title1-cafe{
+            position: relative;
+            top: 2%;
+            left: 5%;
+            color: white;
+            font-family: 'Playfair Display', serif;
+            font-weight: 100;
+            font-size: 52px;
+            line-height: 58px;
+            letter-spacing: 0.04em;
+            margin-bottom: 10px;
+           
+            @media (max-width: 450px) {
+                display: none;
+            }
+        }
+
+        .title2-cafe{
+            position: relative;
+            left: 15%;
+            top: 1%;
+            color: white;
+            font-family: 'Playfair Display', serif;
+            font-weight: 100;
+            font-size: 48px;
+            line-height: 58px;
+            letter-spacing: 0.04em;
+            margin-top: 0px;
+            // margin-bottom: 2%;
+
+            @media (max-width: 450px) {
+                display: none;
+            }
+        }
+
+        p {
+            display: none;
+            @media (max-width: 450px) {
+                display: block;
+                position: relative;
+                top: 10%;
+                padding-top: 7%;
+                width: 50%;
+                left: 5%;
+                font-size: 20px;
+                line-height: 30px;;
+                color: black;
+                font-family: 'Open Sans', sans-serif;
+                font-weight: 100;
+            }
+        }
+
+        a {
+            color: black;
+            text-decoration-thickness: 1px;
+        }
+
+        table {
+            width: 100%;
+            padding: 5%;
+            padding-left: 15%;
+            padding-bottom: 10%;
+
+            @media (max-width: 450px) {
+                padding-left: 4%;
+                padding-right: 1%;
+                padding-top: 15%;
+                padding-bottom: 10%;
+            }
+            @media (min-width: 451px) and (max-width: 1024px) {
+                padding-top: 15%;
+                padding-left: 10%;
+            }
+        }
+    }
+
+
+
+
     .shop-section-break{
         height: 105vh;
         width: 100%;
@@ -240,6 +365,8 @@
         padding: 50px;
         padding-top: 15vh;
         height: 90vh;
+        height: 100vh;
+
         .leftSection{
             // width: 50%;
             display: none;
@@ -416,6 +543,7 @@
                 background-attachment: scroll;
             .title{
                 margin-top: 17%;
+                margin-top: 30%;
                 margin-left: 15px;
                 margin-right: 55%;
                 h1{
@@ -457,9 +585,16 @@
                 h3.regular-range-title{
                     font-size: 44px;
                     line-height: 54px;
-                    padding-bottom: 10%;
+                    padding-bottom: 5%;
                     padding-left: 5%;
                     padding-right: 5%;
+                }
+                h4 {
+                    padding-bottom: 10%;
+                    font-size: 1rem;
+                    line-height: 1.5rem;
+                    width: 80%;
+                    margin-left: 10%;
                 }
             .regular-range-subcontainer{
                 .regular-text-box{
@@ -493,12 +628,13 @@
         }
         .visit-section-break{
             height: 105vh;
-            background-image: url("/img/purchaseMobile.jpg");
+            // background-image: url("/img/purchaseMobile.jpg");
+            background-image: url("/img/farmgate2.jpg");
             background-attachment: scroll;
         }
         .cafe-section-break{
             height: 105vh;
-            background-image: url("/img/bottlesMobile.jpg");
+            background-image: url("/img/enviro.jpg");
             background-attachment: scroll;
         }
         .shop-section-break{
@@ -515,7 +651,7 @@
         .transparent-title-2{
             text-align: left;
             h1{
-                padding-top: 50%;
+                padding-top: 70%;
                 top: 90%;
                 padding-left: 0%;
                 left: 5%;
@@ -612,6 +748,7 @@
                 background-image: linear-gradient(-200deg, rgba(76, 29, 44, .9),rgba(76, 29, 44, .1), rgba(0,0,0, 0.1), rgba(163, 50, 50, 0.1)), url("/img/nathanMobile.jpg");
                 .title{
                     margin-top: 15%;
+                    margin-top: 20%;
                     margin-left: 3%;
                     margin-right: 40%;
                     h1{
