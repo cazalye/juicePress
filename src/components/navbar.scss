@@ -34,13 +34,11 @@ body{
         .promo-text {
             text-align: center;
             font-size: 1.5rem;
-            // color:white;
             margin-bottom: 0;
             line-height: 2.5rem;
             font-family: linotype-sabon, serif;
 
             img {
-                // padding-left: 10px;
                 padding-right: 15px;
                 vertical-align: middle;
                 height: 2.5rem;
@@ -156,11 +154,12 @@ body{
         position: fixed;
         height: auto;
         z-index: 100;
+        padding-top: 3rem;
 
         .mdl-layout__obfuscator{
             height: 56px;
             position: relative;
-            top: 0px;
+            // top: 3rem;
             left: 0px;
         }
 
@@ -169,7 +168,8 @@ body{
         }
 
         .mdl-layout__header{
-
+            top: 3rem;
+            
             .logo{
                 // top: 3rem;
                 z-index: 10000;
