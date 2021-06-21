@@ -116,6 +116,7 @@ class Landing extends Component {
                         <h1 className="transparent-title2">VISIT US</h1>
                     </div>
                 </div> 
+                
                 <a id="visitUs"/>
                 <LandingSections
                     Title1="WE'RE ALWAYS "
@@ -177,18 +178,17 @@ class Landing extends Component {
                     Image="/img/contact.jpg" 
                     alt="Contact details for The Tasmanian Juice Press"
                 />
-                {/* <SectionBreakImage
-                    Image="/img/marketPurchase.jpg"
-                    alt="A customer shops for juice at the Farm Gate Market"
-                /> */}
 
+                <div className="shop-section-break">
+                    <div className="transparent-title-2">
+                        <h1 className="transparent-title1">SHOP</h1>
+                        <h1 className="transparent-title2">OUR JUICES</h1>
+                    </div>
+                </div>
 
-
-
-                 <div className="shop-section-break"/>
                 <a id="shop"/>
                 <div id="shop-section">
-                    <h1>SHOP JUICES</h1>
+                    <h1>SHOP</h1>
                     <div className="shop-container">
                         <Shop
                         juiceTitle="Shop All"

@@ -16,7 +16,7 @@ class Navbar extends Component<any, any> {
         return (
             <Layout>
                 <div className="promo-banner">            
-                    <p className="promo-text"><img className="" alt="dark mofo" src="./img/darkmofo.jfif"  width="40px"/><strong>DARK MOFO winter feast</strong>: stall 8 inside the shed  </p>
+                    <p className="promo-text"><img className="" alt="Tas Juice Press logo" src="./img/logoTransparentDark.png"  width="40px"/><strong>JUICE SPECIAL</strong>: new special coming soon!</p>
                 </div>
                 <Header title={<Link to="/#home" className="header-title">The Tasmanian Juice Press </Link>}>
                 <Link to="/#home"><img className="logo" alt="logo" src="./img/logoTransparent.png"  width="40px"/></Link>
