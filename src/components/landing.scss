@@ -17,18 +17,18 @@
             margin-top: 100px;
             margin-left: 3%;
             z-index: 1;
+
             h1{
                 // color: $beetrootRed;
                 color: white;
                 text-align: left;
                 margin-bottom: 0px;
                 font-family: 'Open Sans', sans-serif;
-                // font-family: 'Playfair Display', serif;
                 font-weight: 100;
                 font-size: 50px;
                 line-height: 56px;
-                // font-weight: bold;
             }
+
             h2{
                 // color: $beetrootRed;
                 color: white;
@@ -39,6 +39,48 @@
                 font-size: 20px;
                 line-height: 30px;
                 // font-weight: bold;
+
+                @media (max-width: 450px) {
+                    display: none !important;
+                }
+            }
+
+            button {
+                margin-left: 5%;
+                padding: 10px;
+                padding-left: 15px;
+                padding-right: 15px;
+                background-color: $fadedBrightBeige;
+                // opacity: .9;
+                transition: 0.4s;
+                border-radius: 2px;
+                border: 1px solid $brightBeige; 
+                // border-bottom: 1px solid $darkBeige; 
+                
+                a{
+                    color: white;
+                    text-decoration: none;
+                }
+
+                @media (max-width: 450px) {
+                    margin-left: 0;
+                    margin-top: 20px;
+                    padding: 8px;
+                    padding-left: 12px;
+                    padding-right: 12px;
+                    font-size: 12px;
+                }
+
+                &:hover {
+                    // box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+                    // opacity: 1;
+                    border-radius: 3px;
+                    border: 1px solid $darkerBeige; 
+
+                    a{
+                        color: $darkestBeige
+                                        }
+                }
             }
         }
         }
@@ -538,32 +580,30 @@
             // height: 90vh;
             .hero-image{
                 // background-image: linear-gradient(-210deg, rgba(255,255,255, .75), rgba(0,0,0, 0.1), rgba(163, 50, 50, 0.1)), url("/img/nathanMobile.jpg");
-                background-image: linear-gradient(-200deg, rgba(76, 29, 44, .9),rgba(76, 29, 44, .1), rgba(0,0,0, 0.1), rgba(163, 50, 50, 0.1)), url("/img/nathanMobile.jpg");
+                background-image: linear-gradient(-210deg, rgba(76, 29, 44, .9),rgba(76, 29, 44, .2), rgba(0,0,0, 0.1), rgba(163, 50, 50, 0.1)), url("/img/nathanMobile.jpg");
                 background-size: cover;
                 background-attachment: scroll;
+
             .title{
-                margin-top: 17%;
-                margin-top: 30%;
+                margin-top: 32%;
                 margin-left: 15px;
                 margin-right: 55%;
+
                 h1{
                     font-size: 26px;
-                    line-height: 26px;
+                    line-height: 30px;
                     font-weight: bold;
-                    // color: black;
-                    // color: $darkestBeige;
-                    // color: white;
-                    color: $lightBeige;
+                    // color: $lightBeige;
+                    color: white;
                 }
+
                 h2{
                     font-size: 12px;
                     line-height: 14px;
                     padding-right: 20%;
                     padding-left: 0%;
                     padding-top: 2%;
-                    // color: white;
                     color: $lightBeige;
-                    // font-weight: bold;
                 }
             }
         }
@@ -650,15 +690,16 @@
         }
         .transparent-title-2{
             text-align: left;
+            padding-top: 0;
 
             h1{
-                padding-top: 75%;
-                top: 90%;
+                padding-top: 10%;
+                top: 0%;
                 padding-left: 0%;
-                left: 5%;
-                font-size: 34px;
+                left: 0%;
+                font-size: 38px;
                 line-height: 44px;
-                letter-spacing: 0.06em;
+                // letter-spacing: 0.06em;
             }
             .transparent-title2{
                 left: 0%;
@@ -823,6 +864,8 @@
     }   
 }
 
-h1.black-title {
-    color: black !important;
-}
+// h1.black-title {
+//     @media (max-width: 450px) {
+//         color: black !important;
+//     }
+// }

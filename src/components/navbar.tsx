@@ -16,19 +16,27 @@ class Navbar extends Component<any, any> {
         return (
             <Layout>
                 <div className="promo-banner">            
-                    <p className="promo-text"><img className="" alt="Tas Juice Press logo" src="./img/logoTransparentDark.png"  width="40px"/><strong>JUICE SPECIAL</strong>: new special coming soon!</p>
+                    <Link to="/#home"><img className="banner-logo" alt="logo" src="./img/logoTransparentDark.png"  width="40px"/></Link>
+                    <a className="promo-text" href="https://brandsonparade.com/product-category/the-tasmanian-juice-press/weekly-special/" rel="noopener noreferrer" target="_blank"> <strong>JUICE SPECIAL</strong>: watermelon, pineapple, orange, apple</a>
                 </div>
                 <Header title={<Link to="/#home" className="header-title">The Tasmanian Juice Press </Link>}>
                 <Link to="/#home"><img className="logo" alt="logo" src="./img/logoTransparent.png"  width="40px"/></Link>
                     <Navigation className="header-nav">
-                        {/* <Link to="/#range">Juice Range</Link>  */}
                         <Link className="shop-link" to="/#shop">Shop</Link>
                         <Link className="nav-link" to="/#range">Juice Range</Link>
                         <Link className="nav-link" to="/#visitUs">Markets</Link>
                         <Link className="nav-link" to="/#cafes">Find our Juice</Link>
-                        <Link className="nav-link" to="/#about">About</Link> 
+                        {/* <Link className="nav-link" to="/#about">About</Link>  */}
                         {/* <Link className="nav-link" to="/#enviro">Environmental Impact</Link>  */}
                         <Link className="nav-link" to="/#contact">Contact</Link>
+                    <div className="nav-socials">
+                        <a href="https://www.facebook.com/tasmanianjuicepress/" rel="noopener noreferrer" target="_blank">
+                            <i className="fa fa-facebook" aria-hidden="true" />
+                        </a>
+                        <a href="https://www.instagram.com/tasmanianjuicepress/" rel="noopener noreferrer" target="_blank">
+                            <i className="fa fa-instagram" aria-hidden="true" />
+                        </a>
+                    </div>
                     </Navigation>
                 </Header>
                 <Drawer title={<Link onClick={() => this.hideToggle()} to="/" className="header-title">The Tasmanian Juice Press </Link> as any}>

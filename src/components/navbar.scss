@@ -31,23 +31,72 @@ body{
         top: 0;
         height: 3rem;
         color: $darkestBeige;
+        text-align: center;
+        
+        img {
+            // padding-right: 15px;
+            // height: 2.5rem;
+            // width: auto;
+            // padding-bottom: 6px;
+            display: none;
+
+            @media (max-width: 450px) {
+                // display: block;
+                font-size: .8rem;
+            } 
+        }
 
         .promo-text {
-            text-align: center;
-            font-size: 1.2rem;
-            margin-bottom: 0;
-            line-height: 3rem;
+                width: 100%;
+                text-align: center;
+                font-size: 1.2rem;
+                margin-bottom: 0;
+                line-height: 3rem;
+                color: $darkestBeige;
+                text-decoration: none;
 
-            img {
-                padding-right: 15px;
-                height: 2.5rem;
-                width: auto;
-                padding-bottom: 6px;
-            }
             @media (max-width: 450px) {
                 font-size: .8rem;
             }    
         }
+
+        a:hover {
+            color: black;
+          }
+    }
+
+    .nav-socials {
+        padding-right: 0 !important;
+
+        i {
+            color: white;
+            padding-right: 20px;
+        }
+
+        @media (max-width: 450px) {
+            display: none !important;
+            margin-right: 30px;
+
+            i {
+                vertical-align: text-top;
+            }
+        }
+                    // TABLET: 769-1024
+        @media (min-width: 451px) and (max-width: 1024px) {
+            display: none !important;
+
+            // margin-right: 80px;
+            // margin-top: 80px;
+
+            // i {
+            //     vertical-align: middle;
+            //     font-size: 24px;
+            //     padding-left: 20px;
+            //     padding-right: 20px;
+            //     color: $lightBeige;
+            // }
+        }
+
     }
 
     .mdl-layout .mdl-layout__inner-container{
@@ -88,10 +137,10 @@ body{
             top: 3rem;
 
                 i{
-                padding-top: 10px;
+                // padding-top: 10px;
                 z-index: 10;
                 color: $brightBeige;
-                font-size: 32px;   
+                font-size: 32px;  
                 }
         }
         .mdl-layout__drawer{
@@ -186,7 +235,8 @@ body{
                 padding-top: 0;
             }
             .drawer-logo{
-                top: 0px;
+                top: -10px;
+                left: -5px;
             }
             .drawer-title{
                 padding-top: 25px;
@@ -237,6 +287,7 @@ body{
                     font-weight: bold;
                     text-transform: uppercase;
                     color: #DECFBF;
+                    display: none;
                 }
             }
         }
@@ -264,7 +315,6 @@ body{
 
             i{
                 color: $lightBeige;
-                font-size: 64px;
                 font-size: 48px;
             }
         }
@@ -287,6 +337,7 @@ body{
                     font-weight: bold;
                     text-transform: uppercase;
                     color: #DECFBF;
+                    display: none;
                 }
             }
             a:hover {

@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import { HashLink as Link } from 'react-router-hash-link';
 import "./landing.scss";
 import LandingSections from "./landingSections";
 import FooterDetail from './footer';
@@ -19,6 +20,7 @@ class Landing extends Component {
                             <h1>The Tasmanian Juice Press</h1>
                             {/* <h2>We make junk-free Cold Pressed Juices from fruit <br/> and vegetables and that's it!</h2> */}
                             <h2>Cold Pressed Juices from fresh fruit & vegetables</h2>
+                            <button type="button"><Link to="/#shop">SHOP NOW</Link></button>
                         </div>
                     </div>
                 </div> 
@@ -75,7 +77,7 @@ class Landing extends Component {
                         />
                         <RegularRange
                             Title="Special"
-                            Description="See our Instagram or Facebook page for our weekly special"
+                            Description="Watermelon, pineapple, orange + apple"
                             Alt="Weekly Special juce bottle"
                             Link="https://brandsonparade.com/product-category/the-tasmanian-juice-press/weekly-special/"
                         />
@@ -112,8 +114,8 @@ class Landing extends Component {
                 
                   <div className="visit-section-break">
                     <div className="transparent-title-2">
-                        <h1 className="transparent-title1">COME</h1>
-                        <h1 className="transparent-title2">VISIT US</h1>
+                        <h1 className="transparent-title1 black-title">COME</h1>
+                        <h1 className="transparent-title2 black-title">VISIT US</h1>
                     </div>
                 </div> 
                 
@@ -180,10 +182,10 @@ class Landing extends Component {
                 />
 
                 <div className="shop-section-break">
-                    <div className="transparent-title-2">
+                    {/* <div className="transparent-title-2">
                         <h1 className="transparent-title1">SHOP</h1>
                         <h1 className="transparent-title2">OUR JUICES</h1>
-                    </div>
+                    </div> */}
                 </div>
 
                 <a id="shop"/>
