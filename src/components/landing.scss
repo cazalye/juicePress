@@ -582,7 +582,7 @@
                 // background-image: linear-gradient(-210deg, rgba(255,255,255, .75), rgba(0,0,0, 0.1), rgba(163, 50, 50, 0.1)), url("/img/nathanMobile.jpg");
                 background-image: linear-gradient(-210deg, rgba(76, 29, 44, .9),rgba(76, 29, 44, .2), rgba(0,0,0, 0.1), rgba(163, 50, 50, 0.1)), url("/img/nathanMobile.jpg");
                 background-size: cover;
-                background-attachment: scroll;
+                // background-attachment: scroll;
 
             .title{
                 margin-top: 32%;
@@ -654,40 +654,43 @@
             height: 0px;
         }
         .range-section-break{
-            background-attachment: scroll;
+            // background-attachment: scroll;
         }
         .local-section-break{
             background-image: url("/img/bottlesMobile.jpg");
             height: 110vh;
-            background-attachment: scroll;
+            // background-attachment: scroll;
         }
         .contact-section-break{
             height: 105vh;
             background-image: url("/img/AboutMobile.jpg");
-            background-attachment: scroll;
+            // background-attachment: scroll;
         }
         .visit-section-break{
             height: 105vh;
             // background-image: url("/img/purchaseMobile.jpg");
             background-image: url("/img/farmgate2.jpg");
-            background-attachment: scroll;
+            // background-attachment: scroll;
         }
         .cafe-section-break{
             height: 105vh;
             background-image: url("/img/enviro.jpg");
-            background-attachment: scroll;
+            // background-attachment: scroll;
         }
         .shop-section-break{
             height: 105vh;
             background-image: url("/img/marketShopperMobile1.jpg");
-            background-attachment: scroll;
+            // background-attachment: scroll;
         }
 
         .transparent-title{
             h1{
                 padding-top: 80%;
+                font-size: 62px;
+                line-height: 72px;
             }
         }
+      
         .transparent-title-2{
             text-align: left;
             padding-top: 0;
@@ -701,6 +704,20 @@
                 line-height: 44px;
                 // letter-spacing: 0.06em;
             }
+            .transparent-title2{
+                left: 0%;
+                padding-left: 0%;
+                padding-top: 0%;
+            }
+        }
+
+        .title-smaller {
+            h1 {
+                font-size: 36px;
+                line-height: 46px;
+                left: 0;
+            }
+
             .transparent-title2{
                 left: 0%;
                 padding-left: 0%;

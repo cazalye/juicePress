@@ -113,7 +113,7 @@ class Landing extends Component {
                
                 
                   <div className="visit-section-break">
-                    <div className="transparent-title-2">
+                    <div className="transparent-title">
                         <h1 className="transparent-title1 black-title">COME</h1>
                         <h1 className="transparent-title2 black-title">VISIT US</h1>
                     </div>
@@ -131,18 +131,18 @@ class Landing extends Component {
                 />
 
                   <div className="cafe-section-break">
-                    <div className="transparent-title-2">
-                        <h1 className="transparent-title1">OR FIND US OUT</h1>
-                        <h1 className="transparent-title2">AND ABOUT</h1>
+                    <div className="transparent-title">
+                        <h1 className="transparent-title1">FIND US</h1>
+                        <h1 className="transparent-title2">HERE</h1>
                     </div>
                 </div> 
                 <a id="cafes"/>
                  <Cafes/>
 
                  <div className="local-section-break">
-                    <div className="transparent-title-2">
-                        <h1 className="transparent-title1">WE CARE ABOUT</h1>
-                        <h1 className="transparent-title2">THE ENVIRONMENT</h1>
+                    <div className="transparent-title">
+                        <h1 className="transparent-title1">WE</h1>
+                        <h1 className="transparent-title2">CARE</h1>
                     </div>
                 </div> 
                   {/* <SectionBreakImage
@@ -165,9 +165,9 @@ class Landing extends Component {
                 /> */}
 
                  <div className="contact-section-break">
-                    <div className="transparent-title-2">
-                        <h1 className="transparent-title1">CONTACT</h1>
-                        <h1 className="transparent-title2">US</h1>
+                    <div className="transparent-title">
+                        <h1 className="transparent-title1">LET'S</h1>
+                        <h1 className="transparent-title2">CHAT</h1>
                     </div>
                 </div> 
                 <a id="contact"/>
